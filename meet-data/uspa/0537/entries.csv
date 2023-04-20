@@ -1,0 +1,35 @@
+Place,Name,State,WeightClassKg,BodyweightKg,Age,Best3SquatKg,Best3BenchKg,Best3DeadliftKg,TotalKg,Sex,Division,Equipment,Event
+1,Samantha Frye,CO,90+,92.15,18,57.5,42.5,82.5,182.5,F,Juniors 18-19,Raw,SBD
+1,Jessica Radakovich,CO,67.5,65.8,32,100,67.5,115,282.5,F,Open,Raw,SBD
+2,Katherine Dell,CO,67.5,67.5,28,100,60,122.5,282.5,F,Open,Raw,SBD
+1,Rochelle Lira,CO,75,73.45,30,90,55,130,275,F,Open,Raw,SBD
+1,Alli McCown,WY,90+,106.3,29,105,55,142.5,302.5,F,Open,Raw,SBD
+DQ,Samantha Firman,CO,67.5,64.6,41,90,-62.5,,,F,Masters 40-44,Raw,SBD
+1,Karen Nelson,CO,52,51.35,50,65,37.5,97.5,200,F,Masters 50-54,Raw,SBD
+1,Lorrie Gomez,CO,60,58.3,53,60,50,107.5,217.5,F,Masters 50-54,Raw,SBD
+1,Maxwell Belshe,CO,52,50.5,15,75,47.5,77.5,200,M,Juniors 13-15,Raw,SBD
+1,Jake Conley,CO,67.5,65.9,16,117.5,92.5,185,395,M,Juniors 16-17,Raw,SBD
+1,Nathan Spinuzzi,CO,90,88.5,19,227.5,125,242.5,595,M,Juniors 18-19,Raw,SBD
+1,James Wierzba,CO,90,88.35,23,217.5,147.5,272.5,637.5,M,Juniors 20-23,Raw,SBD
+1,Lucian York,CO,100,95.7,23,282.5,182.5,305,770,M,Juniors 20-23,Raw,SBD
+1,Chris Sherman,CO,90,84.65,39,222.5,160,250,632.5,M,Open,Raw,SBD
+2,James Simmons #2,WY,90,85.85,35,222.5,145,257.5,625,M,Open,Raw,SBD
+3,Josh Karabetsos,WY,90,88.25,31,160,120,187.5,467.5,M,Open,Raw,SBD
+1,Tyler Stickle,CO,100,99.65,28,242.5,187.5,297.5,727.5,M,Open,Raw,SBD
+2,Caleb Sommer,CO,100,99.25,28,207.5,132.5,285,625,M,Open,Raw,SBD
+3,Brian Powell,CO,100,98.85,28,187.5,152.5,275,615,M,Open,Raw,SBD
+1,Joshua Carrizosa-Bernadas,CO,110,106.65,24,192.5,125,227.5,545,M,Open,Raw,SBD
+1,Chris Sherman,CO,90,84.65,39,222.5,160,250,632.5,M,Submasters 35-39,Raw,SBD
+1,David Robinson,CO,82.5,82.4,74,75,87.5,115,277.5,M,Masters 70-74,Raw,SBD
+1,Brook Anderson,CO,67.5,64.6,39,120,80,137.5,337.5,F,Open,Wraps,SBD
+1,Brook Anderson,CO,67.5,64.6,39,120,80,137.5,337.5,F,Submasters 35-39,Wraps,SBD
+1,Vaibhar Patel,CO,56,55.45,18,95,67.5,127.5,290,M,Juniors 18-19,Wraps,SBD
+1,Adrian Fuentes,CO,82.5,81.4,17,160,95,202.5,457.5,M,Juniors 16-17,Wraps,SBD
+1,Nick Gonzales,CO,75,71.85,28,152.5,100,160,412.5,M,Open,Wraps,SBD
+1,Daniel Pintor,CO,100,96.15,27,195,137.5,210,542.5,M,Open,Wraps,SBD
+1,Michael Espinosa,CO,110,108.7,29,227.5,162.5,240,630,M,Open,Wraps,SBD
+1,Mark Cucinella,CO,75,72.7,65,160,117.5,196,473.5,M,Masters 65-69,Wraps,SBD
+1,Charles Frye,CO,140+,154.5,40,187.5,165,205,557.5,M,Masters 40-44,Wraps,SBD
+1,David Robinson,CO,82.5,82.4,74,,87.5,,87.5,M,Masters 70-74,Raw,B
+1,Elvin Ryan Jr,CO,90,87.55,40,,135,,135,M,Masters 40-44,Raw,B
+1,Brian Radulovich,CO,100,98.85,40,,,285,285,M,Open,Raw,D

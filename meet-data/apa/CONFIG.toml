@@ -1,0 +1,98 @@
+# Configuration for the APA.
+
+[options]
+    require_manual_disambiguation = true
+
+
+[rulesets.default]
+    ruleset = ["CombineRawAndWraps"]
+    date_range = ["0000-01-01", "9999-01-01"]
+
+[divisions]
+    open = {name ="Open",min=0,max=999}
+    open_nt = {name ="Open NT",min=0,max=999,tested="No"}
+    military = {name ="Military",min=0,max=999}
+    veterans = {name ="Veterans",min=0,max=999}
+    handicapped = {name ="Handicapped",min=0,max=999}
+    paralympics = {name ="Paralympics",min=0,max=999}
+    policefire = {name ="Police/Fire",min=0,max=999}
+    specialolympics = {name ="Special Olympics",min=0,max=999}
+    youth = {name = "Youth",min=0,max=12}
+    youth810 = {name = "Youth 8-10",min=8,max=10}
+    youth1011 = {name = "Youth 10-11",min=10,max=11}
+    youth89 = {name = "Youth 8-9",min=8,max=9}
+    youth910 = {name = "Youth 9-10",min=9,max=10}
+    youth1112 = {name = "Youth 11-12",min=11,max=12}
+    exhibition = {name ="Exhibition",min=0,max=999}
+
+    #APA has two ways of numbering masters: 40,45,50,... or 40,50,60,...
+    masters40 = {name ="Masters 40+",min=40,max=999} #Masters 1
+    masters4044 = {name ="Masters 40-44",min=40,max=44} #Masters 1
+    masters4549 = {name ="Masters 45-49",min=45,max=49} #Masters 2
+    masters4049 = {name ="Masters 40-49",min=40,max=49}
+    masters50 = {name ="Masters 50+",min=50,max=999} #Masters 2
+    masters5054 = {name ="Masters 50-54",min=50,max=54} #Masters 3
+    masters5059 = {name ="Masters 50-59",min=50,max=59}
+    masters5459 = {name ="Masters 55-59",min=55,max=59} #Masters 4
+    masters60 = {name ="Masters 60+",min=60,max=999} #Masters 3
+    masters6064 = {name ="Masters 60-64",min=60,max=64} #Masters 5
+    masters6069 = {name ="Masters 60-69",min=60,max=69}
+    masters6569 = {name ="Masters 65-69",min=65,max=69} #Masters 6
+    masters70 = {name ="Masters 70+",min=70,max=999} #Masters 4
+    masters7074 = {name ="Masters 70-74",min=70,max=74} #Masters 7
+    masters7579 = {name ="Masters 75-79",min=75,max=79} #Masters 8
+    masters7079 = {name ="Masters 70-79",min=70,max=79}
+    masters75 = {name ="Masters 75+",min=75,max=999}
+    masters80 = {name ="Masters 80+",min=80,max=999} #Masters 5/Masters 9
+    submasters3339 = {name ="Submasters 33-39",min=33,max=39}
+    submasters3539 = {name ="Submasters 35-39",min=35,max=39}
+    teen = {name ="Teen",min=0,max=19}
+    teen1315 = {name ="Teen 13-15",min=13,max=15} #Teen 1
+    teen1617 = {name ="Teen 16-17",min=16,max=17} #Teen 2
+    teen1619 = {name ="Teen 16-19",min=16,max=19}
+    teen1819 = {name ="Teen 18-19",min=18,max=19} #Teen 3
+    juniors2023 = {name ="Juniors 20-23",min=19.5,max=23}
+    novice = {name ="Novice",min=0,max=999}
+    paralympic = {name ="Paralympic",min=0,max=999}
+    masters = {name ="Masters",min=40,max=999}
+
+    # OpenLifter-style divisions, for WPA-Uganda.
+    j20_23 = {name="J20-23", min=20, max=23}
+    s35-39 = {name="S35-39", min=35, max=39}
+    paralymic_j20_23 = {name="Paralympic J20-23", min=20, max=23}
+    paralympic_m40p = {name="Paralympic M40+", min=40, max=999}
+
+    # Disabled divisions (specifically noted as "amputee or no use of legs".
+    # Used by WPA-Africa.
+    disabled_open = {name="Disabled Open", min=0, max=999}
+    disabled_submasters3339 = {name="Disabled Submasters 33-39", min=33, max=39}
+    disabled_masters4044 = {name="Disabled Masters 40-44", min=40, max=44}
+
+    # Divisions for purposes of really old meets.
+    police = {name ="Police",min=0,max=999}
+    firefighter = {name ="Firefighter",min=0,max=999}
+
+[weightclasses.default_M]
+    classes = ["39","44","48","52","56","60","67.5","75","82.5","90","100","110","125","140","155","125+","140+","155+"]
+    date_range = ["0000-01-01","9999-01-01"]
+    sex = "M"
+
+[weightclasses.default_F]
+    classes = ["39","44","48","52","56","60","67.5","75","82.5","90","100","90+","100+"]
+    date_range = ["0000-01-01","9999-01-01"]
+    sex = "F"
+
+[exemptions]
+    8701 = ["ExemptWeightClassConsistency"]
+    8702 = ["ExemptWeightClassConsistency"]
+    8902 = ["ExemptWeightClassConsistency"]  # Unreported.
+    8904 = ["ExemptWeightClassConsistency"]  # Unreported.
+    8905 = ["ExemptWeightClassConsistency"]  # Unreported.
+    0202 = ["ExemptWeightClassConsistency"]  # Non open lifters don't have weightclasses
+    0203 = ["ExemptWeightClassConsistency"]  # Non open lifters don't have weightclasses
+    0601 = ["ExemptDivision"]  
+    0805 = ["ExemptDivision"]  
+    0902 = ["ExemptDivision"]
+    0905 = ["ExemptWeightClassConsistency"]
+    1306 = ["ExemptWeightClassConsistency","ExemptDivision"] # Reduced divisions, Masters/Teen
+    1616 = ["ExemptWeightClassConsistency"]

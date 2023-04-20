@@ -1,0 +1,141 @@
+[options]
+    require_manual_disambiguation = true
+
+[divisions]
+
+    # The min for age categories is set to 1 lower than expected
+    # because the federation uses birth years but during 
+    # its season, which runs from September 1 to August 31
+    # (see https://www.ffforce.fr/categories-dage/).
+    # So, for instance, a lifter born in 1980 and competing in 
+    # November 2019 would be in the Masters 1 division (1980 to 1971). 
+    # But if the min were set at 39.5, the checker would
+    # consider that lifter too young for that division,
+    # based on birth year.
+
+    open = {name ="Open",min=0,max=999}
+    guest = {name ="Guest",min=0,max=999,place="G"}
+    cadet = {name = "Cadet",min=11.5,max=15.5}
+    juniors = {name = "Juniors",min=0,max=22.5}
+    subjuniors = {name = "Sub-Juniors",min=13.5,max=17.5}
+    masters1 = {name = "Masters 1",min=38.5,max=48.5}
+    masters2 = {name = "Masters 2",min=48.5,max=58.5}
+    masters3 = {name = "Masters 3",min=58.5,max=68.5}
+    masters4 = {name = "Masters 4",min=68.5,max=999}
+    masters = {name = "Masters",min=38.5,max=999}
+    seniors = {name = "Seniors",min=22.5,max=38.5}
+
+    # Challenge Villenave
+    elite = {name = "Elite", min=0, max=999}
+    jeunes = {name = "Jeunes", min=0, max=22.5}
+    horsmatch = {name = "Hors Match", min=0, max=999, place="G"}
+
+    # Silent Worker Meet
+    primetime = {name ="Prime Time", min=0, max=999}
+
+
+[weightclasses.default_M]
+    classes = ["59","66","74","83","93","105","120","105+","120+"]
+    date_range=["2011-01-01","9999-01-01"]
+    sex = "M"
+
+[weightclasses.default_F]
+    classes = ["47","52","57","63","69","76","84","84+"]
+    date_range=["2021-09-01","9999-01-01"]
+    sex = "F"
+
+[weightclasses.year2020_F]
+    classes = ["47","52","57","63","72","84","84+"]
+    date_range=["2015-01-01","2021-08-31"]
+    sex = "F"
+
+[weightclasses.junior_M]
+    classes = ["53","59","66","74","83","93","105","120","105+","120+"]
+    date_range=["2011-01-01","9999-01-01"]
+    sex = "M"
+    divisions = ["Juniors","Sub-Juniors"]
+
+[weightclasses.junior_F]
+    classes = ["43","47","52","57","63","69","76","84","84+"]
+    date_range=["2021-09-01","9999-01-01"]
+    sex = "F"
+    divisions = ["Juniors","Sub-Juniors"]
+
+[weightclasses.year2020_junior_F]
+    classes = ["43","47","52","57","63","72","84","84+"]
+    date_range=["2011-01-01","2021-08-31"]
+    sex = "F"
+    divisions = ["Juniors","Sub-Juniors"]
+
+  [weightclasses.cadet_M]
+    classes = ["53", "59", "66", "74", "83", "83+"]
+    date_range = ["2011-01-01","9999-01-01"]
+    sex = "M"
+    divisions = ["Cadet"]
+
+  [weightclasses.cadet_F]
+    classes = ["43", "47", "52", "57", "63", "63+"]
+    date_range = ["2011-01-01","9999-01-01"]
+    sex = "F"
+    divisions = ["Cadet"]
+
+[weightclasses.old_M]
+    classes = ["52","56","60","67.5","75","82.5","90","100","110","125","125+"]
+    date_range = ["0000-01-01","2010-12-31"]
+    sex = "M"
+
+[weightclasses.old_F]
+    classes = ["44","48","52","56","60","67.5","75","82.5","90","90+"]
+    date_range = ["0000-01-01","2010-12-31"]
+    sex = "F"
+
+[exemptions]
+    1703 = ["ExemptWeightClassConsistency"] # See note in original.csv about Mathieu Amouny
+    2034 = ["ExemptWeightClassConsistency"] # A -43 kg junior lifter competed in the Open division
+    2148 = ["ExemptWeightClassConsistency"] # This meet was for the 2020-2021 season
+    2149 = ["ExemptWeightClassConsistency"] # This meet was scored by IPF GL points
+    2186 = ["ExemptWeightClassConsistency"] # This meet was for the 2020-2021 season
+    2187 = ["ExemptWeightClassConsistency"] # This meet was for the 2021-2022 season
+    2252 = ["ExemptWeightClassConsistency"] # This meet was scored by IPF GL points
+    2246 = ["ExemptWeightClassConsistency"] # The prime time session was scored by IPF GL points
+
+    # Challenge Villenave (no weight classes)
+    1792 = ["ExemptWeightClassConsistency"]
+    1808 = ["ExemptWeightClassConsistency"]
+    18106 = ["ExemptWeightClassConsistency"]
+    18107 = ["ExemptWeightClassConsistency"]
+    18108 = ["ExemptWeightClassConsistency"]
+    18109 = ["ExemptWeightClassConsistency"]
+    18110 = ["ExemptWeightClassConsistency"]
+    18111 = ["ExemptWeightClassConsistency"]
+    18112 = ["ExemptWeightClassConsistency"]
+    18113 = ["ExemptWeightClassConsistency"]
+    18114 = ["ExemptWeightClassConsistency"]
+    18115 = ["ExemptWeightClassConsistency"]
+    18116 = ["ExemptWeightClassConsistency"]
+    18117 = ["ExemptWeightClassConsistency"]
+    19123 = ["ExemptWeightClassConsistency"]
+    19124 = ["ExemptWeightClassConsistency"]
+    19125 = ["ExemptWeightClassConsistency"]
+    19126 = ["ExemptWeightClassConsistency"]
+    19127 = ["ExemptWeightClassConsistency"]
+    19128 = ["ExemptWeightClassConsistency"]
+    19129 = ["ExemptWeightClassConsistency"]
+    19130 = ["ExemptWeightClassConsistency"]
+    19131 = ["ExemptWeightClassConsistency"]
+    19132 = ["ExemptWeightClassConsistency"]
+    19133 = ["ExemptWeightClassConsistency"]
+    19134 = ["ExemptWeightClassConsistency"]
+    19135 = ["ExemptWeightClassConsistency"]
+    19136 = ["ExemptWeightClassConsistency"]
+    2022 = ["ExemptWeightClassConsistency"]
+    2023 = ["ExemptWeightClassConsistency"]
+    2024 = ["ExemptWeightClassConsistency"]
+    2025 = ["ExemptWeightClassConsistency"]
+    2026 = ["ExemptWeightClassConsistency"]
+    2027 = ["ExemptWeightClassConsistency"]
+    2028 = ["ExemptWeightClassConsistency"]
+    2029 = ["ExemptWeightClassConsistency"]
+    2030 = ["ExemptWeightClassConsistency"]
+    2031 = ["ExemptWeightClassConsistency"]
+    2032 = ["ExemptWeightClassConsistency"]

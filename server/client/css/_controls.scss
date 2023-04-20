@@ -1,0 +1,105 @@
+// vim: set ts=8 sts=2 et sw=2 tw=99:
+// Style definitions for the control panel.
+
+// Some pages show information in the control panel
+// for no good reason.
+#lifter {
+  font-size: 10pt;
+  margin-left: 4px;
+}
+
+#controls {
+  height: $control-bar-height;
+  color: $control-text-color;
+  font-size: 9pt;
+  padding-left: 5px;
+  padding-right: 8px;
+  background-color: $control-bar-background-color;
+  display: flex;
+  align-items: center;
+}
+
+#controls-right {
+  margin-left: auto;
+}
+
+#controls a {
+  color: $control-text-color;
+}
+
+/* From http://jsfiddle.net/danield770/YvCHW/4232/ */
+select {
+  padding: 3px;
+  margin-left: 4px;
+  border: 1px solid $control-border-color;
+  border-radius: 4px;
+  background-color: $control-background-color;
+  color: $control-text-color;
+  font-size: 9pt;
+  width: 100px;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  background: url($control-selector-image) 96% / 15% no-repeat $control-background-color;
+
+  // Prevent text from overlapping the downward arrow.
+  text-overflow: ellipsis;
+  padding-right: 17px;
+}
+/*target Internet Explorer 9 and Internet Explorer 10:*/
+@media screen and (min-width:0\0) {
+  select {
+    background: none;
+  }
+}
+
+select:hover {
+  background-color: $control-hover-color;
+}
+
+input[type="text"] {
+  padding: 4px 5px 4px 5px;
+  margin-left: 5px;
+  border: 1px solid $control-border-color;
+  background-color: $control-background-color;
+  color: $control-text-color;
+  font-size: 10pt;
+  width: 200px;
+}
+
+button {
+  padding: 4px 8px 4px 8px;
+  margin-left: 5px;
+  border: 1px solid $control-border-color;
+  border-radius: 4px;
+  background-color: $control-background-color;
+  color: $control-text-color;
+  font-size: 9pt;
+  width: 70px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: $control-hover-color;
+}
+
+button:active {
+  background-color: $control-active-color;
+}
+
+/* From http://webdesign.tutsplus.com/tutorials/quick-tip-easy-css3-checkboxes-and-radio-buttons--webdesign-8953 */
+input[type="checkbox"] {
+  display: none;
+}
+input[type="checkbox"] + label span {
+  display: inline-block;
+  width: 19px;
+  height: 19px;
+  margin: 0px 1px 3px 5px;
+  vertical-align: middle;
+  background:url(/static/images/check_radio_sheet.png) left top no-repeat;
+  cursor: pointer;
+}
+input[type="checkbox"]:checked + label span {
+  background:url(/static/images/check_radio_sheet.png) -19px top no-repeat;
+}

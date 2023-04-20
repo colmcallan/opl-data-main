@@ -1,0 +1,87 @@
+Place,Name,State,WeightClassKg,BodyweightKg,Age,Best3SquatKg,Best3BenchKg,Best3DeadliftKg,TotalKg,Sex,Division,Equipment,Event
+1,Martha Garrido,FL,56,55.6,17,92.5,57.5,110,260,F,Juniors 16-17,Raw,SBD
+1,Cheyenne Delano,FL,56,56,18,95.5,50,122.5,268,F,Juniors 18-19,Raw,SBD
+1,Shannon Johannes,FL,60,60,19,102.5,45,122.5,270,F,Juniors 18-19,Raw,SBD
+1,Chelsea Barbosa,FL,67.5,67.4,20,77.5,42.5,97.5,217.5,F,Juniors 20-23,Raw,SBD
+1,Kimberly Daorerk,FL,56,52.9,29,107.5,55,132.5,295,F,Open,Raw,SBD
+2,Christina Pagyazitis,FL,56,55.4,30,97.5,57.5,125,280,F,Open,Raw,SBD
+1,Meghan Eastman,FL,60,59.7,29,127.5,67.5,170,365,F,Open,Raw,SBD
+1,Amanda Jacobson,FL,75,70,26,130,67.5,170,367.5,F,Open,Raw,SBD
+1,Deborah Chaparro,FL,82.5,80.8,32,135,67.5,145,347.5,F,Open,Raw,SBD
+1,Erika Young #2,FL,90+,97.8,24,102.5,47.5,120,270,F,Open,Raw,SBD
+2,Vaughan Chambers,FL,90+,113.7,42,35,60,82.5,177.5,F,Open,Raw,SBD
+1,Eva Whittimore,FL,60,58.4,35,102.5,65,125,292.5,F,Submasters 35-39,Raw,SBD
+1,Aimee Halman,FL,82.5,76.6,35,120,75,140,335,F,Submasters 35-39,Raw,SBD
+1,Maria Vega,FL,56,54.3,42,92.5,55,137.5,285,F,Masters 40-44,Raw,SBD
+1,Brenda Christine,FL,56,54.5,48,125,60,140,325,F,Masters 45-49,Raw,SBD
+1,Lisa Jaffe,FL,60,59.4,52,95,72.5,100,267.5,F,Masters 50-54,Raw,SBD
+1,Vaughan Chambers,FL,90+,113.7,42,35,60,82.5,177.5,F,Masters 40-44,Raw,SBD
+1,Robert Ledger,FL,67.5,67.5,22,147.5,107.5,212.5,467.5,M,Juniors 20-23,Raw,SBD
+2,Thien Vu,FL,67.5,64.5,20,147.5,105,180,432.5,M,Juniors 20-23,Raw,SBD
+1,Matt Keech,FL,75,72.8,17,160.5,72.5,192.5,425.5,M,Juniors 16-17,Raw,SBD
+1,Matt Haney,FL,75,74.7,22,165,120,210,495,M,Juniors 20-23,Raw,SBD
+2,Carlos Sandigo,FL,75,71.3,22,142.5,112.5,160,415,M,Juniors 20-23,Raw,SBD
+DQ,Vu Nguyen,FL,75,74.8,20,185,97.5,-200,,M,Juniors 20-23,Raw,SBD
+1,Rodrigo Diaz,FL,82.5,82,19,172.5,105,215,492.5,M,Juniors 18-19,Raw,SBD
+1,Marco Galindo,FL,82.5,81.2,22,257.5,157.5,302.5,717.5,M,Juniors 20-23,Raw,SBD
+1,Brandon Battles,FL,90,88.9,22,260,152.5,260,672.5,M,Juniors 20-23,Raw,SBD
+2,Lan Viet Khanh Tran Ho,FL,90,87.2,22,230,150,247.5,627.5,M,Juniors 20-23,Raw,SBD
+3,Robert Patxot,FL,90,88.6,21,227.5,137.5,257.5,622.5,M,Juniors 20-23,Raw,SBD
+1,Dan Carpenter,FL,67.5,66.6,37,187.5,117.5,237.5,542.5,M,Open,Raw,SBD
+2,Dan Antonucci,FL,67.5,67.1,37,187.5,117.5,237.5,542.5,M,Open,Raw,SBD
+3,Thien Vu,FL,67.5,64.5,20,147.5,105,180,432.5,M,Open,Raw,SBD
+1,Marco Galindo,FL,82.5,81.2,22,257.5,157.5,302.5,717.5,M,Open,Raw,SBD
+2,Ricky Davis #3,FL,82.5,75.8,31,150,132.5,182.5,465,M,Open,Raw,SBD
+DQ,Wilson Munoz,FL,82.5,79.3,24,195,-135,240,,M,Open,Raw,SBD
+1,Brandon Battles,FL,90,88.9,22,260,152.5,260,672.5,M,Open,Raw,SBD
+2,Lan Viet Khanh Tran Ho,FL,90,87.2,22,230,150,247.5,627.5,M,Open,Raw,SBD
+1,Jason Trudell,FL,100,97.7,29,252.5,185,272.5,710,M,Open,Raw,SBD
+2,Tom Stewart,FL,100,100,29,242.5,160,260,662.5,M,Open,Raw,SBD
+1,Albert Tamayo,FL,110,107.3,55,177.5,122.5,252.5,552.5,M,Open,Raw,SBD
+1,Albert Tamayo,FL,110,107.3,55,177.5,122.5,252.5,552.5,M,Masters 55-59,Raw,SBD
+1,David Bialski,FL,125,122.9,42,227.5,137.5,277.5,642.5,M,Masters 40-44,Raw,SBD
+1,Anita Medolla,FL,52,51.6,22,95,53.5,120,268.5,F,Open,Wraps,SBD
+1,Sarah Jane Able,FL,67.5,67,24,162.5,67.5,167.5,397.5,F,Open,Wraps,SBD
+1,Abigail Wade,FL,90+,107.8,32,215,102.5,205,522.5,F,Open,Wraps,SBD
+1,Calvin King,FL,90,86.8,19,182.5,125,227.5,535,M,Juniors 18-19,Wraps,SBD
+2,Elias Matute,FL,90,84.7,19,182.5,115,227.5,525,M,Juniors 18-19,Wraps,SBD
+1,João Gonçalves,FL,90,87.1,22,237.5,150,245,632.5,M,Juniors 20-23,Wraps,SBD
+1,Scott Desinor,FL,67.5,62.8,24,167.5,100,207.5,475,M,Open,Wraps,SBD
+1,Derek Harshman,FL,90,90,29,250,180,250,680,M,Open,Wraps,SBD
+2,Michael Azoy,FL,90,88,31,227.5,182.5,235,645,M,Open,Wraps,SBD
+DQ,Zach Zuipers,FL,90,90,25,307.5,-200,285,,M,Open,Wraps,SBD
+1,Tim Wardle,FL,100,97,30,192.5,137.5,235,565,M,Open,Wraps,SBD
+1,Tim O'Brien #1,FL,75,73.5,50,185,117.5,197.5,500,M,Masters 50-54,Wraps,SBD
+1,Al Fontaine,FL,75,73.6,56,137.5,102.5,165,405,M,Masters 55-59,Wraps,SBD
+1,Mitchell Block,FL,90,89.8,42,230,165,265,660,M,Masters 40-44,Wraps,SBD
+1,Judson Costas,FL,90,89.8,56,175,127.5,215,517.5,M,Masters 55-59,Wraps,SBD
+1,Aldo Bartolone,FL,100,98.4,42,137.5,155,217.5,510,M,Masters 40-44,Wraps,SBD
+1,Kenneth Cohen,FL,100,99.5,61,202.5,112.5,205,520,M,Masters 60-64,Wraps,SBD
+1,Anna DuBoyce,FL,67.5,65.4,19,137.5,70,147.5,355,F,Juniors 18-19,Single-ply,SBD
+1,April Shumaker,FL,48,47.5,50,142.5,107.5,142.5,392.5,F,Open,Single-ply,SBD
+1,April Shumaker,FL,48,47.5,50,142.5,107.5,142.5,392.5,F,Masters 50-54,Single-ply,SBD
+1,Paris Harary,FL,67.5,67.2,43,120,70,152.5,342.5,F,Masters 40-44,Single-ply,SBD
+1,Jake Benedix,FL,67.5,67.3,22,252.5,150,227.5,630,M,Juniors 20-23,Single-ply,SBD
+1,Joe Kurtz,FL,82.5,79.3,22,255,140,242.5,637.5,M,Juniors 20-23,Single-ply,SBD
+1,Brett Benedix,FL,67.5,67.3,20,275,140,250,665,M,Open,Single-ply,SBD
+1,Eddie Ryckman,FL,82.5,81.5,24,272.5,175,270,717.5,M,Open,Single-ply,SBD
+1,James Barnum,FL,90,88.9,29,240,150,245,635,M,Open,Single-ply,SBD
+1,Matt Levine,FL,100,91.7,28,325,192.5,297.5,815,M,Open,Single-ply,SBD
+1,Andrew Kriedler,FL,110,108.4,31,260,192.5,285,737.5,M,Open,Single-ply,SBD
+1,Jon Gade,FL,140,137.1,50,227.5,192.5,185,605,M,Open,Single-ply,SBD
+1,Jon Gade,FL,140,137.1,50,227.5,192.5,185,605,M,Masters 50-54,Single-ply,SBD
+1,Peter Tran,FL,75,74.3,20,,97.5,180,277.5,M,Juniors 20-23,Raw,BD
+1,Charles Hodges,FL,90,85.3,22,,102.5,202.5,305,M,Juniors 20-23,Raw,BD
+1,Charles Hodges,FL,90,85.3,22,,102.5,202.5,305,M,Open,Raw,BD
+1,Glenn Pedreira,FL,82.5,80.4,61,,102.5,165,267.5,M,Masters 60-64,Raw,BD
+1,Nikolai Voigts,FL,52,41.6,22,,100,,100,M,Open,Raw,B
+1,James Richards,FL,82.5,80.4,50,,170,,170,M,Open,Raw,B
+1,Sean Brownstein,FL,100,100,25,,205,,205,M,Open,Raw,B
+1,Richard Ficca,FL,140+,146,41,,280,,280,M,Open,Raw,B
+1,Richard Bretz,FL,110,107,67,,172.5,,172.5,M,Masters 65-69,Raw,B
+1,Richard Ficca,FL,140+,146,41,,280,,280,M,Masters 40-44,Raw,B
+1,Brad Smith #1,FL,100,98.2,18,,,257.5,257.5,M,Juniors 18-19,Raw,D
+1,Charles Hodges,FL,90,85.3,22,,,202.5,202.5,M,Juniors 20-23,Raw,D
+1,Wilson Munoz,FL,82.5,79.3,24,,,240,240,M,Open,Raw,D
+1,Zach Zuipers,FL,90,90,25,,,285,285,M,Open,Raw,D
+2,Charles Hodges,FL,90,85.3,22,,,202.5,202.5,M,Open,Raw,D

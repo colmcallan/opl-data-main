@@ -1,0 +1,8 @@
+---
+- name: ensure webservers updated and running
+  hosts: webservers
+  roles:
+    - nginx
+    - openpl-app
+    - goaccess
+    - sysupdate

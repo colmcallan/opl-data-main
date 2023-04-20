@@ -1,0 +1,158 @@
+#!/bin/bash
+#
+# When called from the main project directory, compiles an SQLite version of the project.
+#
+
+set -e
+
+DBFILE="build/openpowerlifting.sqlite3"
+
+function require_dir {
+	if ! [ -d "$1" ]; then
+		echo "Error: Missing directory $1"
+		exit 1
+	fi
+}
+
+function require_file {
+	if ! [ -f "$1" ]; then
+		echo "Error: Missing file $1"
+		exit 1
+	fi
+}
+
+# Dependency checks.
+require_dir "build"
+require_file "build/sqlite-entries.csv"
+require_file "build/sqlite-meets.csv"
+require_file "build/sqlite-lifters.csv"
+
+# If the database already exists, SQLite will add to existing tables
+# instead of parsing the CSV headers. So the DB needs to be nuked.
+rm -f "${DBFILE}"
+
+
+# The column ordering is hardcoded and must agree with scripts/compile.
+CREATEMEETSTABLE="
+CREATE TABLE meets (
+  MeetID INTEGER PRIMARY KEY NOT NULL,
+  MeetPath TEXT UNIQUE NOT NULL,
+  Federation TEXT NOT NULL,
+  MeetDate DATE NOT NULL,
+  MeetCountry TEXT NOT NULL,
+  MeetState TEXT,
+  MeetTown TEXT,
+  MeetName TEXT NOT NULL,
+  RuleSet TEXT
+);
+"
+
+CREATEENTRIESTABLE="
+CREATE TABLE entries (
+  id INTEGER PRIMARY KEY NOT NULL,
+  MeetID INTEGER NOT NULL,
+  LifterID INTEGER NOT NULL,
+  Sex INTEGER NOT NULL,
+  Event CHAR(3),
+  Equipment INTEGER NOT NULL,
+  Age FLOAT,
+  AgeClass TEXT,
+  BirthYearClass TEXT,
+  Division TEXT,
+  BodyweightKg FLOAT,
+  WeightClassKg FLOAT,
+  Squat1Kg FLOAT,
+  Squat2Kg FLOAT,
+  Squat3Kg FLOAT,
+  Squat4Kg FLOAT,
+  Best3SquatKg FLOAT,
+  Bench1Kg FLOAT,
+  Bench2Kg FLOAT,
+  Bench3Kg FLOAT,
+  Bench4Kg FLOAT,
+  Best3BenchKg FLOAT,
+  Deadlift1Kg FLOAT,
+  Deadlift2Kg FLOAT,
+  Deadlift3Kg FLOAT,
+  Deadlift4Kg FLOAT,
+  Best3DeadliftKg FLOAT,
+  TotalKg FLOAT,
+  Place TEXT,
+  Wilks FLOAT,
+  McCulloch FLOAT,
+  Glossbrenner FLOAT,
+  Goodlift FLOAT,
+  Wilks2020 FLOAT,
+  Dots FLOAT,
+  Tested TEXT,
+  Country TEXT,
+  State TEXT,
+
+  FOREIGN KEY(MeetID) REFERENCES meets(MeetID),
+  FOREIGN KEY(LifterID) REFERENCES lifters(LifterID)
+);
+"
+
+CREATELIFTERSTABLE="
+CREATE TABLE lifters (
+  LifterID INTEGER PRIMARY KEY NOT NULL,
+  Name TEXT NOT NULL,
+  CyrillicName TEXT,
+  ChineseName TEXT,
+  GreekName TEXT,
+  JapaneseName TEXT,
+  KoreanName TEXT,
+  Username TEXT UNIQUE NOT NULL,
+  Instagram TEXT,
+  Color TEXT,
+  Flair TEXT
+);
+"
+
+IMPORTCOMMAND="
+PRAGMA foreign_keys = ON;
+.mode csv
+
+${CREATEMEETSTABLE}
+.import build/sqlite-meets.csv meets
+
+${CREATELIFTERSTABLE}
+.import build/sqlite-lifters.csv lifters
+
+${CREATEENTRIESTABLE}
+.import build/sqlite-entries.csv entries
+
+UPDATE lifters SET instagram = NULL WHERE instagram = '';
+
+UPDATE meets SET meetstate = NULL WHERE meetstate = '';
+UPDATE meets SET meettown = NULL WHERE meettown = '';
+
+UPDATE entries SET event = NULL WHERE event = '';
+UPDATE entries SET age = NULL WHERE age = '';
+UPDATE entries SET division = NULL WHERE division = '';
+UPDATE entries SET bodyweightkg = NULL WHERE bodyweightkg = '';
+UPDATE entries SET weightclasskg = NULL WHERE weightclasskg = '';
+UPDATE entries SET squat1kg = NULL WHERE squat1kg = '';
+UPDATE entries SET squat2kg = NULL WHERE squat2kg = '';
+UPDATE entries SET squat3kg = NULL WHERE squat3kg = '';
+UPDATE entries SET squat4kg = NULL WHERE squat4kg = '';
+UPDATE entries SET best3squatkg = NULL WHERE best3squatkg = '';
+UPDATE entries SET bench1kg = NULL WHERE bench1kg = '';
+UPDATE entries SET bench2kg = NULL WHERE bench2kg = '';
+UPDATE entries SET bench3kg = NULL WHERE bench3kg = '';
+UPDATE entries SET bench4kg = NULL WHERE bench4kg = '';
+UPDATE entries SET best3benchkg = NULL WHERE best3benchkg = '';
+UPDATE entries SET deadlift1kg = NULL WHERE deadlift1kg = '';
+UPDATE entries SET deadlift2kg = NULL WHERE deadlift2kg = '';
+UPDATE entries SET deadlift3kg = NULL WHERE deadlift3kg = '';
+UPDATE entries SET deadlift4kg = NULL WHERE deadlift4kg = '';
+UPDATE entries SET best3deadliftkg = NULL WHERE best3deadliftkg = '';
+UPDATE entries SET totalkg = NULL WHERE totalkg = '';
+UPDATE entries SET place = NULL WHERE place = '';
+UPDATE entries SET wilks = NULL WHERE wilks = '';
+UPDATE entries SET mcculloch = NULL WHERE mcculloch = '';
+
+vacuum;
+"
+
+echo "${IMPORTCOMMAND}" | sqlite3 "${DBFILE}"

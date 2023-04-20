@@ -1,0 +1,71 @@
+5-Mar-11         UPA IA & Midwest PL Championship - DeadLift Only
+                                 BWt     BWt               Deadlift Deadlift Deadlift    Best        Coeff
+       Name      Age     Div                    Schwartz                                                      Pl-Div-WtCl    Tm Pts     Team
+                                 (Lb)    (Lb)                 1        2        3       Deadlift     Score
+Eddie Angstrom   69    MM6R-AD    179    181    0.6262      165      177.5      190       190       118.978 1-MM6R-AD-82.5     7
+Ricky Dexter     55    MM4R-AD   195.8   198    0.5901     162.5     177.5     192.5     192.5     113.59425 1-MM4R-AD-90      7
+Marcus DeVore    23      MJ      272.5   275     0.523     272.5      290     -317.5      290        151.67    1-MJ-125        7      Team Anvil
+5-Mar-11            UPA IA & Midwest PL Championship Full Power
+                                   BWt     WtCls                                         Best                                   Best     Sub   Deadlift Deadlift Deadlift    Best                    Coeff
+       Name         Age    Div                     Schwartz   Squat 1 Squat 2 Squat 3            Bench 1 Bench 2 Bench 3                                                               PL Total                Pl-Div-WtCl     Tm Pts          Team
+                                   (Lb)    (Lb)                                         Squat                                  Bench    Total     1       2        3        Deadlift                 Score
+Steve Rieger        44     MM1R    179.5    181    0.6251 319.67 341.71 374.78          374.78   -308.64   -330.69   -330.69      0       0     496.04 529.1 551.15         551.15         0           0            0            0          Team Weber
+Mark Willing        43     MM1R    230.2    242    0.5448 402.34 451.94 479.5            479.5    319.67    352.74   -380.29   352.74   832.24 501.55 540.13 573.2           573.2     1405.4325     347.31    1-MM1R-110        7
+Jacob Stratton      23     MJR      194     198    0.5935 485.01 512.57 551.15          551.15    347.22   -363.76   -363.76   347.22   898.37 501.55 518.08 -551.15        518.08     1416.4555   381.32375    1-MJR -90        7           Team Anvil
+Devin Denson        18     MT3R    179.5    181    0.6251 -380.29 -380.29 -380.29          0     -242.51   -242.51   -242.51      0       0       0        0        0          0           0           0            0            0
+Joe Notsch          17     MT2R    223.1    242    0.5513 -462.97 -462.97 -462.97          0      -286.6    -286.6    -286.6      0       0       0        0        0          0           0           0            0            0
+Dustin Leibfried    24    MOR-AD   178.6    181    0.6273 501.55 -518.08 523.59         523.59    314.16     336.2   -347.22    336.2   859.79 -551.15 -600.75 600.75       600.75     1460.5475   415.58625   1-MOR-AD-82.5     7      Carpenter Powerlifting *Raw Best Lifter
+Bob Weber           43    MOR-AD    306     308    0.5047 606.27 -650.36 -650.36        606.27    407.85   -451.94      0      407.85   1014.1 606.27      0        0       606.27      1620.381    370.9545   1-MOR-AD-140      7          Team Weber
+Kyle Nadrchal       28    MO-AD    215.2    220    0.5602 584.22 639.33 677.91          677.91   -446.43    446.43   -462.97   446.43   1124.3 468.48 501.55 523.59         523.59     1647.9385    418.7495   1-MO-AD-100       7          Big Iron Gym
+Robert Holliday     24     MOR     240.7    242    0.5375 418.87 462.97 485.01          485.01    225.97    253.53    275.58   275.58   760.59 418.87 462.97 -501.55        462.97      1223.553    298.3125    1-MOR-110        7
+Luke Tigges         31     MOR     270.3    275    0.5242 556.66 -584.22 584.22         584.22    446.43    468.48    -479.5   468.48   1052.7 584.22 606.27 628.31         628.31     1681.0075    399.7025    1-MOR-125        7      Carpenter Powerlifting
+Eric Ficek          25     MOR     340.4   SHW     0.4885 402.34 440.92 501.55          501.55    253.53    259.04   -270.06   259.04   760.59 418.87 451.94 485.01         485.01      1245.599    276.0025   1-MOR-SHW         7
+Michael Neuendorf   20      MJ     272.5    275     0.523 705.47 760.59 804.68          804.68    545.64   -556.66    556.66   556.66   1361.3 545.64 589.73 622.8           622.8      1984.14      470.7       1-MJ-125        7          Big Iron Gym
+Heath Atwell        24      MO     194.4    198    0.5926 402.34 418.87 -440.92         418.87    225.97   -236.99    236.99   236.99   655.87 402.34 440.92 -479.5         440.92     1096.7885    294.8185     1-MO-90         7
+Josh Edwards        30      MO     270.7    275     0.524 738.54 -788.14 788.14         788.14    639.33   -666.89   -666.89   639.33   1427.5 584.22 639.33 -666.89        639.33     2066.8125     491.25      1-MO-125        7      Carpenter Powerlifting *Equipped Best Lifter
+Kevin Frey          32      MO     281.7    308    0.5176 628.31 672.4 705.47           705.47    584.22    617.29   -633.82   617.29   1322.8 523.59 562.17 584.22         584.22      1906.979    447.724      1-MO-140        7
+5-Mar-11        UPA IA & Midwest PL Championship - Push/Pull
+                            BWt     WtCls                                        Best Deadlift Deadlift Deadlift    Best    Push Pull   Coeff
+       Name     Age   Div                   Schwartz   Bench 1 Bench 2 Bench 3                                                                    Pl-Div-WtCl   Tm Pts           Team
+                            (Lb)     (Lb)                                       Bench     1       2       3        Deadlift   Total     Score
+Jason Weipert   28    MOR   218.7    220     0.556     209.44   225.97 242.51 242.51 418.87 462.97 501.55          501.55    744.0525   187.65    1-MOR-100       7      Carpenter Powerlifting
+Brian Lutter    28    MOR   235.5    242    0.5408     303.13   319.67 -336.2 319.67 457.45 473.99 -529.1          473.99    793.656   194.688    1-MOR-110       7
+Jim Einertson   28    MOR   255.7    275    0.5305     363.76   380.29 396.83 396.83 473.99 485.01 529.1            529.1    925.932    222.81    1-MOR-125       7
+Joe Jolesch     28    MO    224.9    242    0.5495     -429.9    429.9 -457.45 429.9    529.1   573.2 600.75       600.75   1030.6505 256.89125    1-MO-110       7
+Lance Barilow   26    MO    259.7    275     0.529     314.16   -325.18 -325.18 314.16 440.92 473.99 -501.55       473.99    788.1445 189.1175     1-MO-125       7
+             4-Mar-11 UPA IA & Midwest PL Championship Bench Only-Kg Results
+                                         BWt WtCls                                                     Best     Coeff
+         Name          Age      Div                     Schwartz Bench 1 Bench 2   Bench 3 Bench 4                        Pl-Div-WtCl      Tm Pts           Team
+                                         (Lb)   (Lb)                                                  Bench     Score
+Brittany Hammond        34     FOR       112.9   114    0.9825 110.23 121.25       -132.28    0      121.253   54.0375     1-FOR-52          7      Carpenter Powerlifting
+Eddie Angstrom          69   MM6R-AD      179    181    0.6262 270.06 297.62       -308.64    0      297.621    84.537    1-MM6R-AD-82.5     7
+Ricky Dexter            55   MM4R-AD 195.8       198    0.5901 286.6 319.67         341.71    0      341.713   91.4655    1-MM4R-AD-90       7
+Mark Hauschildt         33   MSMR-AD      242    242    0.5365 462.97 -501.55      -501.55    0      462.966   112.665    1-MSMR-AD-110      7
+Albert Galarza          31    MOR-AD 162.3       165    0.6745 308.64 330.69       -341.71    0       330.69   101.175    1-MOR-AD-75        7          U.S. Marshals
+
+Lonnie Jones          33     MOR-AD     218.3    220    0.5565   303.13   319.67   380.29 -402.34 380.2935     95.99625 1-MOR-AD-100         7
+
+W.T. Franklin         33     MOR-AD                     0.5131   462.97 -501.55 -501.55       0      462.966   107.751    1-MOR-AD-140       7         Zenzen Barbell
+                                        290.1    308
+Mark Hennessey         50    MM3R       271.6    275    0.5235 -639.33 -639.33 -639.33 0      0         0         0                          0           Team EPIC
+Eric Green             47    MM2R       120.4    123    0.8998 181.88 192.9 198.41 -203.93 198.414    80.982  1-MM2R-56                      7
+Tom Waldrep (Masters 2)47    MM2R       216.9    220    0.5581 -440.92 457.45 -479.5   0   457.4545 115.80575 1-MM2R-100                     7           Team Anvil
+Dave Leslie            47    MM2R       219.1    220    0.5555 424.39 435.41 -440.92   0   435.4085 109.71125 2-MM2R-100                     5
+Dan Banwarth           48    MM2R       291.9    308    0.5121 352.74 380.29 -402.34   0   380.2935 88.33725 1-MM2R-140                      7
+Scott Marsiglio        37    MSMR       193.6    198    0.5943 308.64 314.16 -325.18   0   314.1555 84.68775 1-MSMR -90                      7
+Jason Hillman          29     MOR       179.9    181    0.6241 308.64 325.18 -336.2    0   325.1785 92.05475 1-MOR-82.5                      7
+Korey Pfeiffer (Open)  40     MOR        194     198    0.5935 391.32 407.85 -424.39   0   407.851 109.7975    1-MOR-90                      7      Carpenter Powerlifting
+Korey Pfeiffer (MM1)   40     MOR        194     198    0.5935 391.32 407.85 -424.39   0   407.851 109.7975    1-MOR-90                      7      Carpenter Powerlifting
+Tom Waldrep (Open)     47     MOR       216.9    220    0.5581 -440.92 457.45 -479.5   0   457.4545 115.80575 1-MOR-100                      7           Team Anvil
+Bill Carpenter (Open)  38     MOR        242     242    0.5365 473.99 496.04 -501.55   0   496.035 120.7125 1-MOR-110                        7      Carpenter Powerlifting *Raw Best Lifter
+Bill Carpenter (SM)   38      MOR        242     242    0.5365   473.99   496.04 -501.55      0      496.035   120.7125    1-MOR-110         7      Carpenter Powerlifting
+T.J. Reck             30      MOR       257.1    275     0.53   402.34 418.87 429.9           0      429.897    103.35  1-MOR-125            7      Carpenter Powerlifting
+Aaron Onder           29     MO-AD      238.1    242    0.5391 -402.34 -418.87 -418.87        0         0         0          0               0
+Dustin Minks          32     MO-AD       275     275    0.5213 556.66 573.2 -584.22           0      573.196   135.538 1-MO-AD-125           7          Team Lockup
+Mike Wilson           39     MO-AD      270.3    275    0.5242 429.9 451.94 473.99            0      473.989   112.703 2-MO-AD-125           5          Team Weber
+Roger Ryan            55      MM4       294.1    308    0.5109 -716.5 -771.61 -804.68         0         0         0          0               0          Team Lockup
+Ryan Wagner           24      MJ        177.2    181    0.6307 600.75 622.8 650.36            0      650.357   186.0565 1-MJ -82.5           7           Team EPIC
+Jeremy Alwerdt        23      MJ        323.2   SHW     0.4963 573.2 -644.85 -650.36          0      573.196   129.038  1-MJ -SHW            7
+Chris Dejongh         26      MO        196.2    198    0.5893 -716.5 716.5       0           0      716.495   191.5225   1-MO-90            7           Team EPIC           *Equipped Best Lifter
+Chuck Hudson          32      MO         269     275    0.5249 705.47 -744.05 -744.05         0      705.472   167.968   1-MO-125            7           Team EPIC
+

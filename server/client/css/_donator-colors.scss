@@ -1,0 +1,814 @@
+// vim: set ts=8 sts=2 et sw=2 tw=99:
+// Style definitions for name effects.
+
+@mixin name-color($color) {
+  color: $color;
+  text-decoration-color: $color;
+}
+
+@mixin gradient-prereqs($underline-color) {
+  color: transparent;
+  -webkit-background-clip: text;  // iPhones actually need this.
+  background-clip: text;
+  text-decoration-color: $underline-color;
+}
+
+.pink {
+  @include name-color(#FF69B4);
+}
+
+.hotpink {
+  @include name-color(#F442B0);
+}
+
+.salmonpink {
+  @include name-color(#F08080);
+}
+
+.lightpink {
+  @include name-color(#FFB6C1);
+}
+
+.watermelonpink {
+  @include name-color(#FE7F9C);
+}
+
+.purple {
+  @include name-color(#AE76FF);
+}
+
+.lavender {
+  @include name-color(#E6E6FA);
+}
+
+.deadlift_purple {
+  @include name-color(#CAA5FF);
+}
+
+.gold {
+  @include name-color(#FFD700);
+}
+
+.green {
+  @include name-color(#51DA27);
+}
+
+.armygreen {
+  @include name-color(#4B5320);
+}
+
+.darkgreen {
+  @include name-color(#11782f);
+}
+
+.emeraldgreen {
+  @include name-color(#50C878);
+}
+
+.limegreen {
+  @include name-color(#32CD32);
+}
+
+.neongreen {
+  @include name-color(#39ff14);
+}
+
+.olivegreen {
+  @include name-color(#556B2F);
+}
+
+// Same teal color as the $bench-color for OpenPowerlifting.
+.benchteal {
+  @include name-color(#00E0D8);
+}
+
+.lightazure {
+  @include name-color(#00AEFF);
+}
+
+.pastelblue {
+  @include name-color(#AEC6CF);
+}
+
+// Like a baby blue.
+.lightblue {
+  @include name-color(#43D1FF);
+}
+
+// A pleasant blue you'd find on a menu screen button.
+.waterblue {
+  @include name-color(#3B72FF);
+}
+
+.royalblue {
+  @include name-color(#507CFF);
+}
+
+.turquoise {
+  @include name-color(#40e0d0);
+}
+
+.red {
+  @include name-color(#FB3640);
+}
+
+.cranberryred {
+  @include name-color(#9C0045);
+}
+
+.rosered {
+  @include name-color(#C21E56);
+}
+
+// Color used in the DOTS formula application. A dark red.
+.dots_red {
+  @include name-color(#84000E);
+}
+
+.orange {
+  @include name-color(#FFA200);
+}
+
+.chartreuse_yellow {
+  @include name-color(#DFFF00);
+}
+
+.yellow {
+  @include name-color(#FFFC00);
+}
+
+// A nice yellow that isn't so bright.
+.solidyellow {
+  @include name-color(#FD3);
+}
+
+.cedar_brown {
+  @include name-color(#FEA636);
+}
+
+.gold {
+  @include name-color(#FFD700);
+}
+
+.forestgreen {
+  @include name-color(#006400);
+}
+
+// Strong Geelong's orange shade, for James W
+.strong_geelong_orange {
+  @include name-color(#FF6900);
+}
+
+// Rainbow with light colors, to be readable against a dark background.
+.rainbow {
+  @include gradient-prereqs(#FF80AB);
+  background-image:
+    linear-gradient(to right, #FB3640, #f2f, #43D1FF, #2ff, #2f2, #ff2, #FB3640);
+}
+
+// Red, white, and blue.
+.america {
+  @include gradient-prereqs($default-color);
+  background-image: linear-gradient(to right, #FB3640, #EDF2F4, #43D1FF);
+}
+
+// Red, white, and red.
+.canada {
+  @include gradient-prereqs($default-color);
+  background-image: linear-gradient(to right, #FB3640, #EDF2F4, #FB3640);
+}
+
+// White, red, and white.
+.england {
+  @include gradient-prereqs($default-color);
+  background-image: linear-gradient(to right, #EDF2F4, #FB3640, #EDF2F4);
+}
+
+// White, blue, and white.
+.finland {
+  @include gradient-prereqs(#507CFF);
+  background-image: linear-gradient(to right, #507CFF, #EDF2F4);
+}
+
+// Blue, white, and red.
+.france {
+  @include gradient-prereqs($default-color);
+  background-image: linear-gradient(to right, #0082CA, #EDF2F4, #ED071E);
+}
+
+// Blue, white, and red.
+.iceland {
+  @include gradient-prereqs($default-color);
+  background-image: linear-gradient(to right, #005DB5, #EDF2F4, #DD1832);
+}
+
+// Green, white, and red.
+.italy {
+  @include gradient-prereqs($default-color);
+  background-image: linear-gradient(to right, #51DA27, #EDF2F4, #DD1832);
+}
+
+// Millennial pink color palette
+.millennial_pink_color_palette {
+  @include gradient-prereqs($default-color);
+  background-image: linear-gradient(to right, #FB958B, #F7A583, #F7BAA1, #FB9FA4, #FF9E99);
+}
+
+// Green, white, and orange.
+.ireland {
+  $ireland-green: #009A64;
+  $ireland-white: #EDF2F4;
+  $ireland-orange: #FF8647;
+  @include gradient-prereqs($ireland-white);
+  background-image:
+    linear-gradient(to right,
+      $ireland-green, $ireland-green 33%,
+      $ireland-white 34%, $ireland-white 66%,
+      $ireland-orange 67%, $ireland-orange);
+}
+
+// Red, black, white and green.
+.palestine {
+  @include gradient-prereqs($default-color);
+  background-image: linear-gradient(to right, #CE1126 25%, #000000 25% 50%, #FFFFFF 50% 75%, #007A3D 75%);
+}
+
+// Red, green, white, and black.
+.emirates {
+  @include gradient-prereqs($default-color);
+  background-image: linear-gradient(to right, #C8102E, #00843D, #FFFFFF, #000000);
+}
+
+// A combination of orange, white, and black.
+.tiger {
+  @include gradient-prereqs(#FFA200);
+  background-image: linear-gradient(110deg, #FFA200 10%, #EDF2F4 20%, #444 25%, #EDF2F4 30%, #FFA200 40%, #FFA200 60%, #EDF2F4 70%, #444 75%, #EDF2F4 80%, #FFA200 90%, #FFA200 100%)
+}
+
+.aqua_to_pink {
+  $aqua: #00FFEF;
+  $pink: #FF69B4;
+  @include gradient-prereqs($aqua);
+  background-image: linear-gradient(to right, $aqua, $pink);
+}
+
+.blue_to_gold {
+  $blue: #507CFF;
+  $gold: #FFD700;
+  @include gradient-prereqs($gold);
+  background-image: linear-gradient(to right, $blue, $gold);
+}
+
+.blue_to_gunmetal {
+  $blue: #507CFF;
+  $gunmetal: #2A3439;
+  @include gradient-prereqs($gunmetal);
+  background-image: linear-gradient(to right, $blue, $gunmetal);
+}
+
+.blue_to_green {
+  $blue: #507CFF;
+  $green: #51DA27;
+  @include gradient-prereqs($green);
+  background-image: linear-gradient(to right, $blue, $green);
+}
+
+.blue_to_lightblue {
+  $blue: #507CFF;
+  $lightblue: #43D1FF;
+  @include gradient-prereqs($lightblue);
+  background-image: linear-gradient(to right, $blue, $lightblue);
+}
+
+.blue_to_orange {
+  $blue: #507CFF;
+  $orange: #FFA200;
+  @include gradient-prereqs($orange);
+  background-image: linear-gradient(to right, $blue, $orange);
+}
+
+.blue_to_yellow {
+  $blue: #507CFF;
+  $yellow: #FFFC00;
+  @include gradient-prereqs($blue);
+  background-image: linear-gradient(to right, $blue, $yellow);
+}
+
+.green_to_gray {
+  $neongreen: #39ff14;
+  $lightgray: #A1A1A1;
+  @include gradient-prereqs($neongreen);
+  background-image: linear-gradient(to right, $neongreen, $lightgray);
+}
+
+.green_to_white {
+  $green: #51DA27;
+  $white: #EDF2F4;
+  @include gradient-prereqs($green);
+  background-image: linear-gradient(to right, $green, $white);
+}
+
+.lightblue_to_purple {
+  $lightblue: #43D1FF;
+  $purple: #AE76FF;
+  @include gradient-prereqs($lightblue);
+  background-image: linear-gradient(to right, $lightblue, $purple);
+}
+
+.lightblue_to_white {
+  $lightblue: #43D1FF;
+  $white: #EDF2F4;
+  @include gradient-prereqs($lightblue);
+  background-image: linear-gradient(to right, $lightblue, $white);
+}
+
+.royalblue_to_lightblue {
+  $royalblue: #507CFF;
+  $lightblue: #00d4FF;
+  @include gradient-prereqs($royalblue);
+  background-image: linear-gradient(to right, $royalblue, $lightblue);
+}
+
+.limegreen_to_gray {
+  $limegreen: #32CD32;
+  $lightgray: #A1A1A1;
+  @include gradient-prereqs($limegreen);
+  background-image: linear-gradient(to right, $limegreen, $lightgray);
+}
+
+.limegreen_to_green {
+  $limegreen: #32CD32;
+  $green: #51DA27;
+  @include gradient-prereqs($limegreen);
+  background-image: linear-gradient(to right, $limegreen, $green);
+}
+
+.neongreen_to_white {
+  $neongreen: #39ff14;
+  $white: #EDF2F4;
+  @include gradient-prereqs($neongreen);
+  background-image: linear-gradient(to right, $neongreen, $white);
+}
+
+.neongreen_to_royalblue {
+  $neongreen: #39ff14;
+  $royalblue: #507CFF;
+  @include gradient-prereqs($neongreen);
+  background-image: linear-gradient(to right, $neongreen, $royalblue);
+}
+
+.orange_to_green {
+  $orange: #FFA200;
+  $green: #F1DA27;
+  @include gradient-prereqs($orange);
+  background-image: linear-gradient(to right, $orange, $green);
+}
+
+.orange_to_pink_to_orange {
+  $orange: #FF6600;
+  $pink: #FF0099;
+  @include gradient-prereqs($orange);
+  background-image: linear-gradient(to right, $orange, $pink, $orange);
+}
+
+.pink_to_lightblue {
+  $pink: #FF69B4;
+  $lightblue: #43D1FF;
+  @include gradient-prereqs($pink);
+  background-image: linear-gradient(to right, $pink, $lightblue);
+}
+
+.pink_to_orange {
+  $pink: #FF69B4;
+  $orange: #FFA200;
+  @include gradient-prereqs($pink);
+  background-image: linear-gradient(to right, $pink, $orange);
+}
+
+.pink_to_purple {
+  $pink: #FF69B4;
+  $purple: #AE76FF;
+  @include gradient-prereqs($pink);
+  background-image: linear-gradient(to right, $pink, $purple);
+}
+
+.pink_to_purple_to_blue {
+  $pink: #FF69B4;
+  $purple: #AE76FF;
+  $blue: #43D1FF;
+  @include gradient-prereqs($pink);
+  background-image: linear-gradient(to right, $pink, $purple, $blue);
+}
+
+.pink_to_yellow_to_purple {
+  $pink: #FF69B4;
+  $yellow: #FFFC00;
+  $purple: #AE76FF;
+  @include gradient-prereqs($pink);
+  background-image: linear-gradient(to right, $pink, $yellow, $purple);
+}
+
+.pink_to_white {
+  $pink: #FF69B4;
+  $white: #EDF2F4;
+  @include gradient-prereqs($pink);
+  background-image: linear-gradient(to right, $pink, $white);
+}
+
+
+.lightpink_to_darkpink {
+  $lightpink: #FFB6C1;
+  $darkpink: #E75480;
+  @include gradient-prereqs($lightpink);
+  background-image: linear-gradient(to right, $lightpink, $darkpink);
+}
+
+.purple_to_hotpink {
+  $purple: #AE76FF;
+  $hotpink: #F442B0;
+  @include gradient-prereqs($purple);
+  background-image: linear-gradient(to right, $purple, $hotpink);
+}
+
+.purple_to_green {
+  $purple: #AE76FF;
+  $green: #51DA27;
+  @include gradient-prereqs($purple);
+  background-image: linear-gradient(to right, $purple, $green);
+}
+
+.purple_to_silver {
+  $purple: #AE76FF;
+  $silver: #C0C0C0;
+  @include gradient-prereqs($purple);
+  background-image: linear-gradient(to right, $purple, $silver);
+}
+
+.purple_to_teal {
+  $purple: #AE76FF;
+  $teal: #01ECE3;
+  @include gradient-prereqs($purple);
+  background-image: linear-gradient(to right, $purple, $teal);
+}
+
+.matt_gradient {
+  @include gradient-prereqs($default-color);
+  background-image: 
+    linear-gradient(to right top,
+      #e9aa74, #f0a086, #ee9b9b,
+      #e399ae, #d09bbd, #c799bf,
+      #bc98c0, #b296c0, #b28fbc,
+      #b387b7, #b580b1, #b678ab);
+}
+
+.red_to_blue {
+  $red: #FB3640;
+  $blue: #3B72FF;
+  @include gradient-prereqs($red);
+  background-image: linear-gradient(to right, $red, $blue);
+}
+
+.red_to_orange {
+  $red: #FB3640;
+  $orange: #FFA200;
+  @include gradient-prereqs($red);
+  background-image: linear-gradient(to right, $red, $orange);
+}
+
+.red_to_purple {
+  $red: #FB3640;
+  $purple: #AE76FF;
+  @include gradient-prereqs($red);
+  background-image: linear-gradient(to right, $red, $purple);
+}
+
+.red_to_yellow {
+  $red: #FB3640;
+  $yellow: #FFFC00;
+  @include gradient-prereqs($red);
+  background-image: linear-gradient(to right, $red, $yellow);
+}
+
+.red_to_yellow_to_red {
+  $red: #FB3640;
+  $yellow: #FFFC00;
+  @include gradient-prereqs($red);
+  background-image: linear-gradient(to right, $red, $yellow, $red);
+}
+
+.red_to_yellow_to_green {
+  $red: #FB3640;
+  $yellow: #FFFC00;
+  $green: #51DA27;
+  @include gradient-prereqs($red);
+  background-image: linear-gradient(to right, $red, $yellow, $green);
+}
+
+.red_to_white {
+  $red: #FB3640;
+  $white: #EDF2F4;
+  @include gradient-prereqs($red);
+  background-image: linear-gradient(to right, $red, $white);
+}
+
+.red_to_white_to_red {
+  $red: #FB3640;
+  $white: #EDF2F4;
+  @include gradient-prereqs($red);
+  background-image: linear-gradient(to right, $red, $white, $red);
+}
+
+.pink_to_white_to_pink {
+  $pink: #FFB6C1;
+  $white: #EDF2F4;
+  @include gradient-prereqs($pink);
+  background-image: linear-gradient(to right, $pink, $white, $pink);
+}
+
+.all_red_top_down {
+  $red: #FB3640;
+  $darker_red: #AE252C;
+  @include gradient-prereqs($darker-red);
+  background-image: linear-gradient(to bottom, $red, $darker_red);
+}
+
+.teal_to_white {
+  $teal: #01ECE3;
+  $white: #EDF2F4;
+  @include gradient-prereqs($teal);
+  background-image: linear-gradient(to right, $teal, $white);
+}
+
+.turquoise_to_magenta {
+  $turquoise: #40E0D0;
+  $magenta: #FF00FF;
+  @include gradient-prereqs($turquoise);
+  background-image: linear-gradient(to right, $turquoise, $magenta);
+}
+
+.yellow_to_orange {
+  $yellow: #FFFC00;
+  $orange: #FFA200;
+  @include gradient-prereqs($yellow);
+  background-image: linear-gradient(to right, $yellow, $orange);
+}
+
+.yellow_to_purple {
+  $yellow: #FFFC00;
+  $purple: #AE76FF;
+  @include gradient-prereqs($yellow);
+  background-image: linear-gradient(to right, $yellow, $purple);
+}
+
+// The OpenPowerlifting squat-bench-deadlift colors in a gradient.
+.opl_sbd {
+  $squat: #FFAE20;
+  $bench: #00E0D8;
+  $deadlift: #CAA5FF;
+  @include gradient-prereqs($squat);
+  background-image: linear-gradient(to right, $squat, $bench, $deadlift);
+}
+
+// Red, Gray, Black.
+.carlos {
+  @include gradient-prereqs(#444444);
+  background-image: linear-gradient(to right, #FB3640, #444444, #000000);
+}
+
+// Chicago Bears orange.
+// That orange is too dark, so also a white drop-shadow.
+.chicago_bears {
+  $bears-orange: #C83803;
+  @include name-color($bears-orange);
+  text-shadow: #FFF 1px 1px 1px;
+}
+
+.peter_spence {
+  @include name-color(#BF262B);
+}
+
+// Green and red.
+.rob_hall {
+  $green: #51DA27;
+  $red: #FB3640;
+  @include gradient-prereqs($green);
+  background-image: linear-gradient(to right, $green 45%, $red 55%);
+}
+
+// Designed by Mike Overkamp.
+.mike_overkamp {
+  font-family: monospace;
+  @include gradient-prereqs(#1E8AFB);
+  background-image: linear-gradient(to bottom, #f00 40%, #fff 40%, #fff 80%, #1E8AFB 80%, #1E8AFB 100%);
+}
+
+// Designed by Robert Knutsson.
+.sweden {
+  $lightblue: #43D1FF;
+  $yellow: #FFFC00;
+  @include gradient-prereqs($yellow);
+  background-image: linear-gradient(to bottom, $lightblue 50%, $yellow 50%);
+}
+
+.tamara {
+  $hotpink: #F442B0;
+  $purple: #AE76FF  ;
+  @include gradient-prereqs($purple);
+  background-image: linear-gradient(to bottom, $hotpink 50%, $purple 50%);
+}
+
+// Designed by Jetter Lewis.
+.jetter_lewis {
+  color: #FB3640; // Red
+  text-decoration-color: #51DA27; // Green
+}
+
+// Designed by Johan Frisk.
+.johan_frisk {
+  @include gradient-prereqs(#000000);
+  font-weight: bold;
+  font-variant: small-caps;
+  text-decoration-line: none;
+  background-image: linear-gradient( to bottom, #bf262b, #ffa200 );
+  text-shadow: 0px -1px 3px #ffa20066;
+  letter-spacing: 1px;
+}
+
+// Designed by Laura Kelly.
+.laura_kelly {
+  @include gradient-prereqs(#00f2ff);
+  background-image: linear-gradient(to right, #00f2ff, #ae76ff);
+}
+
+.fire_animation {
+  animation: fire_animation 0.75s infinite linear alternate;
+}
+@keyframes fire_animation {
+  from { text-shadow: 0px -1px 3px #ffa20024; }
+  to { text-shadow: 0px -1px 3px #ffa200cc; }
+}
+
+.purple_fire_animation {
+  animation: fire_animation 0.75s infinite linear alternate;
+}
+@keyframes purple_fire_animation {
+  from { text-shadow: 0px -1px 3px #ce00f224; }
+  to { text-shadow: 0px -1px 3px #ce00f2cc; }
+}
+
+// Runescape flash3
+@keyframes flash3 {
+  0%{
+    color: #00B000;
+  }
+  50%{
+    color: #80FF80;
+  }
+}
+
+.flash3 {
+  animation: flash3 0.45s steps(1, end) infinite;
+}
+
+// Runescape glow3
+@keyframes glow3 {
+  0% {
+    color: #FFFFFF;
+  } 25% {
+    color: #00B000;
+  } 50% {
+    color: #FFFFFF;
+  } 67.5% {
+    color: #00FFFF;
+  } 75% {
+    color: #0000FF;
+  } 100% {
+    color: #FFFFFF;
+  }
+}
+
+.glow3 {
+  animation: glow3 3s linear infinite;
+}
+
+@keyframes scroll_gradient {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
+
+// Gradients can't really be scrolled.
+// The way this works is by making the gradient's background-image much larger
+// than the text, and changing the position of that image over time so it scrolls
+// through the gradient back and forth.
+.scroll_gradient {
+  background-size: 200% 200%;
+  animation: scroll_gradient 3s ease infinite;
+}
+
+// Infinite left-to-right looping scroll [gradient].
+// Designed by Johan Frisk.
+// Override animation speed or timing function as necessary.
+// Also add a class with background-image: repeating-linear-gradient to set the colors.
+@keyframes infinite_loop {
+  0% { background-position: 0 0; }
+  100% { background-position: -200% 0; }
+}
+.infinite_loop {
+  width: 100%;
+  height: 100%;
+  background-size: 200% auto;
+  background-position: 0 100%;
+  animation: infinite_loop 8s infinite;
+  animation-fill-mode: forwards;
+  animation-timing-function: linear;
+}
+
+// Switches from red to gold.
+@keyframes redgold {
+  0% {
+    color: #FB3640;
+  } 50% {
+    color: #FFD700;
+  } 100% {
+    color: #FB3640;
+  }
+}
+
+.redgold_anim {
+  animation: redgold 3s cubic-bezier(.77,0,.18,1) infinite;
+}
+
+.teal-shadow {
+  // Sharp offset shadow in teal.
+  // 1px blur is more readable than 0px blur at small sizes.
+  text-shadow: 1px 1px 1px #01ECE3;
+}
+
+.italic {
+  font-style: italic;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.algerian {
+  font-family: "Algerian";
+}
+
+.comicsans {
+  font-family: "Comic Sans MS", "Comic Sans", cursive;
+}
+
+.helvetica {
+  font-family: "Helvetica";
+}
+
+.papyrus {
+  font-family: "Papyrus";
+}
+
+.segoeui {
+  font-family: "Segoe UI";
+}
+
+.small-caps {
+  font-variant: small-caps;
+}
+
+.stencil {
+  font-family: "Stencil";
+}
+
+.tahoma {
+  font-family: "Tahoma";
+}
+
+.letter-spacing-2 {
+  letter-spacing: 2px;
+}
+
+.cyan {
+  @include name-color(#00FFFF);
+}
+
+.mattdomney {
+ @include name-color(#129b6c);  
+}
+
+// Animation for Tirsa St. Fort.
+// Designed by Johan Frisk.
+.tirsa_st_fort {
+  $white: #cfcfcf;
+  $gold: #d5af2e;
+  @include gradient-prereqs($white);
+  background-image: repeating-linear-gradient(
+    to right,
+    $white 0%,
+    $white 49%,
+    $gold 50%,
+    $gold 99%,
+    $white 100%
+  );
+}

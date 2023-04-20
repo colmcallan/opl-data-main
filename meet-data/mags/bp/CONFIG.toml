@@ -1,0 +1,10 @@
+[divisions]
+# Intentionally left blank.
+
+[weightclasses]
+# Intentionally left blank.
+
+[exemptions]
+
+[options]
+    require_manual_disambiguation = true

@@ -1,0 +1,25 @@
+#!/usr/bin/env python3
+# vim: set ts=8 sts=4 et sw=4 tw=99:
+#
+# Remove columns with names from the provided list.
+# The first row of the csvfile must contain column names.
+#
+# Overwrites the input file.
+#
+
+from oplcsv import Csv
+import sys
+
+if len(sys.argv) < 3:
+    print(' Usage: %s csvfile col1 col2 ...', file=sys.stderr)
+    sys.exit(1)
+
+csvname = sys.argv[1]
+columnsToRemove = sys.argv[2:]
+
+csv = Csv(csvname)
+for column in columnsToRemove:
+    csv.remove_column_by_name(column)
+
+with open(csvname, 'w') as fd:
+    csv.write(fd)

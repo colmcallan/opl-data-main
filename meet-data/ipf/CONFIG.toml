@@ -1,0 +1,143 @@
+# Configuration for the IPF.
+
+[options]
+    require_manual_disambiguation = true
+
+[divisions]
+    open = {name ="Open",min=0,max=999}
+    juniors = {name = "Juniors",min=0,max=22.5}
+    subjuniors = {name = "Sub-Juniors",min=0,max=17.5}
+    masters1 = {name = "Masters 1",min=39.5,max=48.5}
+    masters2 = {name = "Masters 2",min=49.5,max=58.5}
+    masters3 = {name = "Masters 3",min=59.5,max=68.5}
+    masters4 = {name = "Masters 4",min=69.5,max=999}
+
+    # Special divisions used with limited competitions.
+    # The weightclasses chosen for the boundaries aren't consistent.
+    light = { name = "Light", min = 0, max = 999 }
+    middle = { name = "Middle", min = 0, max = 999 }
+    heavy = { name = "Heavy", min = 0, max = 999 }
+    super = { name = "Super", min = 0, max = 999 }
+
+[weightclasses.default_M]
+    classes = ["59","66","74","83","93","105","120","120+"]
+    date_range=["2011-01-01","9999-01-01"]
+    sex = "M"
+
+[weightclasses.default_F]
+    classes = ["47","52","57","63","69","76","84","84+"]
+    date_range=["2021-01-01","9999-01-01"]
+    sex = "F"
+
+[weightclasses.default_oldF]
+    classes = ["47","52","57","63","72","84","84+"]
+    date_range=["2011-01-01","2020-12-31"]
+    sex = "F"
+
+[weightclasses.junior_M]
+    classes = ["53","59","66","74","83","93","105","120","120+"]
+    date_range=["2011-01-01","9999-01-01"]
+    sex = "M"
+    divisions = ["Juniors","Sub-Juniors"]
+
+[weightclasses.junior_F]
+    classes = ["43","47","52","57","63","69","76","84","84+"]
+    date_range=["2021-01-01","9999-01-01"]
+    sex = "F"
+    divisions = ["Juniors","Sub-Juniors"]
+
+[weightclasses.junior_oldF]
+    classes = ["43","47","52","57","63","72","84","84+"]
+    date_range=["2011-01-01","2020-12-31"]
+    sex = "F"
+    divisions = ["Juniors","Sub-Juniors"]
+
+[weightclasses.old_M]
+    classes = ["52","56","60","67.5","75","82.5","90","100","110","125","125+"]
+    date_range = ["0000-01-01","2010-12-31"]
+    sex = "M"
+
+[weightclasses.old_F]
+    classes = ["44","48","52","56","60","67.5","75","82.5","90","90+"]
+    date_range = ["0000-01-01","2010-12-31"]
+    sex = "F"
+
+[exemptions]
+    7201 = ["ExemptWeightClassConsistency"]
+    7301 = ["ExemptWeightClassConsistency"]
+    7401 = ["ExemptWeightClassConsistency"]
+    7501 = ["ExemptWeightClassConsistency"]
+    7601 = ["ExemptWeightClassConsistency"]
+    7701 = ["ExemptWeightClassConsistency"]
+    7801 = ["ExemptWeightClassConsistency"]
+    7901 = ["ExemptWeightClassConsistency"]
+    8001 = ["ExemptWeightClassConsistency"]
+    8002 = ["ExemptWeightClassConsistency"]
+    8603 = ["ExemptDivision"]
+    8901 = ["ExemptWeightClassConsistency"]
+    9104 = ["ExemptWeightClassConsistency"]
+    9202 = ["ExemptWeightClassConsistency"]
+    9203 = ["ExemptWeightClassConsistency","ExemptDivision"]
+    9302 = ["ExemptWeightClassConsistency","ExemptDivision"]
+    9403 = ["ExemptWeightClassConsistency","ExemptDivision"]
+    9501 = ["ExemptWeightClassConsistency","ExemptDivision"]
+    9603 = ["ExemptWeightClassConsistency","ExemptDivision"]
+    9604 = ["ExemptWeightClassConsistency"]
+    9701 = ["ExemptWeightClassConsistency"]
+    9005 = ["ExemptWeightClassConsistency"]
+    9705 = ["ExemptWeightClassConsistency","ExemptDivision"]
+    9706 = ["ExemptWeightClassConsistency"]
+    9804 = ["ExemptWeightClassConsistency","ExemptDivision"]
+    9805 = ["ExemptWeightClassConsistency"]
+    9904 = ["ExemptWeightClassConsistency","ExemptDivision"]
+    9906 = ["ExemptWeightClassConsistency"]
+    0003 = ["ExemptWeightClassConsistency","ExemptDivision"]
+    0005 = ["ExemptWeightClassConsistency"]
+    0101 = ["ExemptWeightClassConsistency"]
+    0506 = ["ExemptWeightClassConsistency"]
+    0702 = ["ExemptWeightClassConsistency"]
+    0902 = ["ExemptDivision", "ExemptWeightClassConsistency"]
+    1003 = ["ExemptWeightClassConsistency","ExemptDivision"]
+    1004 = ["ExemptWeightClassConsistency"]
+    1305 = ["ExemptWeightClassConsistency"]
+    1702 = ["ExemptDivision"]
+    8202 = ["ExemptDivision"]
+    8302 = ["ExemptDivision"]
+    8402 = ["ExemptDivision"]
+    8502 = ["ExemptDivision"]
+    8602 = ["ExemptDivision"]
+    8703 = ["ExemptDivision"]
+    8802 = ["ExemptDivision"]
+    8903 = ["ExemptDivision"]
+    9002 = ["ExemptDivision"]
+    9102 = ["ExemptDivision"]
+    0102 = ["ExemptDivision"]
+    0106 = ["ExemptDivision"]
+    0203 = ["ExemptDivision"]
+    0207 = ["ExemptDivision"]
+    0301 = ["ExemptDivision"]
+    0305 = ["ExemptDivision"]
+    0401 = ["ExemptDivision"]
+    0406 = ["ExemptDivision"]
+    0501 = ["ExemptDivision"]
+    0503 = ["ExemptDivision"]
+    0601 = ["ExemptDivision"]
+    0604 = ["ExemptDivision"]
+    0705 = ["ExemptDivision"]
+    0701 = ["ExemptDivision"]
+    0805 = ["ExemptDivision"]
+    0802 = ["ExemptDivision"]
+    0905 = ["ExemptDivision"]
+    0907 = ["ExemptDivision"]
+    1002 = ["ExemptDivision"]
+    1102 = ["ExemptDivision"]
+    1103 = ["ExemptDivision"]
+    1205 = ["ExemptDivision"]
+    1401 = ["ExemptDivision"] # Peter Schmidt was too young for M1 but they let him.
+    9205 = ["ExemptWeightClassConsistency"] # Disabled bench
+    9303 = ["ExemptWeightClassConsistency"] # Disabled bench
+    9406 = ["ExemptWeightClassConsistency"] # Disabled bench
+
+    2204 = ["ExemptWeightClassConsistency"] # World Games
+
+    2301 = ["ExemptWeightClassConsistency"] # Sheffield 23

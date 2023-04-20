@@ -1,0 +1,67 @@
+#!/usr/bin/env python3
+# vim: set ts=8 sts=4 et sw=4 tw=99:
+#
+# It turns out that we can't just import the CSV files directly
+# into SQLite, because the Diesel ORM requires certain features
+# like a primary RowID column.
+#
+# But we also want to keep around the original CSV files, which
+# were intended for human readability.
+#
+# This script inputs the original CSV files and outputs temporary
+# CSV files into the build directory. Those temporary files can
+# then serve as the basis for the SQLite import.
+
+from oplcsv import Csv
+import codecs
+
+
+def write_without_fieldnames(csv, path):
+    with codecs.open(path, 'w', encoding="utf-8") as fd:
+        for row in csv.rows:
+            fd.write(','.join(row) + "\n")
+
+
+def handle_entries():
+    csv = Csv('build/entries.csv')
+
+    csv.insert_column(0, 'rowid')
+    sexidx = csv.index('Sex')
+    eqpidx = csv.index('Equipment')
+
+    eqplist = ['Raw', 'Wraps', 'Single-ply', 'Multi-ply', 'Straps', 'Unlimited']
+
+    for i, row in enumerate(csv.rows):
+        row[0] = str(i)
+
+        # Convert the Sex column to integer: M => 0, F => 1, Mx => 2.
+        row[sexidx] = str(['M', 'F', 'Mx'].index(row[sexidx]))
+
+        # Convert the Equipment column to integer.
+        row[eqpidx] = str(eqplist.index(row[eqpidx]))
+
+    # The Web version keeps the Name column and deletes LifterID.
+    # The Server version keeps the LifterID column and deletes Name.
+    csv.remove_column_by_name('Name')
+
+    write_without_fieldnames(csv, 'build/sqlite-entries.csv')
+
+
+def handle_meets():
+    csv = Csv('build/meets.csv')
+    write_without_fieldnames(csv, 'build/sqlite-meets.csv')
+
+
+def handle_lifters():
+    csv = Csv('build/lifters.csv')
+    write_without_fieldnames(csv, 'build/sqlite-lifters.csv')
+
+
+def main():
+    handle_entries()
+    handle_meets()
+    handle_lifters()
+
+
+if __name__ == '__main__':
+    main()

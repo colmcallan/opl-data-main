@@ -1,0 +1,200 @@
+Place,Name,Sex,Country,Age,BodyweightKg,Division,WeightClassKg,Squat1Kg,Squat2Kg,Squat3Kg,Best3SquatKg,Squat4Kg,Bench1Kg,Bench2Kg,Bench3Kg,Best3BenchKg,Bench4Kg,Deadlift1Kg,Deadlift2Kg,Deadlift3Kg,Best3DeadliftKg,Deadlift4Kg,TotalKg,Event,Equipment
+1,Janette Junge,F,Germany,22,56.7,Juniors,60,70,-80,80,80,,45,-50,50,50,56,65,75,-82.5,75,,205,SBD,Multi-ply
+1,Chantal Rostagnat,F,France,42,59.4,M 40-44,60,-95,100.5,112.5,112.5,117.5,-70,-70,70,70,,120,132.5,-140,132.5,148,315,SBD,Multi-ply
+1,Anikó Strinyi,F,Hungary,42,79.35,M 40-44,82.5,-180,180,-200,180,200,90,100,-108,100,,-150,150,-165,150,,430,SBD,Multi-ply
+1,Svetlana Baker,F,USA,55,49.4,M 55-59,52,-100,-100,100,100,,55,57.5,-60,57.5,,125,-135,-135,125,,282.5,SBD,Multi-ply
+1,Katarína Moňáková,F,Czechia,35,72.6,Submasters,75,-70,70,85,85,,50,62.5,-72.5,62.5,,-80,95,110,110,,257.5,SBD,Multi-ply
+DQ,Sandra Mokrá,F,Slovakia,30,67.5,Open,67.5,-175,-175,-175,,,,,,,,,,,,,,SBD,Multi-ply
+1,Judit Sándor,F,Hungary,29,70.35,Open,75,170,-185,185,185,,-105,105,110,110,,190,200,205,205,,500,SBD,Multi-ply
+1,Grzegorz Głowacki,M,Poland,16,58.05,T 16-17,60,45,52.5,60,60,,50,60,65,65,,75,90,100,100,,225,SBD,Multi-ply
+1,Mário Kraus,M,Slovakia,17,66.6,T 16-17,67.5,-180,180,-200,180,,90,100,-110,100,,190,200,,200,,480,SBD,Multi-ply
+1,Tomáš Kalenský,M,Czechia,16,74.05,T 16-17,75,220,235,-245,235,-250,110,120,-130,120,,195,210,221,221,-227.5,576,SBD,Multi-ply
+1,Alex Fernandes,M,France,17,82.5,T 16-17,82.5,145,160,175,175,,75,82.5,85,85,,195,-215,-223.5,195,,455,SBD,Multi-ply
+1,Thomas Mohs,M,Germany,18,117.2,T 18-19,125,170,177.5,182.5,182.5,,120,122.5,-127.5,122.5,,205,212.5,217.5,217.5,,522.5,SBD,Multi-ply
+1,Ján Habardík,M,Slovakia,23,67.25,Juniors,67.5,240,-250,250,250,-260,135,140,-145,140,,215,-225,225,225,,615,SBD,Multi-ply
+DQ,Kévin Dufrenoy,M,France,20,82.15,Juniors,82.5,200,220,230,230,,112.5,-120,120,120,,-225,-225,-225,-225,,,SBD,Multi-ply
+1,Márk Susovits,M,Hungary,22,99.15,Juniors,100,235,-250,260,260,,170,177.5,182.5,182.5,,250,260,270,270,275,712.5,SBD,Multi-ply
+2,Florian Hager,M,Germany,23,99.6,Juniors,100,255,270,275,275,,155,170,175,175,,-230,-230,230,230,,680,SBD,Multi-ply
+3,Adam Chapelier,M,France,22,98.75,Juniors,100,245,260,-272.5,260,,145,-152.5,-152.5,145,,-230,230,-232.5,230,,635,SBD,Multi-ply
+1,Ľubomír Gréger,M,Slovakia,22,110.2,Juniors,125,300,320,-330,320,,230,245,,245,,230,250,,250,,815,SBD,Multi-ply
+1,Günther Schleinzer,M,Austria,41,79.8,M 40-44,82.5,-250.5,265,275,275,,100,120,130,130,,220,230,237.5,237.5,,642.5,SBD,Multi-ply
+2,Rocco Göpfarth,M,Germany,44,82.3,M 40-44,82.5,225,245,255,255,,155,162.5,167.5,167.5,,200,210,220,220,,642.5,SBD,Multi-ply
+1,Didier Hafer,M,France,40,83.85,M 40-44,90,190,210,225,225,,142.5,147.5,155,155,,220,232.5,240,240,,620,SBD,Multi-ply
+2,Steffen Reisbach,M,Germany,41,88.95,M 40-44,90,210,220,225,225,,170,175,-180,175,,200,212.5,220,220,,620,SBD,Multi-ply
+1,László Kupcsik,M,Hungary,42,93.6,M 40-44,100,290,310,,310,,260,270,-280,270,,260,275,-280,275,,855,SBD,Multi-ply
+1,Csaba Berki,M,Hungary,40,109.5,M 40-44,110,260,290,-320,290,,190,200,210,210,,225,-240,,225,,725,SBD,Multi-ply
+2,Eric Bar,M,France,40,110,M 40-44,110,215,225,-230,225,,-180,-180,180,180,,-270,-270,270,270,-285.5,675,SBD,Multi-ply
+1,Tom Oberle,M,USA,44,119.8,M 40-44,125,250,260,272.5,272.5,,150,-165,165,165,,200,225,245,245,,682.5,SBD,Multi-ply
+2,Robert Głowacki,M,Poland,42,116.25,M 40-44,125,240,,,240,,100,,,100,,250,-280,-280,250,,590,SBD,Multi-ply
+1,Jochen Hofstetter,M,Germany,42,138.1,M 40-44,140,220,250,,250,,220,250,260,260,,200,270,300,300,,810,SBD,Multi-ply
+1,František Öszi,M,Slovakia,43,148.8,M 40-44,140+,-280,280,-305,280,,160,-170,170,170,,270,302.5,,302.5,,752.5,SBD,Multi-ply
+1,Michael Molgedey,M,Germany,45,79.7,M 45-49,82.5,230,245,-255,245,,140,147.5,152.5,152.5,,210,220,-227.5,220,,617.5,SBD,Multi-ply
+1,Peter Rathke,M,Germany,49,88.75,M 45-49,90,235,245,-255,245,,185,-197.5,197.5,197.5,-205.5,220,235,242.5,242.5,,685,SBD,Multi-ply
+1,Rocky Tilson,M,USA,46,114.5,M 45-49,125,252.5,282.5,-320,282.5,,105,-190,-190,105,,182.5,250,-275,250,,637.5,SBD,Multi-ply
+2,Günther Fuchs,M,Germany,49,113.6,M 45-49,125,170,-190,-200,170,,140,-155,155,155,,170,200,-205,200,,525,SBD,Multi-ply
+1,Frank Hurraß,M,Germany,48,130.2,M 45-49,140,310,341,-360,341,,190,201.5,210,210,222.5,230,250,260,260,,811,SBD,Multi-ply
+1,Frank Kutzsch,M,Germany,53,89.1,M 50-54,90,240,255,265,265,,170,180,187.5,187.5,,235,252.5,-268,252.5,,705,SBD,Multi-ply
+2,Ronnie Baker,M,USA,51,86.85,M 50-54,90,240,-260,275,275,,155,165,-182.5,165,,205,,,205,,645,SBD,Multi-ply
+3,Henry Trost,M,Germany,50,89.15,M 50-54,90,190,200,210,210,,120,130,135,135,,215,225,235,235,,580,SBD,Multi-ply
+DQ,Joachim Flett,M,Germany,51,99.6,M 50-54,100,260,,,260,,-250,-250,-250,,,,,,,,,SBD,Multi-ply
+1,Burkhard Steffen,M,Germany,59,70.7,M 55-59,75,155,165,175,175,,110,115,120,120,,145,152.5,160,160,,455,SBD,Multi-ply
+1,Hans-Jürgen Kaule,M,Germany,55,75.8,M 55-59,82.5,190,-210,210,210,,-140,140,151,151,,190,205,-215,205,,566,SBD,Multi-ply
+2,Józef Bejgrowicz,M,Poland,57,82.45,M 55-59,82.5,140,,,140,,60,,,60,,200,220,227.5,227.5,,427.5,SBD,Multi-ply
+1,József Sztanke,M,Hungary,55,89.85,M 55-59,90,240,260,-280,260,,190,210,220,220,,200,215,230,230,-240.5,710,SBD,Multi-ply
+1,Helmut Gedig,M,Germany,59,97.65,M 55-59,100,110,120,130,130,,65,70,-75,70,,145,155,160,160,,360,SBD,Multi-ply
+1,Attila Sándor,M,Hungary,57,104.6,M 55-59,110,175,190,210,210,220,152.5,162.5,170,170,,165,185,200,200,,580,SBD,Multi-ply
+1,Marcel Ingold,M,Switzerland,62,74.7,M 60-64,75,145,155,165,165,,90,97.5,105,105,,150,160,,160,,430,SBD,Multi-ply
+2,Joachim Winterscheidt,M,Germany,62,74.3,M 60-64,75,110,120,130,130,,105,-110,115,115,,140,150,165,165,,410,SBD,Multi-ply
+1,Frieder Hachenberger,M,Germany,66,93.5,M 65-69,100,220,230.5,,230.5,,-150,150,-155.5,150,,180,205,,205,,585.5,SBD,Multi-ply
+1,LB Baker,M,USA,72,89.9,M 70-74,90,150,165,175,175,,110,120,,120,,150,175,192.5,192.5,,487.5,SBD,Multi-ply
+1,Csaba Keszthelyi,M,Hungary,76,74.1,M 75-79,75,105,112.5,115.5,115.5,,70,75,77.5,77.5,80,125,130,133,133,135,326,SBD,Multi-ply
+1,Günther Tschierschky,M,Germany,75,82.35,M 75-79,82.5,155,-165,165,165,,95,100,-105,100,,170,180,-185,180,,445,SBD,Multi-ply
+1,Rudolf Siska,M,Slovakia,38,73.6,Submasters,75,200,215,222.5,222.5,,165,-170,170,170,,190,205,,205,,597.5,SBD,Multi-ply
+1,Denis Buschke,M,Germany,37,88.65,Submasters,90,-245,245,-260,245,,160,165,-170,165,,150,200,240,240,,650,SBD,Multi-ply
+1,Markus Rücker,M,Germany,35,99.9,Submasters,100,285,305,315,315,,180,192.5,-202.5,192.5,,260,282.5,292.5,292.5,,800,SBD,Multi-ply
+1,Norbert Hablicsek,M,Hungary,35,107.55,Submasters,110,260,280,300,300,,150,185,-200,185,,250,-275,-280,250,,735,SBD,Multi-ply
+1,Reikö Kruse,M,Germany,37,120.45,Submasters,125,400,425,437.5,437.5,,235,250,-257.5,250,,310,-327.5,327.5,327.5,,1015,SBD,Multi-ply
+2,Stephen Parkhurst,M,USA,35,114.05,Submasters,125,320,340,-365,340,,210,227.5,235,235,,290,317.5,-327.5,317.5,,892.5,SBD,Multi-ply
+1,Marcel Mette,M,Germany,33,67.5,Open,67.5,260.5,290,300,300,,140,-150,150,150,,240.5,250,-256,250,-256,700,SBD,Multi-ply
+1,Jeffrey Podszuweit,M,Germany,32,74.05,Open,75,290,310,320,320,,200,210,217.5,217.5,-222.5,250,265,277.5,277.5,,815,SBD,Multi-ply
+2,Paolo Russo,M,Italy,33,73.3,Open,75,-150,155,175,175,,-120,120,-125,120,,220,232.5,240,240,,535,SBD,Multi-ply
+DQ,Saverio Manuardi,M,Italy,33,74.75,Open,75,-180,180,-190,180,,-110,-110,-110,,,,,,,,,SBD,Multi-ply
+1,Milan Gejdoš,M,Slovakia,29,80.65,Open,82.5,300,-320,-320,300,,200,210,-215,210,,240,260,-270,260,,770,SBD,Multi-ply
+2,RJ Dowdell,M,USA,30,81.7,Open,82.5,240,-260,260,260,,167.5,182.5,192.5,192.5,,232.5,252.5,-260,252.5,,705,SBD,Multi-ply
+1,Patrik Halai,M,Slovakia,32,89.45,Open,90,290,315,325,325,,190,205,-212.5,205,,245,-260,-270,245,,775,SBD,Multi-ply
+2,Konstantin Ožinskij,M,Czechia,24,89.15,Open,90,220,240,255,255,,115,125,-132.5,125,,220,-230,,220,,600,SBD,Multi-ply
+1,Róbert Gyenge,M,Hungary,30,99.4,Open,100,260,270,280,280,,200,207.5,212.5,212.5,,260,270,-280,270,,762.5,SBD,Multi-ply
+2,Sven Lorenz,M,Germany,30,98.35,Open,100,285,-305,-305,285,,180,-200,-200,180,,260,-270,-270,260,,725,SBD,Multi-ply
+3,Andrej Smutný,M,Slovakia,32,93.3,Open,100,260,-280,-280,260,,-200,200,207.5,207.5,,230,242.5,-257.5,242.5,,710,SBD,Multi-ply
+4,Vlodzimierz Hess,M,Slovakia,26,97.85,Open,100,-260,-260,260,260,,175,-182.5,182.5,182.5,,220,-235,235,235,,677.5,SBD,Multi-ply
+1,Andriy Yaremus,M,Ukraine,32,109.55,Open,110,320,335,345,345,,200,-220,230,230,,280,310,-327.5,310,,885,SBD,Multi-ply
+2,Jozef Svitok,M,Slovakia,24,109.1,Open,110,-310,310,-330,310,,210,220,-230,220,,260,-280,-280,260,,790,SBD,Multi-ply
+DQ,Alexander Mittag,M,Germany,26,107.8,Open,110,-320,,,,,,,,,,,,,,,,SBD,Multi-ply
+1,Róbert Németh,M,Hungary,34,123.8,Open,125,320,-350,-350,320,,180,200,210,210,,240,270,300,300,,830,SBD,Multi-ply
+2,Pavel Stoklasa,M,Czechia,29,112,Open,125,240,260,-280,260,,165,180,-187.5,180,,-200,-220,220,220,,660,SBD,Multi-ply
+DQ,Ingo Kunstmann,M,Germany,34,124.25,Open,125,-360,-375,-375,,,,,,,,,,,,,,SBD,Multi-ply
+1,Serhiy Oleolenko,M,Ukraine,31,138.55,Open,140,-380,400,,400,,250,260,-270,260,,330,370,-400,370,,1030,SBD,Multi-ply
+2,Holger Kuttroff,M,Germany,40,135,Open,140,300,330,350,350,,200,225,235,235,,300,330,-340,330,,915,SBD,Wraps
+1,André Steinert,M,Germany,26,143.8,Open,140+,320,345,360,360,,180,200,210,210,,240,255,265,265,,835,SBD,Multi-ply
+1,Chantal Rostagnat,F,France,42,59.55,M 40-44,60,,,,,,65,70,-72.5,70,72.5,,,,,,70,B,Multi-ply
+1,Michonne Berry,F,USA,41,90,M 40-44,90,,,,,,120,-142.5,-142.5,120,142.5,,,,,,120,B,Multi-ply
+1,Jodi Parkhurst,F,USA,40,97.95,M 40-44,90+,,,,,,65,75,80,80,,,,,,,80,B,Multi-ply
+1,Inge Kaule,F,Germany,56,47.7,M 55-59,48,,,,,,50,-52.5,52.5,52.5,,,,,,,52.5,B,Multi-ply
+1,Svetlana Baker,F,USA,55,49.75,M 55-59,52,,,,,,55,-60,-60,55,,,,,,,55,B,Multi-ply
+1,Christine Ebering,F,Germany,58,63.65,M 55-59,67.5,,,,,,60,-62.5,-62.5,60,,,,,,,60,B,Multi-ply
+1,Rita Nagy,F,Hungary,35,59.1,Submasters,60,,,,,,107.5,112.5,117.5,117.5,120,,,,,,117.5,B,Multi-ply
+1,Piroska Horvathné Balogh,F,Hungary,38,66.9,Submasters,67.5,,,,,,117.5,122.5,130,130,132.5,,,,,,130,B,Multi-ply
+1,Manuela Hanssen,F,Germany,38,79.75,Submasters,82.5,,,,,,120,125,-127.5,125,,,,,,,125,B,Multi-ply
+1,Terézia Haladová,F,Slovakia,36,86.1,Submasters,90,,,,,,105,110,-115,110,,,,,,,110,B,Multi-ply
+1,Anke Sonntag,F,Germany,33,55.7,Open,56,,,,,,72.5,80,-82.5,80,,,,,,,80,B,Multi-ply
+1,Judit Simrákne Tóth,F,Hungary,31,59.85,Open,60,,,,,,70,75,77.5,77.5,,,,,,,77.5,B,Multi-ply
+2,Béatrice Beneke,F,Germany,35,58.45,Open,60,,,,,,65,70,-75,70,,,,,,,70,B,Multi-ply
+1,Kim Carter,F,USA,34,66.1,Open,67.5,,,,,,-102.5,-102.5,102.5,102.5,,,,,,,102.5,B,Multi-ply
+2,Vita Zatvarska,F,Ukraine,30,64.5,Open,67.5,,,,,,55,60,65,65,,,,,,,65,B,Multi-ply
+1,Michał Krętosz,M,Poland,16,57.8,T 16-17,60,,,,,,100,-105,-105,100,,,,,,,100,B,Multi-ply
+2,Vladislav Trubin,M,Russia,16,58.85,T 16-17,60,,,,,,60,70,80,80,,,,,,,80,B,Multi-ply
+1,Adrian Kopania,M,Poland,16,64.6,T 16-17,67.5,,,,,,120,-127.5,130.5,130.5,132.5,,,,,,130.5,B,Multi-ply
+1,Dávid Mészáros,M,Hungary,16,81.05,T 16-17,82.5,,,,,,-150,150,-165,150,,,,,,,150,B,Multi-ply
+2,Denis Mujkic,M,Switzerland,17,82.4,T 16-17,82.5,,,,,,-127.5,127.5,-130,127.5,,,,,,,127.5,B,Multi-ply
+1,Sebastian Iskraut,M,Germany,17,84.1,T 16-17,90,,,,,,100,105,-107.5,105,,,,,,,105,B,Multi-ply
+1,Łukasz Krętosz,M,Poland,19,63.3,T 18-19,67.5,,,,,,-150,-150,150,150,-156,,,,,,150,B,Multi-ply
+2,Paweł Miginko,M,Poland,18,64.55,T 18-19,67.5,,,,,,110,125,130,130,,,,,,,130,B,Multi-ply
+1,Károly Szabó,M,Hungary,18,71.7,T 18-19,75,,,,,,140,-150,-150,140,,,,,,,140,B,Multi-ply
+1,Tomáš Bugáň,M,Slovakia,19,80.55,T 18-19,82.5,,,,,,155,-170,-170,155,,,,,,,155,B,Multi-ply
+1,Gábor Katona,M,Hungary,18,97.45,T 18-19,100,,,,,,200,210,-225.5,210,-225.5,,,,,,210,B,Multi-ply
+2,Philipp Schäfer,M,Germany,18,98.4,T 18-19,100,,,,,,120,-140,140,140,,,,,,,140,B,Multi-ply
+1,Patrick Streithoff,M,Germany,19,108.55,T 18-19,110,,,,,,170,175,180.5,180.5,182.5,,,,,,180.5,B,Multi-ply
+1,Konrad Adamaszek,M,Poland,22,62.95,Juniors,67.5,,,,,,125,130,-146,130,146,,,,,,130,B,Multi-ply
+1,Ákos Oláh,M,Hungary,20,80.6,Juniors,82.5,,,,,,-192.5,192.5,200,200,210,,,,,,200,B,Multi-ply
+2,Daniel Maľa,M,Slovakia,22,80.6,Juniors,82.5,,,,,,-172.5,172.5,177.5,177.5,,,,,,,177.5,B,Multi-ply
+3,Martin Pastorek,M,Slovakia,21,82.15,Juniors,82.5,,,,,,-165,170,175,175,,,,,,,175,B,Multi-ply
+4,Robert Kasjaniuk,M,Poland,20,80,Juniors,82.5,,,,,,150,-170,-172.5,150,,,,,,,150,B,Multi-ply
+1,Jozef Čambál,M,Slovakia,21,87.4,Juniors,90,,,,,,185,195,-205,195,,,,,,,195,B,Multi-ply
+2,Peter Szöke,M,Hungary,23,87.7,Juniors,90,,,,,,-190,190,-207.5,190,,,,,,,190,B,Multi-ply
+1,Matúš Sobota,M,Slovakia,21,98.6,Juniors,100,,,,,,220,227.5,232.5,232.5,,,,,,,232.5,B,Multi-ply
+2,Jozef Suplicz,M,Slovakia,22,96.7,Juniors,100,,,,,,220,-225,-230,220,,,,,,,220,B,Multi-ply
+3,Patrik Peciar,M,Slovakia,23,90.35,Juniors,100,,,,,,-190,-190,190,190,,,,,,,190,B,Multi-ply
+4,Jerzy Burkiewicz,M,Poland,20,97.1,Juniors,100,,,,,,160,-200,-200,160,,,,,,,160,B,Multi-ply
+DQ,Marcel Radespiel,M,Germany,23,104.7,Juniors,110,,,,,,-190,-190,-195,,,,,,,,,B,Multi-ply
+1,Ľubomír Gréger,M,Slovakia,22,110.15,Juniors,125,,,,,,225,235,240,240,250,,,,,,240,B,Multi-ply
+2,Norbert Stranszki,M,Hungary,22,119.1,Juniors,125,,,,,,200,-220,-220,200,,,,,,,200,B,Multi-ply
+1,Peter Wissel,M,Germany,44,74.95,M 40-44,75,,,,,,127.5,132.5,137.5,137.5,,,,,,,137.5,B,Multi-ply
+1,Valery Trubin,M,Russia,41,82.45,M 40-44,82.5,,,,,,150,160,170,170,,,,,,,170,B,Multi-ply
+1,Béla Lukács,M,Hungary,44,89.95,M 40-44,90,,,,,,190,200,210,210,,,,,,,210,B,Multi-ply
+2,Jean-Marc Albert,M,France,42,88.5,M 40-44,90,,,,,,-162.5,162.5,-170,162.5,,,,,,,162.5,B,Multi-ply
+1,László Kupcsik,M,Hungary,42,94.25,M 40-44,100,,,,,,275,-290,,275,,,,,,,275,B,Multi-ply
+1,Peter Vacho,M,Slovakia,42,107.6,M 40-44,110,,,,,,230,-242.5,-242.5,230,,,,,,,230,B,Multi-ply
+DQ,Mario Volken,M,Switzerland,43,104.35,M 40-44,110,,,,,,-240,-240,-240,,,,,,,,,B,Multi-ply
+DQ,Csaba Berki,M,Hungary,40,108.9,M 40-44,110,,,,,,-260,-290,-290,,,,,,,,,B,Multi-ply
+1,László Mészáros,M,Hungary,40,123.95,M 40-44,125,,,,,,270,315,331,331,,,,,,,331,B,Multi-ply
+DQ,Tomas Veselý,M,Czechia,42,133.55,M 40-44,140,,,,,,-255,-262.5,-262.5,,,,,,,,,B,Multi-ply
+1,Ľubomír Pricl,M,Slovakia,45,80.6,M 45-49,82.5,,,,,,140,150,155,155,,,,,,,155,B,Multi-ply
+1,Michael Gust,M,Germany,45,87.55,M 45-49,90,,,,,,85,95,-100,95,,,,,,,95,B,Multi-ply
+1,Joachim Zeder,M,Germany,47,94.85,M 45-49,100,,,,,,180,190,-195,190,,,,,,,190,B,Multi-ply
+1,Didier Michelon,M,France,,109.5,M 45-49,110,,,,,,-270,-270,270,270,-277,,,,,,270,B,Multi-ply
+2,István Ágoston,M,Hungary,47,103.9,M 45-49,110,,,,,,245,255,260,260,,,,,,,260,B,Multi-ply
+3,Tim Moon,M,USA,45,109.95,M 45-49,110,,,,,,257.5,-272.5,-272.5,257.5,,,,,,,257.5,B,Multi-ply
+4,Tamás Brauner,M,Hungary,48,103.1,M 45-49,110,,,,,,220,-240,240,240,,,,,,,240,B,Multi-ply
+1,Boris Ńvirec,M,Slovakia,45,121.6,M 45-49,125,,,,,,190,200,210,210,,,,,,,210,B,Multi-ply
+1,Frank Hurraß,M,Germany,48,131.15,M 45-49,140,,,,,,180,200,,200,,,,,,,200,B,Multi-ply
+1,István Tóth,M,Hungary,53,59.2,M 50-54,60,,,,,,140,145,150,150,,,,,,,150,B,Multi-ply
+1,Thomas Wagner,M,Germany,53,79.3,M 50-54,82.5,,,,,,95,-105,105,105,,,,,,,105,B,Multi-ply
+1,Franciszek Szabluk,M,Poland,53,89.2,M 50-54,90,,,,,,180,190,200,200,,,,,,,200,B,Multi-ply
+2,Roland Renneberg,M,Germany,50,89.4,M 50-54,90,,,,,,180,-187.5,-190,180,,,,,,,180,B,Multi-ply
+1,Wiesław Wrŏbel,M,Poland,52,95.45,M 50-54,100,,,,,,185,195,-200,195,,,,,,,195,B,Multi-ply
+2,Ondrej Döme,M,Slovakia,53,99.3,M 50-54,100,,,,,,135,145,-165,145,,,,,,,145,B,Multi-ply
+1,Hans-Jürgen Kaule,M,Germany,55,75,M 55-59,75,,,,,,140,145,150,150,155,,,,,,150,B,Multi-ply
+2,Gerd Müller,M,Germany,57,73.25,M 55-59,75,,,,,,130,140,-145,140,,,,,,,140,B,Multi-ply
+3,Bernard Hojka,M,Poland,56,75,M 55-59,75,,,,,,130,-137.5,-146,130,,,,,,,130,B,Multi-ply
+1,József Sztanke,M,Hungary,55,89.9,M 55-59,90,,,,,,180,200,210,210,215,,,,,,210,B,Multi-ply
+2,R. Garry Glenn,M,USA,55,87.05,M 55-59,90,,,,,,-170,172.5,-185,172.5,,,,,,,172.5,B,Multi-ply
+3,Armin Bunzel,M,Germany,57,88.5,M 55-59,90,,,,,,140,-145,-145,140,,,,,,,140,B,Multi-ply
+4,Krzysztof Kołodziej,M,Poland,55,88.4,M 55-59,90,,,,,,120,-160,-160,120,,,,,,,120,B,Multi-ply
+1,Axel Gersdorf,M,Germany,58,97.6,M 55-59,100,,,,,,210,-215,220.5,220.5,-225,,,,,,220.5,B,Multi-ply
+DQ,Günther Michael,M,Germany,55,99.4,M 55-59,100,,,,,,-210,-210,-210,,,,,,,,,B,Multi-ply
+1,Ulrich Vetter,M,Germany,57,108.25,M 55-59,110,,,,,,210,217.5,222.5,222.5,-235.5,,,,,,222.5,B,Multi-ply
+1,Jozef Péter,M,Slovakia,58,124.3,M 55-59,125,,,,,,-190,190,205,205,,,,,,,205,B,Multi-ply
+2,Karl-Heinz May,M,Germany,56,117.2,M 55-59,125,,,,,,185,-202.5,-202.5,185,,,,,,,185,B,Multi-ply
+DQ,Meinhard Schröder,M,Germany,57,119.85,M 55-59,125,,,,,,-210,-210,-210,,,,,,,,,B,Multi-ply
+1,Klaus-Werner Paschke,M,Germany,63,80.2,M 60-64,82.5,,,,,,100,110,120,120,,,,,,,120,B,Multi-ply
+1,Wolfgang Loof,M,Germany,61,87.15,M 60-64,90,,,,,,145,152.5,-160,152.5,,,,,,,152.5,B,Multi-ply
+1,Heinrich Vonau,M,Germany,62,95.95,M 60-64,100,,,,,,135,145,-150,145,,,,,,,145,B,Multi-ply
+1,Joachim Eulenstein,M,Germany,63,108.6,M 60-64,110,,,,,,150,160,-165,160,,,,,,,160,B,Multi-ply
+1,Hans Klein,M,Germany,68,66.75,M 65-69,67.5,,,,,,125,130,135,135,,,,,,,135,B,Multi-ply
+1,Erwin Trichlin,M,Austria,70,64.9,M 70-74,67.5,,,,,,102.5,110,118,118,,,,,,,118,B,Multi-ply
+1,LB Baker,M,USA,72,88.65,M 70-74,90,,,,,,110,120,125.5,125.5,,,,,,,125.5,B,Multi-ply
+1,My Wyss,M,Switzerland,38,51.7,Submasters,56,,,,,,120,130,140,140,145.5,,,,,,140,B,Multi-ply
+1,Zbigniew Gulajski,M,Poland,38,67.5,Submasters,67.5,,,,,,137.5,142.5,147.5,147.5,-151,,,,,,147.5,B,Multi-ply
+1,Dieter Mähliß,M,Germany,36,70.2,Submasters,75,,,,,,165,172.5,175,175,,,,,,,175,B,Multi-ply
+2,Rudolf Siska,M,Slovakia,38,73,Submasters,75,,,,,,165,-175,-175,165,,,,,,,165,B,Multi-ply
+1,Michel Diez,M,France,38,79.25,Submasters,82.5,,,,,,-120,120,-132.5,120,,,,,,,120,B,Multi-ply
+1,Didier LeBrun,M,France,37,85.85,Submasters,90,,,,,,140,147.5,152.5,152.5,,,,,,,152.5,B,Multi-ply
+1,Endre Jánkó,M,Hungary,37,108.85,Submasters,110,,,,,,-240,240,250,250,260.5,,,,,,250,B,Multi-ply
+2,Norbert Hablicsek,M,Hungary,35,106.9,Submasters,110,,,,,,160,190,-200,190,,,,,,,190,B,Multi-ply
+1,Szabolcs Balázs,M,Hungary,36,118.75,Submasters,125,,,,,,260,270,280,280,,,,,,,280,B,Multi-ply
+DQ,Adam Kozłowski,M,Poland,36,138.15,Submasters,140,,,,,,-300,-305,-305,,,,,,,,,B,Multi-ply
+1,Robert Komorowski,M,Poland,37,163.2,Submasters,140+,,,,,,280,301,-322.5,301,,,,,,,301,B,Multi-ply
+1,Erik Bačinský,M,Slovakia,31,74.5,Open,75,,,,,,190,200,210,210,,,,,,,210,B,Multi-ply
+2,János Baráth,M,Hungary,33,71.35,Open,75,,,,,,175,185,-200,185,,,,,,,185,B,Multi-ply
+1,David Tresch,M,Switzerland,27,80.35,Open,82.5,,,,,,190,-200,200,200,,,,,,,200,B,Multi-ply
+2,Cédric Martin,M,France,32,80.25,Open,82.5,,,,,,160,-190,195,195,,,,,,,195,B,Multi-ply
+1,Tomasz Będkowski,M,Poland,31,87.5,Open,90,,,,,,225,235,-240,235,,,,,,,235,B,Multi-ply
+2,Łukasz Marcińkowski,M,Poland,23,88.4,Open,90,,,,,,170,200,217.5,217.5,,,,,,,217.5,B,Multi-ply
+3,Milan Gejdoń,M,Slovakia,29,90,Open,90,,,,,,200,210,217.5,217.5,,,,,,,217.5,B,Multi-ply
+1,Rafał Zawadzki,M,Poland,33,99.4,Open,100,,,,,,265,-282.5,282.5,282.5,-302.5,,,,,,282.5,B,Multi-ply
+2,Zsolt Hetyési,M,Hungary,24,95.7,Open,100,,,,,,280,-285,-285,280,,,,,,,280,B,Multi-ply
+3,Daniel Kaufmann,M,Germany,33,98.05,Open,100,,,,,,245,260,272.5,272.5,,,,,,,272.5,B,Multi-ply
+4,Piotr Herold,M,Poland,25,99.85,Open,100,,,,,,250,262.5,270,270,,,,,,,270,B,Multi-ply
+5,Mariusz Kominek,M,Poland,25,97.1,Open,100,,,,,,210,235,-245,235,,,,,,,235,B,Multi-ply
+6,Petr Hron,M,Czechia,32,98.3,Open,100,,,,,,-200,200,-215,200,,,,,,,200,B,Multi-ply
+1,Martin Baumbach,M,Germany,29,108.1,Open,110,,,,,,260,270,275,275,,,,,,,275,B,Multi-ply
+2,Christian Grimmer,M,Germany,31,107.3,Open,110,,,,,,230,250,260,260,,,,,,,260,B,Multi-ply
+1,Dan Dvořák,M,Czechia,33,117.95,Open,125,,,,,,277.5,290,300,300,,,,,,,300,B,Multi-ply
+2,Didier Michelon,M,France,,111.6,Open,125,,,,,,275,282.5,,282.5,,,,,,,282.5,B,Multi-ply
+3,Patrik Snajdr,M,Slovakia,28,119.55,Open,125,,,,,,250,262.5,-280,262.5,,,,,,,262.5,B,Multi-ply
+4,Daniel Schürle,M,Germany,29,113.3,Open,125,,,,,,250,-285,-290,250,,,,,,,250,B,Multi-ply
+5,Jakub Vraspír,M,Czechia,31,117.15,Open,125,,,,,,220,240,250,250,,,,,,,250,B,Multi-ply
+DQ,Tim Moon,M,USA,45,111.35,Open,125,,,,,,-260,-260,-260,,,,,,,,,B,Multi-ply
+1,Jiří Havrda,M,Czechia,35,137.8,Open,140,,,,,,280,300,320,320,,,,,,,320,B,Multi-ply
+2,Tomasz Czapiewski,M,Poland,31,129.7,Open,140,,,,,,180,220,-240,220,,,,,,,220,B,Multi-ply
+1,Ozor János Szabó,M,Hungary,36,150,Open,140+,,,,,,190,-200,205,205,,,,,,,205,B,Multi-ply

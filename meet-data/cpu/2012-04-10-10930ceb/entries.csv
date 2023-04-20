@@ -1,0 +1,204 @@
+Event,Sex,Name,State,BodyweightKg,WeightClassKg,Division,Best3SquatKg,Best3BenchKg,Best3DeadliftKg,TotalKg,Equipment,Place
+SBD,F,Brittinay Rowland,SK,89.4,84+,Sub-Juniors,125,52.5,142.5,320,Single-ply,1
+SBD,F,Rebecca Chapman,PE,68.5,72,Sub-Juniors,130,80,155,365,Single-ply,2
+SBD,F,Marianne Tremblay,QC,70.1,72,Sub-Juniors,162.5,52.5,165,380,Single-ply,1
+SBD,M,Justin Smith #1,PE,60.7,66,Sub-Juniors,227.5,115,227.5,570,Single-ply,1
+SBD,F,Courtney Dill,PE,62.5,63,Sub-Juniors,115,62.5,127.5,305,Single-ply,1
+SBD,M,Alexandre Gilbert,QC,57.3,59,Sub-Juniors,142.5,70,155,367.5,Single-ply,1
+SBD,F,Mikayla Lohse,SK,47,47,Sub-Juniors,75,35,102.5,212.5,Single-ply,1
+SBD,M,Zachary McCormack,PE,98.1,105,Sub-Juniors,252.5,142.5,245,640,Single-ply,1
+SBD,M,Zurab Dzamukashvili,ON,84.6,93,Open,240,200,320,760,Single-ply,4
+SBD,M,Shane Martin,AB,92,93,Open,245,190,230,665,Single-ply,7
+SBD,M,Rob Truchon,ON,90.9,93,Open,200,142.5,195,537.5,Single-ply,8
+SBD,M,Jon Stewart #3,AB,92.5,93,Open,310,175,315,800,Single-ply,1
+SBD,M,Evan Dunn,AB,87.7,93,Open,305,190,290,785,Single-ply,3
+SBD,M,Brandon Ward,ON,92.6,93,Open,257.5,182.5,275,715,Single-ply,6
+SBD,M,Anthony Burden,AB,90.2,93,Open,275,160,290,725,Single-ply,5
+SBD,M,Aaron Ziffle,SK,92.8,93,Open,302.5,217.5,267.5,787.5,Single-ply,2
+SBD,F,Pam Windrum,SK,92.7,84+,Open,175,100,152.5,427.5,Single-ply,1
+SBD,F,Erin Denton,ON,97,84+,Open,145,107.5,150,402.5,Single-ply,2
+SBD,M,Tyler Pocsik,AB,82.5,83,Open,217.5,125,255,597.5,Single-ply,1
+SBD,M,Chris Fudge,ON,76,83,Open,210,145,215,570,Single-ply,2
+SBD,M,Lewis Noppers,AB,73.9,74,Open,235,162.5,272.5,670,Single-ply,2
+SBD,M,Jamie Stephen,ON,73.2,74,Open,252.5,150,260,662.5,Single-ply,3
+SBD,M,Anthony Bainbridge,NB,74,74,Open,235,150,287.5,672.5,Single-ply,1
+SBD,F,Taunia Stevens,SK,71.6,72,Open,210,140,175,525,Single-ply,2
+SBD,F,Sarah Leighton,ON,70.8,72,Open,210,120,180,510,Single-ply,3
+SBD,F,Rhaea Stinn,SK,71.9,72,Open,215,145.5,182.5,543,Single-ply,1
+SBD,F,Geneviève Brassard,QC,65.1,72,Open,145,62.5,142.5,350,Single-ply,5
+SBD,F,Dawn Miranda,AB,70.3,72,Open,137.5,77.5,150,365,Single-ply,4
+SBD,M,Jean-Sébastien Rhéaume,QC,65.7,66,Open,240,175,232.5,647.5,Single-ply,1
+SBD,F,Shantelle Szuch,SK,62.9,63,Open,157.5,87.5,160,405,Single-ply,2
+SBD,F,Mary Ann Kaczor,ON,62.7,63,Open,170,102.5,160,432.5,Single-ply,1
+SBD,F,Megan Bryanton,ON,51.4,52,Open,120,75,125,320,Single-ply,2
+SBD,F,Jodi Bainbridge,NB,51.8,52,Open,120,80,152.5,352.5,Single-ply,1
+SBD,M,Tim Ekert,ON,130.7,120+,Open,210,202.5,205,617.5,Single-ply,5
+SBD,M,Ryan Fowler,SK,132.9,120+,Open,345,245,285,875,Single-ply,2
+SBD,M,Joel Klassen,BC,130.7,120+,Open,310,245,290,845,Single-ply,4
+SBD,M,Jason Byrne #1,ON,130,120+,Open,345.5,237.5,322.5,905.5,Single-ply,1
+SBD,M,Cliff Samms,NS,128,120+,Open,335,242.5,275,852.5,Single-ply,3
+SBD,M,James Bartlett,AB,117.5,120,Open,300,200,280,780,Single-ply,1
+SBD,M,Steve Wiseman #1,SK,104.9,105,Open,325,240,290,855,Single-ply,1
+SBD,M,Ryan Robson,BC,95.5,105,Open,265,205,265,735,Single-ply,3
+SBD,M,Lucas Tetreault,SK,103.4,105,Open,280,175,260,715,Single-ply,4
+SBD,M,John MacDonald #1,PE,102.6,105,Open,320,230,285,835,Single-ply,2
+SBD,F,Susan Haywood,MB,77.7,84,Masters 3,112.5,70,115,297.5,Single-ply,1
+SBD,F,Carol Brady,ON,62.2,63,Masters 3,97.5,65,95,257.5,Single-ply,1
+SBD,F,Janet Warne,QC,55.6,57,Masters 3,112.5,60,115,287.5,Single-ply,1
+SBD,M,John Fraser,NS,86.6,93,Masters 2,212.5,165,235,612.5,Single-ply,2
+SBD,M,Jerry Marentette,ON,92.3,93,Masters 2,257.5,177.5,270,705,Single-ply,1
+SBD,M,Jack Taylor #1,ON,90.6,93,Masters 2,155,110,185,450,Single-ply,3
+SBD,F,Paulette Barry,BC,73.7,84,Masters 2,107.5,85,137.5,330,Single-ply,1
+SBD,F,Joanne Swing,ON,80.9,84,Masters 2,110,57.5,120,287.5,Single-ply,2
+SBD,M,Ron Delaney,NS,82.5,83,Masters 2,230,142.5,263,635.5,Single-ply,3
+SBD,M,Morley Flood,AB,81.6,83,Masters 2,245,170,262.5,677.5,Single-ply,2
+SBD,M,James Abraham,ON,81.9,83,Masters 2,210,147.5,242.5,600,Single-ply,4
+SBD,M,Glen Cormier,NL,82.7,83,Masters 2,262.5,180,245,687.5,Single-ply,1
+SBD,M,Stan Sher,ON,71.7,74,Masters 2,137.5,85,150,372.5,Single-ply,3
+SBD,M,Joe Stockinger,AB,69.9,74,Masters 4,165,100,192.5,457.5,Single-ply,2
+SBD,M,Glyn Moore,ON,73.8,74,Masters 2,212.5,140,210,562.5,Single-ply,1
+SBD,F,Sue Thomson,ON,49.8,52,Masters 2,107.5,77.5,125,310,Single-ply,1
+SBD,M,Michael Knott,ON,142.6,120+,Masters 2,220,205,185,610,Single-ply,3
+SBD,M,Kevin Breiter,AB,142.4,120+,Masters 2,220,195,220,635,Single-ply,1
+SBD,M,Brock Haywood,MB,127,120+,Masters 2,235,170,225,630,Single-ply,2
+SBD,M,Ron Strong,ON,119.2,120,Masters 2,295,190,317.5,802.5,Single-ply,1
+SBD,M,Dave Walters,ON,90.6,93,Masters 1,307.5,252.5,275,835,Single-ply,1
+SBD,M,Dave Bolton,ON,88.2,93,Masters 1,245,160,265,670,Single-ply,2
+SBD,M,Chris Arnold #3,SK,91,93,Masters 1,205,150,250,605,Single-ply,3
+SBD,F,Simone Upham,ON,125.6,84+,Masters 1,140,62.5,147.5,350,Single-ply,2
+SBD,F,Mimi McRae,ON,96,84+,Masters 1,160,75,165,400,Single-ply,1
+SBD,F,Lisa Nigh,ON,75.6,84,Masters 1,135,90,162.5,387.5,Single-ply,1
+SBD,M,Sandro D'Angelo,ON,82.4,83,Masters 1,240,160,262.5,662.5,Single-ply,3
+SBD,M,Jeff Becker,ON,82.7,83,Masters 1,287.5,190,297.5,775,Single-ply,1
+SBD,M,Hoi Leung,ON,82.8,83,Masters 1,250,170,280,700,Single-ply,2
+SBD,M,Andrew Bryant,BC,82.5,83,Masters 1,225,175,205,605,Single-ply,4
+SBD,M,Tom Kean,NL,73.9,74,Masters 1,285,195,275,755,Single-ply,1
+SBD,F,Kim Dennis,BC,71.9,72,Masters 1,167.5,92.5,135,395,Single-ply,1
+SBD,F,Lannett Schuler,AB,52.2,57,Masters 1,130,95,137.5,362.5,Single-ply,1
+SBD,M,Peter McGill,ON,131.5,120+,Masters 1,267.5,212.5,185,665,Single-ply,1
+SBD,M,Sheldon Duncan,ON,110.9,120,Masters 1,275,215,302.5,792.5,Single-ply,1
+SBD,M,Brian George,NS,105.7,120,Masters 1,290,182.5,272.5,745,Single-ply,2
+SBD,M,Joe Oliveira,BC,103.4,105,Masters 1,312.5,205,270,787.5,Single-ply,1
+SBD,M,Andrew Wilson #5,ON,92.5,93,Juniors,240,155,247.5,642.5,Single-ply,2
+SBD,M,Adam Ramzy,AB,92.7,93,Juniors,300,200,267.5,767.5,Single-ply,1
+SBD,M,Jake Wood,ON,81.9,83,Juniors,237.5,165,270,672.5,Single-ply,1
+SBD,M,Sam Cameron,BC,72.8,74,Juniors,200,137.5,220,557.5,Single-ply,2
+SBD,M,Justin Van Schyndel,ON,70.3,74,Juniors,210,150,200,560,Single-ply,1
+SBD,F,Jennifer Goldring,AB,66.9,72,Juniors,150,90.5,140.5,381,Single-ply,1
+SBD,M,Stephen Price,NL,64.9,66,Juniors,242.5,110,220,572.5,Single-ply,1
+SBD,F,Patricia Ashworth,SK,60.3,63,Juniors,122.5,72.5,128,323,Single-ply,1
+SBD,M,Jeremy Lundgren,SK,112.7,120,Juniors,240,165,245,650,Single-ply,1
+SBD,M,William Bolduc,QC,89.9,93,Sub-Juniors,170,92.5,195,457.5,Raw,1
+SBD,M,Vlad Constantinescu,AB,90.5,93,Sub-Juniors,140,102.5,185,427.5,Raw,2
+SBD,F,Ellen Murphy,PE,88.4,84+,Sub-Juniors,127.5,70,150,347.5,Raw,1
+SBD,M,Brandon Russell #2,SK,80.4,83,Sub-Juniors,100,92.5,125,317.5,Raw,2
+SBD,M,Artyom Serov,BC,81.8,83,Sub-Juniors,195,147.5,230,572.5,Raw,1
+SBD,M,Sean Fitzpatick,PE,73,74,Sub-Juniors,120,77.5,200,397.5,Raw,2
+SBD,M,Nicolas Chapdelaine,QC,69.4,74,Sub-Juniors,130,92.5,177.5,400,Raw,1
+SBD,M,Matthew LaPierre,PE,71.1,74,Sub-Juniors,127.5,65,162.5,355,Raw,3
+SBD,F,Mel Gagne,ON,69.4,72,Sub-Juniors,100,52.5,110,262.5,Raw,1
+SBD,M,Justin Smith #1,PE,61,66,Sub-Juniors,185,107.5,227.5,520,Raw,1
+SBD,M,Jeremy Crocker,ON,58.5,59,Sub-Juniors,115,72.5,170,357.5,Raw,1
+SBD,F,Mikayla Lohse,SK,46.9,47,Sub-Juniors,65,33,95,193,Raw,1
+SBD,M,Connor Christensen,AB,115.5,120,Sub-Juniors,210,150,230,590,Raw,1
+SBD,M,Nello Miele,ON,90.2,93,Open,190,130,220,540,Raw,3
+SBD,M,Chris Marron,MB,92,93,Open,225,182.5,260,667.5,Raw,1
+SBD,M,Anthony Burden,AB,89.7,93,Open,240,127.5,280,647.5,Raw,2
+SBD,F,Ness Murby,BC,85.7,84+,Open,95,57.5,105,257.5,Raw,2
+SBD,F,Jeanine Nault,SK,96.4,84+,Open,145,67.5,150,362.5,Raw,1
+SBD,F,Rhaea Stinn,SK,75.1,84,Open,180.5,105,185.5,471,Raw,1
+SBD,F,Heidi Fowler,SK,79.3,84,Open,125,75,142.5,342.5,Raw,2
+SBD,M,Nick Vany,SK,79.7,83,Open,160,110,200,470,Raw,6
+SBD,M,Michael Danis,BC,81.5,83,Open,170,130,230,530,Raw,2
+SBD,M,Matthew Lewis,AB,82.6,83,Open,195,127.5,215,537.5,Raw,1
+SBD,M,Mark Boyle,ON,80.8,83,Open,157.5,117.5,212.5,487.5,Raw,5
+SBD,M,Marc Morris,SK,75,83,Open,177.5,112.5,225,515,Raw,4
+SBD,M,Kristopher Kryger,AB,83,83,Open,180,130,210,520,Raw,3
+SBD,M,Chris Fudge,ON,73.5,74,Open,175,115,200,490,Raw,2
+SBD,M,Art Chan,ON,73.4,74,Open,185,160,240,585,Raw,1
+SBD,M,Dennis Ng,MB,65.6,66,Open,160,105,175,440,Raw,1
+SBD,F,Trisha Boyle,ON,55.8,57,Open,117.5,57.5,137.5,312.5,Raw,2
+SBD,F,Maggie Rafferty,ON,56.7,57,Open,122.5,67.5,135,325,Raw,1
+SBD,F,Johanna Reichel #1,AB,56,57,Open,102.5,52.5,132.5,287.5,Raw,3
+SBD,F,Bobbie House,AB,56.3,57,Open,72.5,45,102.5,220,Raw,4
+SBD,F,Elaine Huba,AB,51.7,52,Open,75,47.5,94.5,217,Raw,1
+SBD,F,Jill MacFarlane,PE,44.6,47,Open,55,38,92.5,185.5,Raw,1
+SBD,M,Jeff Hebert,BC,143.5,120+,Open,282.5,215,270,767.5,Raw,2
+SBD,M,Jason Byrne #1,ON,128.8,120+,Open,287.5,195,305,787.5,Raw,1
+SBD,M,Chris Hannas,AB,145.8,120+,Open,225,175,245,645,Raw,3
+SBD,M,Tyler Harnett,SK,118.5,120,Open,272.5,175,252.5,700,Raw,3
+SBD,M,Michael Sinclair #3,ON,117.4,120,Open,230,210,355,795,Raw,1
+SBD,M,Kelly Fillion,AB,106.3,120,Open,215,160,240,615,Raw,4
+SBD,M,James Bartlett,AB,117.6,120,Open,280,175,300,755,Raw,2
+SBD,M,Rob Negrin,AB,101.9,105,Open,250,180,285,715,Raw,2
+SBD,M,Louis Priolo,AB,104.8,105,Open,195,178,240,613,Raw,3
+SBD,M,John MacDonald #1,PE,104,105,Open,260,165,305,730,Raw,1
+SBD,M,Atik Taraboulsi,ON,104,105,Open,190,127.5,237.5,555,Raw,5
+SBD,M,Alex McNeil,AB,104.1,105,Open,220,140,245,605,Raw,4
+SBD,M,Ron Delaney,NS,82.9,83,Masters 3,157.5,121,235,513.5,Raw,1
+SBD,M,Don Lovell,BC,65,66,Masters 3,107.5,65,165,337.5,Raw,1
+SBD,M,Gordon Chenkie,AB,94.8,105,Masters 3,200,125,225,550,Raw,1
+SBD,M,Jerry Marentette,ON,92.4,93,Masters 2,215,140,260,615,Raw,1
+SBD,M,Blaine Harrison,BC,91.3,93,Masters 2,195,90,225,510,Raw,2
+SBD,M,Archie Ulry,AB,81.6,83,Masters 2,190,102.5,227.5,520,Raw,1
+SBD,F,Jackie Sandu,BC,51.5,52,Masters 2,107.5,62.5,150,320,Raw,1
+SBD,M,Keith Banner,AB,133.5,120+,Masters 2,330,185,272.5,787.5,Raw,1
+SBD,M,Ron Strong,ON,119.4,120,Masters 2,242.5,162.5,302.5,707.5,Raw,1
+SBD,M,Patrick Myatt,PE,101,105,Masters 2,207.5,125,250,582,Raw,1
+SBD,M,Barry Antoniow,BC,86,93,Masters 1,162.5,162.5,182.5,507.5,Raw,1
+SBD,F,Lesley Hammil,ON,107.2,84+,Masters 1,135,72.5,145,352.5,Raw,1
+SBD,F,Harlene Moen,AB,119.6,84+,Masters 1,82.5,65,95,242.5,Raw,2
+SBD,M,Sandro D'Angelo,ON,81.8,83,Masters 1,205,130,245,580,Raw,2
+SBD,M,Kevin Weiss,BC,82.7,83,Masters 1,210.5,152.5,240,603,Raw,1
+SBD,M,Gary Lacoursiere,ON,73.3,74,Masters 1,125,115,210,450,Raw,1
+SBD,M,Alan Block,SK,133.8,120+,Masters 1,260,195,275,730,Raw,1
+SBD,M,Jean-Derek MacNeill,AB,99.8,105,Masters 1,235,142.5,245,622.5,Raw,1
+SBD,M,Zeb Hudon,MB,89.6,93,Juniors,165,102.5,237.5,505,Raw,2
+SBD,M,Kevin Jones #8,AB,92.6,93,Juniors,195,130,250,575,Raw,1
+SBD,M,Thomas Johnson,SK,81.7,83,Juniors,200,122.5,245,567.5,Raw,4
+SBD,M,Nathan MacQuarrie,PE,77.1,83,Juniors,150,95,185,430,Raw,6
+SBD,M,Joe Harrigan,AB,79.1,83,Juniors,220,125,210,555,Raw,5
+SBD,M,Dereck Tremblay,QC,79.9,83,Juniors,232.5,130,250,612.5,Raw,2
+SBD,M,Connor Lutz,SK,79.6,83,Juniors,215,165,240,620,Raw,1
+SBD,M,Cody Buchenauer,ON,82.1,83,Juniors,215,130,255,600,Raw,3
+SBD,M,George Wang,AB,72,74,Juniors,150,102.5,170,422.5,Raw,1
+SBD,M,Dustin Court,ON,64.8,66,Juniors,122.5,72.5,182.5,377.5,Raw,1
+SBD,F,Cydney Arnold,SK,62.9,63,Juniors,90,55,115,260,Raw,1
+SBD,F,Robyn Pearce,SK,51.6,52,Juniors,77.5,37.5,97,212,Raw,1
+SBD,M,Jean-François Caron #1,QC,122,120+,Juniors,287.5,145,275,707.5,Raw,1
+SBD,M,Mathew Apesland,SK,106,120,Juniors,192.5,122.5,215,530,Raw,1
+B,M,Connor Christensen,AB,115.8,120,Sub-Juniors,,185,,185,Single-ply,1
+B,F,Heidi Fowler,SK,79.9,84,Open,,95,,95,Single-ply,1
+B,M,Chris Fudge,ON,76.1,83,Open,,150,,150,Single-ply,2
+B,M,Bryce Steier,AB,82.9,83,Open,,157.5,,157.5,Single-ply,1
+B,M,Rob Miller,AB,73.3,74,Open,,170,,170,Single-ply,1
+B,F,Karyne Turcotte,QC,69.5,72,Open,,90,,90,Single-ply,1
+B,M,Ryan Stinn,SK,124.6,120+,Open,,240,,240,Single-ply,1
+B,M,Cliff Samms,NS,130.6,120+,Open,,240,,240,Single-ply,2
+B,M,Avi Silverberg,AB,110,120,Open,,235,,235,Single-ply,1
+B,M,Mark MacPhail,NS,100.9,105,Open,,160,,160,Single-ply,1
+B,M,George Flikas,ON,123,120+,Masters 3,,185,,185,Single-ply,1
+B,M,Jerry Marentette,ON,92.5,93,Masters 2,,182.5,,182.5,Single-ply,1
+B,M,Kevin Breiter,AB,141.3,120+,Masters 2,,200,,200,Single-ply,1
+B,M,Ben Worsell,AB,109.9,120,Masters 2,,220,,220,Single-ply,1
+B,M,Daniel Royer,QC,96.6,105,Masters 2,,120,,120,Single-ply,1
+B,M,Barry Antoniow,BC,85.7,93,Masters 1,,195,,195,Single-ply,1
+B,M,Andrew Bryant,BC,82.4,83,Masters 1,,175,,175,Single-ply,1
+B,M,Bill You,BC,72.3,74,Masters 1,,165,,165,Single-ply,1
+B,M,Warren Orr,BC,138.5,120+,Masters 1,,240,,240,Single-ply,1
+B,M,Peter McGill,ON,130.6,120+,Masters 1,,207.5,,207.5,Single-ply,2
+B,M,Connor Lutz,SK,79.8,83,Juniors,,180,,180,Single-ply,1
+B,M,Vlad Constantinescu,AB,90.1,93,Sub-Juniors,,97.5,,97.5,Raw,1
+B,M,Chris Fudge,ON,73.5,74,Open,,110,,110,Raw,2
+B,M,Art Chan,ON,73.3,74,Open,,155,,155,Raw,1
+B,M,Ryan Stinn,SK,125.3,120+,Open,,185,,185,Raw,1
+B,M,John Giffen,AB,111.5,120,Open,,220,,220,Raw,1
+B,M,George Flikas,ON,124.6,120+,Masters 3,,187.5,,187.5,Raw,1
+B,M,John Fraser,NS,86.9,93,Masters 2,,135,,135,Raw,1
+B,M,Mike Armstrong,AB,120.8,120+,Masters 2,,167.5,,167.5,Raw,1
+B,M,Rob Truchon,ON,90.5,93,Masters 1,,120,,120,Raw,2
+B,M,Barry Antoniow,BC,86.9,93,Masters 1,,160,,160,Raw,1
+B,F,Harlene Moen,AB,119.3,84+,Masters 1,,75.5,,75.5,Raw,1
+B,M,Gary Lacoursiere,ON,73,74,Masters 1,,115,,115,Raw,2
+B,M,Bill You,BC,72.8,74,Masters 1,,145.5,,145.5,Raw,1
+B,M,Roberto Villalta,BC,95.8,105,Juniors,,187.5,,187.5,Raw,1

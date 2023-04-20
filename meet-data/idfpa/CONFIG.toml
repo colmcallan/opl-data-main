@@ -1,0 +1,81 @@
+[divisions]
+    # Age in 100% RAW is determined by exact age on date of meet.
+    open = {name = "Open", min = 0, max = 999}
+    youth = {name = "Youth", min = 0, max = 11}
+    teen_12 = {name = "Teen 12-13", min = 12, max = 13}
+    teen_14 = {name = "Teen 14-15", min = 14, max = 15}
+    teen_16 = {name = "Teen 16-17", min = 16, max = 17}
+    teen_18 = {name = "Teen 18-19", min = 18, max = 19}
+    junior = {name = "Juniors 20-24", min = 20, max = 24}
+    submaster = {name = "Submasters 35-39", min = 35, max = 39}
+    master_40 = {name = "Masters 40-44", min = 40, max = 44}
+    master_45 = {name = "Masters 45-49", min = 45, max = 49}
+    master_50 = {name = "Masters 50-54", min = 50, max = 54}
+    master_55 = {name = "Masters 55-59", min = 55, max = 59}
+    master_60 = {name = "Masters 60-64", min = 60, max = 64}
+    master_65 = {name = "Masters 65-69", min = 65, max = 69}
+    master_70 = {name = "Masters 70-74", min = 70, max = 74}
+    master_75 = {name = "Masters 75-79", min = 75, max = 79}
+    master_80 = {name = "Masters 80+", min = 80, max = 999}
+    lfm = {name = "Law/Fire/Military", min = 0, max = 999}
+    special = {name = "Special Olympics", min = 0, max = 999}
+    handicapped = {name = "Handicapped", min = 0, max = 999}
+
+    # "Classic" divisions, which permit the use of knee sleeves.
+    # This conflates equipment with division, but we don't track bare knees records.
+    c_open = {name = "Classic Open", min = 0, max = 999, equipment="Raw"}
+    c_youth = {name = "Classic Youth", min = 0, max = 11, equipment="Raw"}
+    c_teen_12 = {name = "Classic Teen 12-13", min = 12, max = 13, equipment="Raw"}
+    c_teen_14 = {name = "Classic Teen 14-15", min = 14, max = 15, equipment="Raw"}
+    c_teen_16 = {name = "Classic Teen 16-17", min = 16, max = 17, equipment="Raw"}
+    c_teen_18 = {name = "Classic Teen 18-19", min = 18, max = 19, equipment="Raw"}
+    c_junior = {name = "Classic Juniors 20-24", min = 20, max = 24, equipment="Raw"}
+    c_submaster = {name = "Classic Submasters 35-39", min = 35, max = 39, equipment="Raw"}
+    c_master_40 = {name = "Classic Masters 40-44", min = 40, max = 44, equipment="Raw"}
+    c_master_45 = {name = "Classic Masters 45-49", min = 45, max = 49, equipment="Raw"}
+    c_master_50 = {name = "Classic Masters 50-54", min = 50, max = 54, equipment="Raw"}
+    c_master_55 = {name = "Classic Masters 55-59", min = 55, max = 59, equipment="Raw"}
+    c_master_60 = {name = "Classic Masters 60-64", min = 60, max = 64, equipment="Raw"}
+    c_master_65 = {name = "Classic Masters 65-69", min = 65, max = 69, equipment="Raw"}
+    c_master_70 = {name = "Classic Masters 70-74", min = 70, max = 74, equipment="Raw"}
+    c_master_75 = {name = "Classic Masters 75-79", min = 75, max = 79, equipment="Raw"}
+    c_master_80 = {name = "Classic Masters 80+", min = 80, max = 999, equipment="Raw"}
+    c_lfm = {name = "Classic Law/Fire/Military", min = 0, max = 999, equipment="Raw"}
+    c_special = {name = "Classic Special Olympics", min = 0, max = 999, equipment="Raw"}
+    c_handicapped = {name = "Classic Handicapped", min = 0, max = 999, equipment="Raw"}
+
+
+[weightclasses.current_M]
+    classes = ["48","52","56","60","67.5","75","82.5","90","100","110","125","140","140+"]
+    date_range = ["2016-08-01", "2018-12-12"]
+    sex = "M"
+
+[weightclasses.current_F]
+    classes = ["44","48","52","56","60","67.5","75","82.5","90","90+"]
+    date_range = ["2016-08-01", "2018-12-12"]
+    sex = "F"
+
+[weightclasses.current_WPM]
+    classes = ["62","69","77","85","94","105","120","120+"]
+    date_range = ["2019-01-01", "9999-01-01"]
+    sex = "M"
+
+[weightclasses.current_WPF]
+    classes = ["48","53","58","64","72","84","100","100+"]
+    date_range = ["2019-01-01", "9999-01-01"]
+    sex = "F"
+
+
+# From https://www.slideshare.net/peterlucey/rulebook-2013
+# IDFPA was affiliated to WDFPF up to July 2016.
+[weightclasses.old_M]
+    classes = ["52","56","60","67.5","75","82.5","90","100","110","125","145","145+"]
+    date_range = ["0000-01-01", "2016-07-31"]
+    sex = "M"
+
+[weightclasses.old_F]
+    classes = ["44","47.5","50.5","53","55.5","58.5","63","70","80","90","90+"]
+    date_range = ["0000-01-01", "2016-07-31"]
+    sex = "F"
+
+[exemptions]

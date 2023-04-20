@@ -1,0 +1,6 @@
+---
+- name: ensure system is up-to-date
+  dnf:
+    name: '*'
+    skip_broken: yes
+    state: latest

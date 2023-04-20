@@ -1,0 +1,63 @@
+---
+- name: make sure nginx is the latest version
+  dnf:
+    name: nginx
+    state: latest
+  notify: restart nginx
+
+- name: copy nginx configuration
+  template:
+    src: nginx.conf
+    dest: /etc/nginx/nginx.conf
+  notify: restart nginx
+
+- name: copy openpowerlifting.org.conf
+  template:
+    src: openpowerlifting.org.conf
+    dest: /etc/nginx/conf.d/openpowerlifting.org.conf
+  notify: restart nginx
+
+- name: copy ru.openpowerlifting.org.conf
+  template:
+    src: ru.openpowerlifting.org.conf
+    dest: /etc/nginx/conf.d/ru.openpowerlifting.org.conf
+  notify: restart nginx
+
+- name: copy openipf.org.conf
+  template:
+    src: openipf.org.conf
+    dest: /etc/nginx/conf.d/openipf.org.conf
+  notify: restart nginx
+
+- name: copy beta.openpowerlifting.org.conf
+  template:
+    src: beta.openpowerlifting.org.conf
+    dest: /etc/nginx/conf.d/beta.openpowerlifting.org.conf
+  notify: restart nginx
+
+- name: copy shop.openpowerlifting.org.conf
+  template:
+    src: shop.openpowerlifting.org.conf
+    dest: /etc/nginx/conf.d/shop.openpowerlifting.org.conf
+  notify: restart nginx
+
+- name: make sure selinux will let nginx proxy_pass
+  seboolean:
+    name: httpd_can_network_connect
+    state: yes
+    persistent: yes
+
+- name: ensure the server data directory exists
+  file:
+    path: "{{ openpl_app_data_path }}"
+    state: directory
+    owner: root
+    group: root
+    mode: 0775
+    recurse: yes
+
+- name: make sure nginx is running
+  service:
+    name: nginx
+    state: started
+    enabled: yes

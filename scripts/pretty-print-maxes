@@ -1,0 +1,95 @@
+#!/usr/bin/env python3
+#
+# Given two input files:
+#  1) A file containing lifter names, one name per line;
+#  2) The fully-built openpowerlifting.csv;
+#
+# This script outputs a list of each lifter's best (Squat, Bench, Deadlift, Total).
+#
+# Equipment, weight class, etc. aren't taken into consideration.
+# Maybe they could be in the future.
+#
+# The output is intended for use at a powerlifting meet, so that the announcers
+# can provide some more context for the lifter's attempt selection.
+#
+
+import oplcsv
+import sys
+
+
+def collect_maxes(name, csv):
+    nameidx = csv.index('Name')
+    squatidx = csv.index('Best3SquatKg')
+    squat4idx = csv.index('Squat4Kg')
+    benchidx = csv.index('Best3BenchKg')
+    bench4idx = csv.index('Bench4Kg')
+    deadliftidx = csv.index('Best3DeadliftKg')
+    deadlift4idx = csv.index('Deadlift4Kg')
+    totalidx = csv.index('TotalKg')
+
+    best_squat = 0
+    best_bench = 0
+    best_deadlift = 0
+    best_total = 0
+
+    for row in csv.rows:
+        if name != row[nameidx]:
+            continue
+
+        if row[squatidx] and float(row[squatidx]) > best_squat:
+            best_squat = float(row[squatidx])
+        if row[squat4idx] and float(row[squat4idx]) > best_squat:
+            best_squat = float(row[squat4idx])
+
+        if row[benchidx] and float(row[benchidx]) > best_bench:
+            best_bench = float(row[benchidx])
+        if row[bench4idx] and float(row[bench4idx]) > best_bench:
+            best_bench = float(row[bench4idx])
+
+        if row[deadliftidx] and float(row[deadliftidx]) > best_deadlift:
+            best_deadlift = float(row[deadliftidx])
+        if row[deadlift4idx] and float(row[deadlift4idx]) > best_deadlift:
+            best_deadlift = float(row[deadlift4idx])
+
+        if row[totalidx] and float(row[totalidx]) > best_total:
+            best_total = float(row[totalidx])
+
+    return (best_squat, best_bench, best_deadlift, best_total)
+
+
+def p(s):
+    if s.endswith('.0'):
+        return s.replace('.0', '')
+    return s
+
+
+def lbs(f):
+    return "{:.1f}".format(f * 2.20462262)
+
+
+def main(input_filename, oplcsv_filename):
+    with open(input_filename) as fd:
+        lifters = [x.strip() for x in fd]
+
+    csv = oplcsv.Csv(oplcsv_filename)
+
+    print("%s\tSquat\tLBS\tBench\tLBS\tDL\tLBS\tTotal\tLBS" % ("Name".ljust(20)))
+
+    for lifter in lifters:
+        maxes = collect_maxes(lifter, csv)
+        in_lbs = [lbs(x) for x in maxes]
+        maxes = list(map(str, maxes))
+
+        print("%s\t%s\t(%s)\t%s\t(%s)\t%s\t(%s)\t%s\t(%s)" %
+              (lifter.ljust(20), p(maxes[0]), p(in_lbs[0]),
+               p(maxes[1]), p(in_lbs[1]),
+               p(maxes[2]), p(in_lbs[2]),
+               p(maxes[3]), p(in_lbs[3])))
+
+
+if __name__ == '__main__':
+    if len(sys.argv) != 3:
+        print("Usage: %s input openpowerlifting.csv" %
+              sys.argv[0], file=sys.stderr)
+        sys.exit(1)
+    main(sys.argv[1], sys.argv[2])

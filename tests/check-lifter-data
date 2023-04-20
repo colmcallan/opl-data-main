@@ -1,0 +1,194 @@
+#!/usr/bin/env python3
+# vim: set ts=8 sts=4 et sw=4 tw=99:
+#
+# Simple check script for lifter-data/social-instagram.csv
+# and assorted files that get compiled into "lifters.csv".
+#
+# Used as part of "make check".
+#
+
+import sys
+import os
+
+try:
+    import oplcsv
+except ImportError:
+    sys.path.append(os.path.join(os.path.dirname(
+        os.path.dirname(os.path.realpath(__file__))), "scripts"))
+    import oplcsv
+
+
+def redden(s):
+    if os.name != 'nt':
+        return "\033[1;31m" + s + "\033[0;m"
+    return s
+
+
+def enyellow(s):
+    if os.name != 'nt':
+        return "\033[1;33m" + s + "\033[0;m"
+    return s
+
+
+hitError = False  # Determines return value at end.
+
+
+def perror(s):
+    global hitError
+    hitError = True
+    print(' ' + redden(s), file=sys.stderr)
+
+
+def pwarning(s):
+    print(' ' + enyellow(s), file=sys.stderr)
+
+
+def is_ascii(s):
+    return len(s) == len(s.encode())
+
+
+def get_database_nameset():
+    names = set()
+
+    # For testing -- ensures that each Name only corresponds to at most
+    # one CyrillicName. Conflicts must be resolved manually in the entries.csv.
+    # Map of Name -> CyrillicName.
+    cyrillic_names = {}
+
+    for dirname, subdirs, files in os.walk(os.getcwd()):
+        if "meet-data" in subdirs:
+            subdirs[:] = ['meet-data']
+
+        if 'entries.csv' not in files:
+            continue
+
+        csv = oplcsv.Csv(dirname + os.sep + 'entries.csv')
+        if 'Name' in csv.fieldnames:
+            nameidx = csv.index('Name')
+
+            for row in csv.rows:
+                name = row[nameidx]
+
+                if 'CyrillicName' in csv.fieldnames:
+                    cyr = row[csv.index('CyrillicName')]
+                    if cyr:
+                        if name in cyrillic_names and cyrillic_names[name] != cyr:
+                            perror("Conflicting CyrillicName for '%s': '%s', '%s'"
+                                   % (name, cyr, cyrillic_names[name]))
+                        cyrillic_names[row[nameidx]] = cyr
+
+                if name == '' and 'JapaneseName' in csv.fieldnames:
+                    names.add(row[csv.index('JapaneseName')])
+                else:
+                    names.add(name)
+
+    return names
+
+
+def check_social_media(names):
+    filename = 'social-instagram.csv'
+    csv = oplcsv.Csv('lifter-data' + os.sep + filename)
+
+    # Check columns.
+    if len(csv.fieldnames) == 0:
+        perror("%s: No columns found." % filename)
+    if len(csv.fieldnames) >= 1 and csv.fieldnames[0] != "Name":
+        perror("%s: First column must be 'Name'." % filename)
+    if len(csv.fieldnames) >= 2 and csv.fieldnames[1] != "Instagram":
+        perror("%s: Second column must be 'Instagram'." % filename)
+    if len(csv.fieldnames) >= 3:
+        perror("%s: Too many columns." % filename)
+
+    lifters = set()
+    instagrams = set()
+
+    try:
+        nameidx = csv.index('Name')
+        instagramidx = csv.index('Instagram')
+    except ValueError:
+        return 1
+
+    allowed_dups = ["mr_mrs_alaniz", "ek_power923", "wellsstrength"]
+
+    # Check rows.
+    for row in csv.rows:
+        if len(row) != len(csv.fieldnames):
+            perror("%s: Improper number of columns in row %s." %
+                   (filename, row))
+
+        # Check for whitespace problems.
+        for x in row:
+            if x.strip() != x:
+                perror("%s: Extraneous whitespace in '%s.'" % (filename, x))
+            if x.replace('  ', ' ') != x:
+                perror("%s: Too much spacing in '%s'." % (filename, x))
+            if x.strip() == '':
+                perror("%s: Blank column in row %s." % (filename, row))
+
+        # Prevent duplicate lifters.
+        if row[nameidx] in lifters:
+            perror("%s: Duplicate entry for lifter '%s'." %
+                   (filename, row[nameidx]))
+        else:
+            lifters.add(row[nameidx])
+
+        # Prevent duplicate instagrams.
+        if row[instagramidx] in instagrams and row[instagramidx] not in allowed_dups:
+            perror("%s: Instagram used by two different lifters: '%s'."
+                   % (filename, row[instagramidx]))
+        else:
+            instagrams.add(row[instagramidx])
+
+        # Make sure that every name occurs in the 'names' set.
+        if not row[nameidx] in names:
+            perror("%s: Lifter does not exist in database: '%s'."
+                   % (filename, row[nameidx]))
+
+
+def check_name_corrections(names):
+    filename = 'name-corrections.dat'
+    seenset = set()  # Names seen in the file so far.
+
+    fd = open('lifter-data' + os.sep + filename, encoding='utf-8')
+    for line in fd:
+        variants = line.rstrip('\n').split(',')
+
+        # Check that the "correct" variant is actually in the database.
+        if variants[0] not in names:
+            pwarning("%s: Lifter '%s' not in database." %
+                     (filename, variants[0]))
+
+        for variant in variants:
+            # Check for whitespace errors.
+            if variant.strip() != variant or '  ' in variant:
+                perror("%s: Extraneous whitespace for '%s'." %
+                       (filename, variant))
+
+            # Check for duplicate names.
+            if variant in seenset:
+                perror("%s: Name appears more than once: '%s'." %
+                       (filename, variant))
+            seenset.add(variant)
+
+    fd.close()
+
+
+def main():
+    global hitError
+
+    # Get a list of all the Name entries throughout the whole project.
+    names = get_database_nameset()
+
+    check_social_media(names)
+    check_name_corrections(names)
+
+    if hitError:
+        return 1
+    return 0
+
+
+if __name__ == '__main__':
+    if len(sys.argv) != 1:
+        print(" Usage: %s" % sys.argv[0])
+        sys.exit(1)
+    sys.exit(main())

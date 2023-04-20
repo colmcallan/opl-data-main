@@ -1,0 +1,73 @@
+[divisions]
+    open = {name ="Open",min=0,max=999}
+    juniors = {name = "Juniors",min=0,max=23}
+    subjuniors = {name = "Sub-Juniors",min=0,max=18}
+    masters1 = {name = "Masters 1",min=39.5,max=48.5}
+    masters2 = {name = "Masters 2",min=49.5,max=58.5}
+    masters3 = {name = "Masters 3",min=59.5,max=68.5}
+    masters4 = {name = "Masters 4",min=69.5,max=999}
+    under20 = {name = "Under 20",min=0,max=20}
+
+[weightclasses.default_M]
+    classes = ["59","66","74","83","93","105","120","120+"]
+    date_range=["2011-01-01","9999-01-01"]
+    sex = "M"
+
+[weightclasses.default_F]
+    classes = ["47","52","57","63","69","76","84","84+"]
+    date_range=["2021-01-01","9999-01-01"]
+    sex = "F"
+
+[weightclasses.default_oldF]
+    classes = ["47","52","57","63","72","84","84+"]
+    date_range=["2011-01-01","2020-12-31"]
+    sex = "F"
+
+[weightclasses.junior_M]
+    classes = ["53","59","66","74","83","93","105","120","120+"]
+    date_range=["2011-01-01","9999-01-01"]
+    sex = "M"
+    divisions = ["Juniors","Sub-Juniors"]
+
+[weightclasses.junior_F]
+    classes = ["43","47","52","57","63","69","76","84","84+"]
+    date_range=["2021-01-01","9999-01-01"]
+    sex = "F"
+    divisions = ["Juniors","Sub-Juniors"]
+
+[weightclasses.junior_oldF]
+    classes = ["43","47","52","57","63","72","84","84+"]
+    date_range=["2011-01-01","2020-12-31"]
+    sex = "F"
+    divisions = ["Juniors","Sub-Juniors"]
+
+[weightclasses.old_M]
+    classes = ["52","56","60","67.5","75","82.5","90","100","110","125","125+"]
+    date_range = ["0000-01-01","2010-12-31"]
+    sex = "M"
+
+[weightclasses.old_F]
+    classes = ["44","48","52","56","60","67.5","75","82.5","90","90+"]
+    date_range = ["0000-01-01","2010-12-31"]
+    sex = "F"
+
+[exemptions]
+   7801 = ["ExemptWeightClassConsistency"]
+   0901 = ["ExemptWeightClassConsistency"]
+   0501 = ["ExemptWeightClassConsistency"]
+   9901 = ["ExemptWeightClassConsistency"]
+   7701 = ["ExemptWeightClassConsistency"]
+   0503 = ["ExemptWeightClassConsistency"]
+   0303 = ["ExemptWeightClassConsistency"]
+   0201 = ["ExemptWeightClassConsistency"]
+   7901 = ["ExemptWeightClassConsistency"]
+   0102 = ["ExemptWeightClassConsistency"]
+   7601 = ["ExemptWeightClassConsistency"]
+   0203 = ["ExemptWeightClassConsistency"]
+   7501 = ["ExemptWeightClassConsistency"]
+   0401 = ["ExemptWeightClassConsistency"]
+   0403 = ["ExemptWeightClassConsistency"]
+   0003 = ["ExemptWeightClassConsistency"]
+   9903 = ["ExemptWeightClassConsistency"]
+   0103 = ["ExemptWeightClassConsistency"]
+   0202 = ["ExemptWeightClassConsistency"]

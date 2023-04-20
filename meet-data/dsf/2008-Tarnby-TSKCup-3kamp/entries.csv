@@ -1,0 +1,29 @@
+Place,BodyweightKg,Name,BirthYear,Team,Best3SquatKg,Best3BenchKg,Best3DeadliftKg,TotalKg,Division,Sex,WeightClassKg,Equipment,Event
+1,58.1,Susse Hougaard,1984,Aarhus AK,155,112.5,157.5,425,Open,F,60,Single-ply,SBD
+2,60,Eva Buxbom,1969,Horsens SK,157.5,85,157.5,400,Open,F,60,Single-ply,SBD
+3,58.6,Mona Al-Haj,1979,Horsens SK,122.5,62.5,145,330,Open,F,60,Single-ply,SBD
+4,56.4,Mette G Jensen,1985,Ares,125,75,105,305,Open,F,60,Single-ply,SBD
+1,62.3,Kathrine Holmgaard Bak,1981,Tårnby SK,142.5,87.5,160,390,Open,F,67.5,Single-ply,SBD
+2,64.3,Mette N Nielsen,1987,Tårnby SK,100,52.5,112.5,265,Open,F,67.5,Single-ply,SBD
+1,68.3,Lærke Nielsen,1985,Hjørring SS,120,67.5,147.5,335,Open,F,75,Single-ply,SBD
+1,121,Camilla M Kristensen,1988,Hvidovre SF,175,90,155,420,Open,F,90+,Single-ply,SBD
+1,57.3,Niklas Lind,1993,Hvidovre SF,107.5,70,130,307.5,Open,M,60,Single-ply,SBD
+1,82,Louis Preuthun,1980,Hvidovre SF,220,175,272.5,667.5,Open,M,82.5,Single-ply,SBD
+2,80.1,Simon D Jensen,1986,Hvidovre SF,175,115,262.5,552.5,Open,M,82.5,Single-ply,SBD
+3,82,Sebastian Sørensen,1992,Hjørring SS,205,120,205,530,Open,M,82.5,Single-ply,SBD
+DQ,82,Daniel Vittoriani,1979,Tårnby SK,242.5,,,,Open,M,82.5,Single-ply,S
+1,83.7,Erik Rasmussen,1962,Ares,270,175,245,690,Open,M,90,Single-ply,SBD
+2,89.5,Jørgen Rasmussen,1973,Horsens SK,220,145,230,595,Open,M,90,Single-ply,SBD
+3,88.6,Niko Jensen,1992,Hvidovre SF,185,115,205,505,Open,M,90,Single-ply,SBD
+1,99.8,Kim Dahl Hansen,1971,Tårnby SK,305,202.5,302.5,810,Open,M,100,Single-ply,SBD
+2,95.9,Marc Larsson,1982,Hvidovre SF,307.5,175,275,757.5,Open,M,100,Single-ply,SBD
+3,90.1,Nicolai Dahlin,1985,Hvidovre SF,225,135,302.5,662.5,Open,M,100,Single-ply,SBD
+4,98,Charlie Tyrrestrup,1989,Rødby M,242.5,172.5,220,635,Open,M,100,Single-ply,SBD
+DQ,91,Finn W Nielsen,1975,Hjørring SS,210,135,,,Open,M,100,Single-ply,SB
+1,109,Søren Mølgård,1988,Gudenådalens SK,330,240,270,840,Open,M,110,Single-ply,SBD
+2,100.9,Jacob T Pilgaard,1978,Odense SK,270,155,270,695,Open,M,110,Single-ply,SBD
+3,102.5,Bjørn Frederiksen,1979,Hjørring SS,245,165,275,685,Open,M,110,Single-ply,SBD
+4,102.1,Finn Knudsen,1947,Rødby M,205,200,220,625,Open,M,110,Single-ply,SBD
+DQ,102.8,Troels Rubech,1979,Odense SK,,,,,Open,M,110,Single-ply,SBD
+1,116,Jesper Smidt,1973,AK Nordland,290,170,240,700,Open,M,125,Single-ply,SBD
+DQ,124.1,Carsten Jørgensen,1976,Aalborg SK,,,,,Open,M,125,Single-ply,SBD

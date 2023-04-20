@@ -1,0 +1,21 @@
+{% extends "openpowerlifting/mobile/base" %}
+
+{% block footer_hack %}
+  <footer>
+{% endblock footer_hack%}
+
+{% block footer_hack_end %}
+  </footer>
+{% endblock footer_hack_end %}
+
+{% block controlsbutton %}
+{% endblock controlsbutton %}
+
+{% block body %}
+<center>
+<div class="text-content">
+<h1>Frequently Asked Questions</h1>
+{% include "faq-content-common" %}
+</div>
+</center>
+{% endblock body %}

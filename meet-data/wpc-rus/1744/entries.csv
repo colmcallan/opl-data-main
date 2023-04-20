@@ -1,0 +1,19 @@
+Name,CyrillicName,Sex,BodyweightKg,Deadlift1Kg,Deadlift2Kg,Deadlift3Kg,Best3DeadliftKg,Deadlift4Kg,TotalKg,WeightClassKg,Event,Equipment,Tested,Bench1Kg,Bench2Kg,Bench3Kg,Best3BenchKg,Bench4Kg,Squat1Kg,Squat2Kg,Squat3Kg,Best3SquatKg,Squat4Kg,Division,Age,Place
+Margarita Tronina,Маргарита Тронина,F,53.55,90,100,110,110,,110,56,D,Raw,No,,,,,,,,,,,Pro Open,34,1
+Sofiya Savina,София Савина,F,67.15,75,80,-85,80,,80,67.5,D,Raw,No,,,,,,,,,,,Pro Teen,14,1
+Dmitriy Korchagin,Дмитрий Корчагин,M,99.3,270,-290,300,300,,300,100,D,Raw,No,,,,,,,,,,,Pro Open,44,1
+Evgeniy Kozlov,Евгений Козлов,M,98.65,270,-290,-300,270,,270,100,D,Raw,No,,,,,,,,,,,Pro Open,42,2
+Yan Kandaurov,Ян Кандауров,M,103.6,155,,,155,,155,110,D,Raw,No,,,,,,,,,,,Pro Teen,15,1
+Elizaveta Shityagina,Елизавета Шитягина,F,51.5,,,,,,55,52,B,Raw,No,50,55,-62.5,55,,,,,,,Pro Juniors 20-23,21,1
+Aleksandra Perelygina,Александра Перелыгина,F,61.1,,,,,,45,67.5,B,Raw,No,-45,45,-47.5,45,,,,,,,Pro Open,28,1
+Artem Makhovskiy,Артем Маховский,M,71.65,,,,,,135,75,B,Raw,No,-135,-135,135,135,,,,,,,Pro Open,25,1
+Dmitriy Malakhov,Дмитрий Малахов,M,82.45,,,,,,107.5,82.5,B,Raw,No,-107.5,107.5,-115,107.5,,,,,,,Pro Juniors 20-23,22,1
+Konstantin Kovtun,Константин Ковтун,M,79.9,,,,,,160,82.5,B,Raw,No,160,-170,-170,160,,,,,,,Pro Open,22,1
+Konstantin Klimash,Константин Климаш,M,89.2,,,,,,,90,B,Raw,No,-110,-115,-115,,,,,,,,Pro Teen,14,DQ
+Mikhail Konovalov,Михаил Коновалов,M,98.6,,,,,,200,100,B,Raw,No,200,-210,-215,200,,,,,,,Pro Open,25,1
+Aleksandr Kichigin,Александр Кичигин,M,97,,,,,,190,100,B,Raw,No,190,-200,,190,,,,,,,Pro Open,27,2
+Sergey Pavenko,Сергей Павенко,M,96.2,,,,,,170,100,B,Raw,No,165,170,-180,170,,,,,,,Pro Masters 40-44,41,1
+Evgeniy Beletskiy,Евгений Белецкий,M,105.7,,,,,,215,110,B,Raw,No,210,215,-220,215,,,,,,,Pro Open,53,1
+Denis Migal,Денис Мигаль,M,111.65,,,,,,100,125,B,Raw,No,85,95,100,100,,,,,,,Pro Open,30,1
+Aleksandr Matrosov,Александр Матросов,M,109.6,,,,,,232.5,110,B,Single-ply,No,220,232.5,-235,232.5,,,,,,,Pro Open,45,1
+Evgeniy Kozlov,Евгений Козлов,M,98.65,,,,,,,100,SBD,Raw,No,-150,-150,-150,,,230,240,-250,240,,Pro Open,42,DQ

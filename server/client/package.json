@@ -1,0 +1,35 @@
+{
+  "name": "openpowerlifting-client",
+  "version": "0.0.1",
+  "description": "The OpenPowerlifting website frontend.",
+  "private": true,
+  "scripts": {
+    "sass": "sass --style=compressed css/style.scss build/css/style.css",
+    "sass-openipf": "sass --style=compressed css/openipf.scss build/css/openipf.css",
+    "webpack": "webpack --stats-error-details --optimization-minimize"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://gitlab.com/openpowerlifting/opl-data.git"
+  },
+  "author": "Sean Stangl <sean.stangl@gmail.com>",
+  "license": "AGPL-3.0-or-later",
+  "bugs": {
+    "url": "https://gitlab.com/openpowerlifting/opl-data/issues"
+  },
+  "homepage": "https://gitlab.com/openpowerlifting/opl-data/#readme",
+  "dependencies": {
+    "slickgrid": "^2.4.38"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.14.6",
+    "@babel/preset-env": "^7.14.7",
+    "@types/slickgrid": "^2.1.31",
+    "babel-loader": "^8.2.2",
+    "sass": "^1.45.0",
+    "ts-loader": "^8.3.0",
+    "typescript": "^4.3.5",
+    "webpack": "^5.44.0",
+    "webpack-cli": "^4.7.2"
+  }
+}

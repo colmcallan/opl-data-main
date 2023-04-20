@@ -1,0 +1,59 @@
+# Compilation targets.
+build/
+node_modules/
+target/
+public/
+book/book/
+
+# Temporary fetch directories.
+/meet-data/**/fetch/
+
+# Avoid committing binary meet data files.
+/meet-data/**/*.pdf
+/meet-data/**/*.PDF
+/meet-data/**/*.xls
+/meet-data/**/*.XLS
+/meet-data/**/*.xlsx
+/meet-data/**/*.XLSX
+/meet-data/**/*.xlsm
+/meet-data/**/*.XLSM
+/meet-data/**/*.doc
+/meet-data/**/*.DOC
+/meet-data/**/*.docx
+/meet-data/**/*.DOCX
+/meet-data/**/*.odt
+/meet-data/**/*.ODT
+/meet-data/**/*.ods
+/meet-data/**/*.ODS
+/meet-data/**/*.xml
+/meet-data/**/*.XML
+/meet-data/**/*.rtf
+/meet-data/**/*.RTF
+
+# Tool output.
+perf.data
+perf.data.old
+proptest-regressions/
+*.out.*
+
+# Accidental output, just to be safe in the future.
+/package.json
+/package-lock.json
+install.Unix.sh
+
+# Temporary files.
+/server/probebot/*.tmp
+*.lnk
+*.swp
+*.swo
+*.~*
+.idea/
+__pycache__
+npm-debug.log
+geckodriver.log
+*.retry
+.DS_Store
+.gitkeep
+*.exe
+*.stackdump
+.vscode/

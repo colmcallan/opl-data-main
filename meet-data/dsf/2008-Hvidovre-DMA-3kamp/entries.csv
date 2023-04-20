@@ -1,0 +1,43 @@
+Place,BodyweightKg,Name,BirthYear,Team,Best3SquatKg,Best3BenchKg,Best3DeadliftKg,TotalKg,Division,Sex,WeightClassKg,Equipment,Event
+1,56,Susse Hougaard,1984,Aarhus AK,140,107.5,147.5,395,Open,F,56,Single-ply,SBD
+2,56,Käte Vestergaard,1972,Aalborg SK,135,75,150,360,Open,F,56,Single-ply,SBD
+1,59.7,Eva Buxbom,1969,Horsens SK,152.5,87.5,157.5,397.5,Open,F,60,Single-ply,SBD
+2,58.8,Mona Al-Haj,1979,Horsens SK,130,60,65,255,Open,F,60,Single-ply,SBD
+1,65.9,Kristina Kaas Hofmann,1981,Horsens SK,175,80,183.5,438.5,Open,F,67.5,Single-ply,SBD
+2,67.5,Lise Frederiksen,1982,Hjørring SS,160,100,177.5,437.5,Open,F,67.5,Single-ply,SBD
+3,63.4,Kathrine Holmgaard Bak,1981,Tårnby SK,140,80,160,380,Open,F,67.5,Single-ply,SBD
+1,71.5,Annette Pedersen,1968,Aalborg SK,165,120,190,475,Open,F,75,Single-ply,SBD
+1,59.9,Henrik Vestergaard,1964,Thisted VF,182.5,105,205,492.5,Open,M,60,Single-ply,SBD
+2,59.7,Jess Gormsen,1979,AK Odin,165,125,160,450,Open,M,60,Single-ply,SBD
+1,67,Morten Rasmussen,1978,Tårnby SK,220,140,200,560,Open,M,67.5,Single-ply,SBD
+1,74.2,Just Kielberg,1979,Københavns SK,217.5,140,200,557.5,Open,M,75,Single-ply,SBD
+1,82.45,Henrik Skov Nielsen,1984,Aalborg SK,300,160,270,730,Open,M,82.5,Single-ply,SBD
+2,82.45,Erik Rasmussen,1962,AK Frem,260,187.5,225,672.5,Open,M,82.5,Single-ply,SBD
+3,81,Jacob Prehn,1980,Hvidovre SF,250,157.5,240,647.5,Open,M,82.5,Single-ply,SBD
+4,78.9,Michael Dagø,1987,Aarhus AK,210,142.5,210,562.5,Open,M,82.5,Single-ply,SBD
+5,82.1,Lars H Jensen,1955,Tårnby SK,180,110,240,530,Open,M,82.5,Single-ply,SBD
+1,89.7,Michael Jensen,1980,Aalborg SK,310,175,308.5,793.5,Open,M,90,Single-ply,SBD
+2,89.8,Andreas Knudsen,1983,HG Styrkeløft,202.5,160,222.5,585,Open,M,90,Single-ply,SBD
+3,82.9,Anders Rademacher,1976,Hvidovre SF,200,102.5,200,502.5,Open,M,90,Single-ply,SBD
+DQ,89.5,Ole Olsen,1961,Københavns SK,245,152.5,,,Open,M,90,Single-ply,SB
+DQ,88.2,Nicolai Dahlin,1985,Hvidovre SF,,,,,Open,M,90,Single-ply,SBD
+DQ,89.6,Kim Petersen Hjordt,1984,Aalborg SK,55,,,,Open,M,90,Single-ply,S
+1,97.3,Marc Larsson,1982,Hvidovre SF,310,175,295,780,Open,M,100,Single-ply,SBD
+2,97.5,Mathias Kristiansen,1985,Aalborg SK,280,180,277.5,737.5,Open,M,100,Single-ply,SBD
+3,99.5,Jesper E Overgaard,1974,Aalborg SK,305,187.5,245,737.5,Open,M,100,Single-ply,SBD
+4,99.6,Rasmus Jensen,1973,Roskilde AK,285,220,220,725,Open,M,100,Single-ply,SBD
+5,94.2,Anders Nielsen,1979,HG Styrkeløft,185,150,200,535,Open,M,100,Single-ply,SBD
+DQ,99.8,Kim Dahl Hansen,1971,Tårnby SK,290,,,,Open,M,100,Single-ply,S
+1,107.4,Sune Bak,1974,Hvidovre SF,315,245,292.5,852.5,Open,M,110,Single-ply,SBD
+2,109,Klaus WJ Bak,1979,Aalborg SK,270,210,265,745,Open,M,110,Single-ply,SBD
+3,108.9,Kern T Ueno,1979,Odense SK,280,190,260,730,Open,M,110,Single-ply,SBD
+4,102.8,Bjørn Frederiksen,1979,Hjørring SS,250,165,250,665,Open,M,110,Single-ply,SBD
+5,103.3,Philip Haargaard,1977,Hvidovre SF,250,137.5,255,642.5,Open,M,110,Single-ply,SBD
+DQ,109.9,Tonni Jensen,1981,Horsens SK,330,,,,Open,M,110,Single-ply,S
+1,123.65,Troels U Nielsen,1984,Aarhus AK,330,252.5,322.5,905,Open,M,125,Single-ply,SBD
+2,124.8,Morten Sørig,1969,Horsens SK,367.5,235,302.5,905,Open,M,125,Single-ply,SBD
+3,115,Stephan Vorup,1973,Thisted VF,330,195,300,825,Open,M,125,Single-ply,SBD
+4,120.5,Thomas Prehn,1974,Hvidovre SF,250,175,250,675,Open,M,125,Single-ply,SBD
+DQ,118.95,Jens Jepsen,1970,Tårnby SK,,,,,Open,M,125,Single-ply,SBD
+1,168.3,Niels Stærkjær,1966,Aarhus AK,275,265,225,765,Open,M,125+,Single-ply,SBD
+DQ,140.7,Carsten Jørgensen,1976,Aalborg SK,,,,,Open,M,125+,Single-ply,SBD

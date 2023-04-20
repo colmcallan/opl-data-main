@@ -1,0 +1,138 @@
+# Configuration for the LJTF, Lithuanian IPF.
+
+[divisions]
+    # USAPL-style divisions, men.
+    mro = {name="MR-O", min=0, max=999, sex="M", equipment="Raw"}
+    mrsj = {name="MR-Sj", min=0, max=17.5, sex="M", equipment="Raw"}
+    mrjr = {name="MR-Jr", min=0, max=22.5, sex="M", equipment="Raw"}
+    mrm1 = {name="MR-M1", min=39.5, max=48.5, sex="M", equipment="Raw"}
+    mrm2 = {name="MR-M2", min=49.5, max=58.5, sex="M", equipment="Raw"}
+    mrm3 = {name="MR-M3", min=59.5, max=68.5, sex="M", equipment="Raw"}
+    mrm4 = {name="MR-M4", min=69.5, max=999, sex="M", equipment="Raw"}
+
+    mo = {name="M-O", min=0, max=999, sex="M", equipment="Single-ply"}
+    msj = {name="M-Sj", min=0, max=17.5, sex="M", equipment="Single-ply"}
+    mjr = {name="M-Jr", min=0, max=22.5, sex="M", equipment="Single-ply"}
+    mm1 = {name="M-M1", min=39.5, max=48.5, sex="M", equipment="Single-ply"}
+    mm2 = {name="M-M2", min=49.5, max=58.5, sex="M", equipment="Single-ply"}
+    mm3 = {name="M-M3", min=59.5, max=68.5, sex="M", equipment="Single-ply"}
+    mm4 = {name="M-M4", min=69.5, max=999, sex="M", equipment="Single-ply"}
+
+    # USAPL-style divisions, women.
+    fro = {name="FR-O", min=0, max=999, sex="F", equipment="Raw"}
+    frsj = {name="FR-Sj", min=0, max=17.5, sex="F", equipment="Raw"}
+    frjr = {name="FR-Jr", min=0, max=22.5, sex="F", equipment="Raw"}
+    frm1 = {name="FR-M1", min=39.5, max=48.5, sex="F", equipment="Raw"}
+    frm2 = {name="FR-M2", min=49.5, max=58.5, sex="F", equipment="Raw"}
+    frm3 = {name="FR-M3", min=59.5, max=68.5, sex="F", equipment="Raw"}
+    frm4 = {name="FR-M4", min=69.5, max=999, sex="F", equipment="Raw"}
+
+    fo = {name="F-O", min=0, max=999, sex="F", equipment="Single-ply"}
+    fsj = {name="F-Sj", min=0, max=17.5, sex="F", equipment="Single-ply"}
+    fjr = {name="F-Jr", min=0, max=22.5, sex="F", equipment="Single-ply"}
+    fm1 = {name="F-M1", min=39.5, max=48.5, sex="F", equipment="Single-ply"}
+    fm2 = {name="F-M2", min=49.5, max=58.5, sex="F", equipment="Single-ply"}
+    fm3 = {name="F-M3", min=59.5, max=68.5, sex="F", equipment="Single-ply"}
+    fm4 = {name="F-M4", min=69.5, max=999, sex="F", equipment="Single-ply"}
+
+    # Old-style divisions.
+    open = {name ="Open",min=0,max=999}
+    subjuniors = {name = "Sub-Junior",min=0,max=17.5}
+    juniors = {name = "Junior",min=0,max=22.5}
+    masters1 = {name = "Master I",min=39.5,max=48.5}
+    masters2 = {name = "Master II",min=49.5,max=58.5}
+    masters3 = {name = "Master III",min=59.5,max=68.5}
+    masters4 = {name = "Master IV",min=69.5,max=999}
+
+[weightclasses.default_M]
+    classes = ["59","66","74","83","93","105","120","120+"]
+    date_range=["2011-01-01","9999-01-01"]
+    sex = "M"
+
+[weightclasses.default_F]
+    classes = ["47","52","57","63","72","84","84+"]
+    date_range=["2011-01-01","2020-12-31"]
+    sex = "F"
+
+[weightclasses.new_F]
+    classes = ["47","52","57","63","69","76","84","84+"]
+    date_range=["2021-01-01","9999-12-31"]
+    sex = "F"
+
+[weightclasses.junior_M]
+    classes = ["53","59","66","74","83","93","105","120","120+"]
+    date_range=["2011-01-01","2021-12-31"]
+    sex = "M"
+    divisions = ["MR-Sj", "MR-Jr", "M-Sj", "M-Jr", "Junior", "Sub-Junior"]
+
+[weightclasses.juniornew_F]
+    classes = ["43","47","52","57","63","69","76","84","84+"]
+    date_range=["2021-01-01","9999-12-31"]
+    sex = "F"
+    divisions = ["FR-Sj", "FR-Jr", "F-Sj", "F-Jr", "Junior", "Sub-Junior"]
+
+[weightclasses.junior_F]
+    classes = ["43","47","52","57","63","72","84","84+"]
+    date_range=["2011-01-01","2020-12-31"]
+    sex = "F"
+    divisions = ["FR-Sj", "FR-Jr", "F-Sj", "F-Jr", "Junior", "Sub-Junior"]
+
+[weightclasses.old_M]
+    classes = ["52","56","60","67.5","75","82.5","90","100","110","125","125+"]
+    date_range = ["0000-01-01","2010-12-31"]
+    sex = "M"
+
+[weightclasses.old_F]
+    classes = ["44","48","52","56","60","67.5","75","82.5","90","90+"]
+    date_range = ["0000-01-01","2010-12-31"]
+    sex = "F"
+
+[exemptions]
+    0401 = ["ExemptWeightClassConsistency"] # Mismatched male classes.
+    0402 = ["ExemptWeightClassConsistency"] # Mismatched female classes.
+    0501 = ["ExemptWeightClassConsistency"] # Mismatched female classes.
+    0601 = ["ExemptWeightClassConsistency"] # Mismatched female classes.
+    0602 = ["ExemptWeightClassConsistency"] # Mismatched female classes.
+    0701 = ["ExemptWeightClassConsistency"] # Mismatched female classes.
+    0702 = ["ExemptWeightClassConsistency"] # Mismatched female classes.
+    0801 = ["ExemptWeightClassConsistency"] # Mismatched female classes.
+    0901 = ["ExemptWeightClassConsistency"] # Mismatched male/female classes.
+    1001 = ["ExemptWeightClassConsistency"] # Mismatched male/female classes.
+    1002 = ["ExemptWeightClassConsistency"] # Mismatched male/female classes.
+    1003 = ["ExemptWeightClassConsistency"] # Mismatched female classes.
+    1101 = ["ExemptWeightClassConsistency"] # Mismatched female classes.
+    1102 = ["ExemptWeightClassConsistency"] # Mismatched male/female classes.
+    1201 = ["ExemptWeightClassConsistency"] # Mismatched female classes.
+    1202 = ["ExemptWeightClassConsistency"] # Mismatched male/female classes.
+    1401 = ["ExemptWeightClassConsistency"] # Lower SHW classes for some divisions.
+    1402 = ["ExemptWeightClassConsistency"] # Mismatched female classes.
+    1501 = ["ExemptWeightClassConsistency"] # Lower SHW classes for some divisions.
+    1502 = ["ExemptWeightClassConsistency"] # Mismatched female classes.
+    1503 = ["ExemptWeightClassConsistency"] # Mismatched male/female classes.
+    1601 = ["ExemptWeightClassConsistency"] # Lower SHW classes for some divisions.
+    1602 = ["ExemptWeightClassConsistency"] # Mismatched female classes.
+    1603 = ["ExemptWeightClassConsistency"] # Mismatched female classes.
+    1701 = ["ExemptWeightClassConsistency"] # Lower SHW classes for some divisions.
+    1702 = ["ExemptWeightClassConsistency"] # Mismatched female classes.
+    1703 = ["ExemptWeightClassConsistency"] # Mismatched female classes.
+    1704 = ["ExemptWeightClassConsistency"] # Mismatched male/female classes.
+    1801 = ["ExemptWeightClassConsistency"] # Lower SHW classes for some divisions.
+    1802 = ["ExemptWeightClassConsistency"] # Mismatched female classes.
+    1803 = ["ExemptWeightClassConsistency"] # Mismatched male/female classes.
+	1804 = ["ExemptWeightClassConsistency"] # Lower SHW classes for some divisions.
+	1805 = ["ExemptWeightClassConsistency"] # Mismatched male/female classes.
+    1901 = ["ExemptWeightClassConsistency"] # Lower SHW classes for some divisions.
+    1902 = ["ExemptWeightClassConsistency"] # Mismatched female classes.
+    1903 = ["ExemptWeightClassConsistency"] # Mismatched female classes.
+    1904 = ["ExemptWeightClassConsistency"] # Mismatched male/female classes.
+    1905 = ["ExemptWeightClassConsistency"] # Mismatched female classes.
+    2005 = ["ExemptWeightClassConsistency"] # Mismatched male/female classes.
+    2101 = ["ExemptWeightClassConsistency"] # Reduced classes
+    2102 = ["ExemptWeightClassConsistency"] # Used old IPF classes, not new ones.
+    2103 = ["ExemptWeightClassConsistency"] # Reduced classes
+    2104 = ["ExemptWeightClassConsistency"] # Used old IPF classes, not new ones.
+    2105 = ["ExemptWeightClassConsistency"] # Used old IPF classes, not new ones.
+    2201 = ["ExemptWeightClassConsistency"] # Reduced classes
+    2202 = ["ExemptWeightClassConsistency"] # Reduced classes
+    2203 = ["ExemptWeightClassConsistency"] # Reduced classes
+    2204 = ["ExemptWeightClassConsistency"] # Reduced classes

@@ -1,0 +1,5 @@
+<select id="eventselect">
+  <option value="all"{% if selection.event == "AllEvents" %} selected{% endif %}>{{strings.selectors.event.all}}</option>
+  <option value="full-power"{% if selection.event == "FullPower" %} selected{% endif %}>{{strings.selectors.event.full_power}}</option>
+  <option value="push-pull"{% if selection.event == "PushPull" %} selected{% endif %}>{{strings.selectors.event.push_pull}}</option>
+</select>

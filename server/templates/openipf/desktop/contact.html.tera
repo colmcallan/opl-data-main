@@ -1,0 +1,14 @@
+{% extends "openipf/desktop/base" %}
+{% block topbar_hack %}
+  <div class="topbar">
+{% endblock topbar_hack %}
+
+{% block topbar_hack_end %}
+  </div>
+{% endblock topbar_hack_end %}
+
+{% block body %}
+
+{% include "contact-common-content" %}
+
+{% endblock body %}

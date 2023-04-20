@@ -1,0 +1,28 @@
+# This file controls line ending conversion on checkin.
+# To apply this file manually on pre-existing files:
+#
+# With git 2.14:
+#   git read-tree --empty
+#   git add .
+#   git status
+# And be very careful to check the changes it made, since it will re-apply
+# all repo rules, including from the .gitignore.
+#
+# With git 2.16:
+#   git add --renormalize .
+#
+
+# Convert all text file line endings to UNIX "\n".
+*.csv text eol=lf
+*.env text eol=lf
+*.js text eol=lf
+*.json text eol=lf
+*.md text eol=lf
+*.py text eol=lf
+*.rs text eol=lf
+*.tera text eol=lf
+*.toml text eol=lf
+*.ts text eol=lf
+*.txt text eol=lf
+URL text eol=lf
+INFO text eol=lf

@@ -1,0 +1,67 @@
+Place,Name,State,WeightClassKg,BodyweightKg,Age,Best3SquatKg,Best3BenchKg,Best3DeadliftKg,TotalKg,Sex,Division,Equipment,Event
+1,Danielle Becerra,CA,52,49.8,23,105,40,87.5,232.5,F,Juniors 20-23,Raw,SBD
+1,Marion Franz,CA,56,55.2,23,110,62.5,130,302.5,F,Open,Raw,SBD
+1,Bernice Dea,CA,67.5,66.8,47,113,55,152.5,320.5,F,Open,Raw,SBD
+2,Nita Horton,CA,67.5,67.4,47,100,65,130,295,F,Open,Raw,SBD
+1,Michelle Vanderburgh,CA,75,74.2,31,125,82.5,145,352.5,F,Open,Raw,SBD
+1,Stephanie Stickley,CA,52,50.4,48,80.5,45.5,102.5,228.5,F,Masters 45-49,Raw,SBD
+1,Beata Domjan Jarvis,CA,60,57.5,46,73,53,72.5,198.5,F,Masters 45-49,Raw,SBD
+1,Valetinia Moreno,CA,60,59,60,57.5,50,92.5,200,F,Masters 60-64,Raw,SBD
+1,Bernice Dea,CA,67.5,66.8,47,113,55,152.5,320.5,F,Masters 45-49,Raw,SBD
+1,Adrian Garcia,CA,52,51.8,19,155,92.5,170,417.5,M,Juniors 18-19,Raw,SBD
+1,Anthony Ma,CA,67.5,65.8,21,157.5,97.5,172.5,427.5,M,Juniors 20-23,Raw,SBD
+1,Gus Liu,CA,75,74.6,20,157.5,105,187.5,450,M,Juniors 20-23,Raw,SBD
+2,Diego Trejo,CA,75,73,22,140,107.5,185,432.5,M,Juniors 20-23,Raw,SBD
+3,Brandon Della Maggiora,CA,75,69,21,117.5,115,155,387.5,M,Juniors 20-23,Raw,SBD
+1,Philip Pohle,CA,82.5,80.2,22,182.5,117.5,227.5,527.5,M,Juniors 20-23,Raw,SBD
+1,Brian Jewel,CA,90,89.8,22,215,130,260,605,M,Juniors 20-23,Raw,SBD
+2,Ryan Jones #10,CA,90,87.4,22,192.5,127.5,237.5,557.5,M,Juniors 20-23,Raw,SBD
+3,Anthony Castelli,CA,90,88,23,167.5,125,215,507.5,M,Juniors 20-23,Raw,SBD
+1,Josh Caldwell,CA,100,97.6,23,240,160,237.5,637.5,M,Juniors 20-23,Raw,SBD
+1,Mason Merilles,CA,110,107.2,19,262.5,175,295,732.5,M,Juniors 18-19,Raw,SBD
+DQ,Austin Dorer,CA,110,102.6,20,182.5,-165,215,,M,Juniors 20-23,Raw,SBD
+1,Adrian Garcia,CA,52,51.8,19,155,92.5,170,417.5,M,Open,Raw,SBD
+1,Marcos Ruiz,CA,82.5,81,24,182.5,100,215,497.5,M,Open,Raw,SBD
+1,Brendon Tietz,CA,90,89.4,24,250,147.5,295,692.5,M,Open,Raw,SBD
+1,Brock Daniels,CA,100,99.1,29,222.5,135,252.5,610,M,Open,Raw,SBD
+1,Mason Merilles,CA,110,107.2,19,262.5,175,295,732.5,M,Open,Raw,SBD
+1,Shoua Lo,CA,82.5,80.2,35,167.5,110,205,482.5,M,Submasters 35-39,Raw,SBD
+1,Scott Helmer,CA,75,73.8,54,127.5,97.5,162.5,387.5,M,Masters 50-54,Raw,SBD
+1,George Davis,CA,82.5,78.8,64,130,82.5,140,352.5,M,Masters 60-64,Raw,SBD
+1,David Beaulieu,CA,90,89.2,57,195,107.5,212.5,515,M,Masters 55-59,Raw,SBD
+DQ,Michael Placeres,CA,90,89.2,57,-147.5,,,,M,Masters 55-59,Raw,SBD
+1,Tim Anderson,CA,100,92,61,180,130,227.5,537.5,M,Masters 60-64,Raw,SBD
+1,Bruce Perilloux,CA,100,97,54,127.5,110,175,412.5,M,Masters 50-54,Raw,SBD
+1,Robert McCullagh,CA,125,122.4,68,175,125,170,470,M,Masters 65-69,Raw,SBD
+DQ,Elizabeth Cabral,CA,67.5,65.6,32,-117.5,62.5,125,,F,Open,Wraps,SBD
+1,Lisa Voss,CA,90,88.8,49,70,60,127.5,257.5,F,Open,Wraps,SBD
+DQ,Jasper Juan,CA,110,104.6,21,-247.5,152.5,-250,,M,Juniors 20-23,Wraps,SBD
+1,Edward Cabral Jr,CA,90,85.2,35,215,140,240,595,M,Open,Wraps,SBD
+2,Gary Loyd,CA,90,87.6,47,175,140,215,530,M,Open,Wraps,SBD
+1,Michael Howard,CA,100,96.4,30,275,182.5,277.5,735,M,Open,Wraps,SBD
+1,Dave Murphy #2,CA,110,108,41,245,175,220,640,M,Open,Wraps,SBD
+1,Edward Cabral Jr,CA,90,85.2,35,215,140,240,595,M,Submasters 35-39,Wraps,SBD
+1,Gary Loyd,CA,90,87.6,47,175,140,215,530,M,Masters 45-49,Wraps,SBD
+1,Dave Murphy #2,CA,110,108,41,245,175,220,640,M,Masters 40-44,Wraps,SBD
+1,Steve Rankin,CA,110,100.5,55,227.5,172.5,240,640,M,Masters 55-59,Wraps,SBD
+1,Joe Bernazzani,CA,100,99.8,64,185,172.5,182.5,540,M,Masters 60-64,Single-ply,SBD
+1,Ron Pagal,CA,110,102,69,172.5,155,205,532.5,M,Masters 65-69,Single-ply,SBD
+1,Elizabeth Cabral,CA,67.5,65.6,32,,62.5,,62.5,F,Open,Raw,B
+1,Betsy Spann,CA,82.5,75.4,58,,75,,75,F,Open,Raw,B
+1,Stephanie Stickley,CA,52,50.4,48,,45.5,,45.5,F,Masters 45-49,Raw,B
+1,Betsy Spann,CA,82.5,75.4,58,,75,,75,F,Masters 55-59,Raw,B
+1,Jasper Juan,CA,110,104.6,21,,152.5,,152.5,M,Juniors 20-23,Raw,B
+1,Stacy Dedrick,CA,100,99.8,50,,205,,205,M,Open,Raw,B
+1,Joe Rodrigues,CA,82.5,76.6,36,,147.5,,147.5,M,Submasters 35-39,Raw,B
+1,Ted Keys,CA,82.5,82.4,53,,145,,145,M,Masters 50-54,Raw,B
+1,Stacy Dedrick,CA,100,99.8,50,,205,,205,M,Masters 50-54,Raw,B
+1,Steve Covington,CA,100,92.8,55,,130,,130,M,Masters 55-59,Raw,B
+1,Chris Reynolds,CA,100,90.6,29,,197.5,,197.5,M,Open,Single-ply,B
+1,Stacy Dedrick,CA,100,99.8,50,,227.5,,227.5,M,Open,Single-ply,B
+1,Stacy Dedrick,CA,100,99.8,50,,227.5,,227.5,M,Masters 50-54,Single-ply,B
+1,Joe Bernazzani,CA,100,99.8,64,,172.5,,172.5,M,Masters 60-64,Single-ply,B
+1,Elizabeth Cabral,CA,67.5,65.6,32,,,125,125,F,Open,Raw,D
+1,Ryan Jones #10,CA,90,87.4,22,,,237.5,237.5,M,Juniors 20-23,Raw,D
+1,Austin Dorer,CA,110,102.6,20,,,215,215,M,Juniors 20-23,Raw,D
+1,Betsy Spann,CA,82.5,75.4,58,,,155,155,F,Open,Single-ply,D
+1,Betsy Spann,CA,82.5,75.4,58,,,155,155,F,Masters 55-59,Single-ply,D

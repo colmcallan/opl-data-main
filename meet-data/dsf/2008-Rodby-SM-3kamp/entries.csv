@@ -1,0 +1,27 @@
+Place,BodyweightKg,Name,BirthYear,Team,Best3SquatKg,Best3BenchKg,Best3DeadliftKg,TotalKg,Division,Sex,WeightClassKg,Equipment,Event
+1,55.5,Mette G Jensen,1985,Ares,110,70,90,270,Open,F,56,Single-ply,SBD
+1,62.5,Kathrine Holmgaard Bak,1981,Tårnby SK,135,85,165,385,Open,F,67.5,Single-ply,SBD
+1,67.6,Mette N Nielsen,1987,Tårnby SK,110,45,110,265,Open,F,75,Single-ply,SBD
+1,56.2,Niklas Lind,1993,Hvidovre SF,92.5,65,125,282.5,Open,M,60,Single-ply,SBD
+1,68,Morten Rasmussen,1978,Tårnby SK,225,155,205,585,Open,M,75,Single-ply,SBD
+2,73.8,Just Kielberg,1979,Copenhagen PL,230,150,205,585,Open,M,75,Single-ply,SBD
+3,74.4,Kevin Knudsen,1990,Bogense M,170,110,200,480,Open,M,75,Single-ply,SBD
+4,74.9,Tommy Rasmussen,1946,Rødby M,150,90,175,415,Open,M,75,Single-ply,SBD
+1,81.9,Lars H Jensen,1955,Tårnby SK,200,120,230,550,Open,M,82.5,Single-ply,SBD
+2,81.8,Martin Nors,1986,Hvidovre SF,160,105,182.5,447.5,Open,M,82.5,Single-ply,SBD
+3,82.5,Mads S Lundsby,1988,Bogense M,170,90,182.5,442.5,Open,M,82.5,Single-ply,SBD
+DQ,82.5,Erik Rasmussen,1962,Ares,250,,,,Open,M,82.5,Single-ply,S
+DQ,82.5,Louis Preuthun,1980,Hvidovre SF,,,,,Open,M,82.5,Single-ply,SBD
+1,87.5,Nicolai Dahlin,1985,Hvidovre SF,290,177.5,275,742.5,Open,M,90,Single-ply,SBD
+2,89.7,Ole Olsen,1961,Københavns SK,235,152.5,250,637.5,Open,M,90,Single-ply,SBD
+3,86.5,Jørgen Nielsen,1963,Tårnby SK,245,150,225,620,Open,M,90,Single-ply,SBD
+4,87.5,Jesper S Hansen,1985,Odense SK,200,160,210,570,Open,M,90,Single-ply,SBD
+1,100,Kim Dahl Hansen,1971,Tårnby SK,300,185,305,790,Open,M,100,Single-ply,SBD
+2,99.8,Rasmus Jensen,1973,Roskilde AK,290,217.5,230,737.5,Open,M,100,Single-ply,SBD
+3,98.7,Martin Olsen,1986,Hvidovre SF,230,120,260,610,Open,M,100,Single-ply,SBD
+4,95.1,Kasper R Jensen,1987,Odense SK,180,110,240,530,Open,M,100,Single-ply,SBD
+5,92,Niko Jensen,1992,Hvidovre SF,155,110,200,465,Open,M,100,Single-ply,SBD
+1,107.2,Peter H Eriksen,1970,Rødby M,275,210,260,745,Open,M,110,Single-ply,SBD
+2,108.8,Thomas Skov,1971,Rødby M,240,170,250,660,Open,M,110,Single-ply,SBD
+1,116.7,Jens Jepsen,1970,Tårnby SK,280,207.5,262.5,750,Open,M,125,Single-ply,SBD
+2,120.8,Thomas Prehn,1974,Hvidovre SF,252.5,187.5,235,675,Open,M,125,Single-ply,SBD

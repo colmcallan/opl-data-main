@@ -1,0 +1,108 @@
+[divisions]
+    open = {name ="Open",min=0,max=999}
+    juniors = {name = "Juniors",min=0,max=22.5}
+    subjuniors = {name = "Sub-Juniors",min=0,max=17.5}
+    masters1 = {name = "Masters 1",min=39.5,max=48.5}
+    masters2 = {name = "Masters 2",min=49.5,max=58.5}
+    masters3 = {name = "Masters 3",min=59.5,max=68.5}
+    masters4 = {name = "Masters 4",min=69.5,max=999}
+    
+[weightclasses.default_M]
+    classes = ["59","66","74","83","93","105","120","105+","120+"]
+    date_range=["2011-01-01","9999-01-01"]
+    sex = "M"
+
+[weightclasses.new_F]
+    classes = ["47","52","57","63","69","76","84","84+"]
+    date_range=["2021-01-01","9999-12-31"]
+    sex = "F"
+
+[weightclasses.default_F]
+    classes = ["47","52","57","63","72","84","84+"]
+    date_range=["2011-01-01","2020-12-31"]
+    sex = "F"
+
+[weightclasses.junior_M]
+    classes = ["53","59","66","74","83","93","105","120","105+","120+"]
+    date_range=["2011-01-01","9999-01-01"]
+    sex = "M"
+    divisions = ["Juniors","Sub-Juniors"]
+
+[weightclasses.juniornew_F]
+    classes = ["43","47","52","57","63","69","76","84","84+"]
+    date_range=["2021-01-01","9999-01-01"]
+    sex = "F"
+    divisions = ["Juniors","Sub-Juniors"]
+
+[weightclasses.junior_F]
+    classes = ["43","47","52","57","63","72","84","84+"]
+    date_range=["2011-01-01","2020-12-31"]
+    sex = "F"
+    divisions = ["Juniors","Sub-Juniors"]
+
+[weightclasses.old_M]
+    classes = ["52","56","60","67.5","75","82.5","90","100","110","125","125+"]
+    date_range = ["0000-01-01","2010-12-31"]
+    sex = "M"
+
+[weightclasses.old_F]
+    classes = ["44","48","52","56","60","67.5","75","82.5","90","90+"]
+    date_range = ["0000-01-01","2010-12-31"]
+    sex = "F"
+
+[exemptions]
+    9316 = ["ExemptWeightClassConsistency"]
+    9332 = ["ExemptWeightClassConsistency"]
+    0208 = ["ExemptWeightClassConsistency"]
+    0910 = ["ExemptWeightClassConsistency"]
+    1003 = ["ExemptWeightClassConsistency"]
+    1214 = ["ExemptWeightClassConsistency"]
+    1305 = ["ExemptWeightClassConsistency"]
+    1307 = ["ExemptWeightClassConsistency"]
+    1316 = ["ExemptWeightClassConsistency"]
+    1405 = ["ExemptWeightClassConsistency"]
+    1503 = ["ExemptWeightClassConsistency"]
+    1517 = ["ExemptWeightClassConsistency"]
+    1521 = ["ExemptWeightClassConsistency"]
+    1616 = ["ExemptWeightClassConsistency"]
+    1711 = ["ExemptWeightClassConsistency"]
+    9623 = ["ExemptDivision"]
+    9622 = ["ExemptDivision"]
+    0612 = ["ExemptDivision"]
+    9617 = ["ExemptDivision"]
+    9515 = ["ExemptDivision"]
+    9615 = ["ExemptDivision"]
+    9521 = ["ExemptDivision"]
+    9508 = ["ExemptDivision"]
+    0109 = ["ExemptDivision"]
+    0407 = ["ExemptDivision"]
+    0406 = ["ExemptDivision"]
+    1810 = ["ExemptWeightClassConsistency"] #Reduced weightclasses
+    1921 = ["ExemptWeightClassConsistency"] #Reduced weightclasses
+    1920 = ["ExemptWeightClassConsistency"] #Reduced weightclasses
+    1919 = ["ExemptWeightClassConsistency"] #Reduced weightclasses
+    1916 = ["ExemptWeightClassConsistency"] #Reduced weightclasses
+    1915 = ["ExemptWeightClassConsistency"] #Reduced weightclasses
+    1908 = ["ExemptWeightClassConsistency"] #Reduced weightclasses
+    1821 = ["ExemptWeightClassConsistency"] #Reduced weightclasses
+    1820 = ["ExemptWeightClassConsistency"] #Reduced weightclasses
+    1814 = ["ExemptWeightClassConsistency"] #Reduced weightclasses
+    1812 = ["ExemptWeightClassConsistency"] #Reduced weightclasses
+    1815 = ["ExemptWeightClassConsistency"] #Reduced weightclasses
+    1912 = ["ExemptWeightClassConsistency"] #Reduced weightclasses
+    1914 = ["ExemptWeightClassConsistency"] #Reduced weightclasses
+    1913 = ["ExemptWeightClassConsistency"] #Reduced weightclasses
+    1923 = ["ExemptWeightClassConsistency"] #Team comp no weightclasses
+    1924 = ["ExemptWeightClassConsistency"] #Team comp no weightclasses
+    1925 = ["ExemptWeightClassConsistency"] #Team comp no weightclasses
+    2005 = ["ExemptWeightClassConsistency"] #Reduced weightclasses
+    2011 = ["ExemptWeightClassConsistency"] #Reduced weightclasses
+    2014 = ["ExemptWeightClassConsistency"] #Reduced weightclasses
+    2015 = ["ExemptWeightClassConsistency"] #Team comp no weightclasses
+    2016 = ["ExemptWeightClassConsistency"] #Team comp no weightclasses
+    2017 = ["ExemptWeightClassConsistency"] #Team comp no weightclasses
+    2106 = ["ExemptWeightClassConsistency"] #Reduced weightclasses
+    2107 = ["ExemptWeightClassConsistency"] #Reduced weightclasses
+    2114 = ["ExemptWeightClassConsistency"] #Team comp no weightclasses
+    2113 = ["ExemptWeightClassConsistency"] #Team comp no weightclasses
+    2201 = ["ExemptWeightClassConsistency"] #Reduced weightclasses

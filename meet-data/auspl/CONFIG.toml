@@ -1,0 +1,123 @@
+# AusPL uses exact birthdays for their age classes.
+
+[options]
+    require_manual_disambiguation = true
+
+
+[divisions]
+	# OpenLifter-style divisions.
+	j15_19 = {name="J15-19", min=15, max=19}
+	j20_23 = {name="J20-23", min=20, max=23}
+	m40_44 = {name="M40-44", min=40, max=44}
+	m45_49 = {name="M45-49", min=45, max=49}
+	m50_54 = {name="M50-54", min=50, max=54}
+	m55_59 = {name="M55-59", min=55, max=59}
+	m60_64 = {name="M60-64", min=60, max=64}
+	m65_69 = {name="M65-69", min=65, max=69}
+	m70_74 = {name="M70-74", min=70, max=74}
+	m75_79 = {name="M75-79", min=75, max=79}
+	m80_84 = {name="M80-84", min=80, max=84}
+	m85p = {name="M85+", min=85, max=999}
+
+    # IPL-style divisions (2019+)
+    open = {name = "Open", min = 0, max = 999}
+    youth = {name = "Youth", min = 4, max = 12.5}
+
+    # Seldom used.   Per IPL rules, minimum age is 15, but it happens
+    teen_13_19 = {name = "Teen 13-19", min = 13, max = 19}
+    juniors_13_15 = {name = "Juniors 13-15", min = 13, max = 15} 
+
+    # IPL rules as of 2022 specify 15-19, these are depreciated
+    juniors_16_17 = {name = "Juniors 16-17", min = 16, max = 17}
+    juniors_18_19 = {name = "Juniors 18-19", min = 18, max = 19}
+
+    juniors_15_19 = {name = "Juniors 15-19", min = 15, max = 19}
+    juniors_20_23 = {name = "Juniors 20-23", min = 20, max = 23}
+    submasters = {name = "Submasters 35-39", min = 35, max = 39}
+    masters_40_44 = {name = "Masters 40-44", min = 40, max = 44}
+    masters_45_49 = {name = "Masters 45-49", min = 45, max = 49}
+    masters_50_54 = {name = "Masters 50-54", min = 50, max = 54}
+    masters_55_59 = {name = "Masters 55-59", min = 55, max = 59}
+    masters_60_64 = {name = "Masters 60-64", min = 60, max = 64}
+    masters_65_69 = {name = "Masters 65-69", min = 65, max = 69}
+    masters_70_74 = {name = "Masters 70-74", min = 70, max = 74}
+    masters_75_79 = {name = "Masters 75-79", min = 75, max = 79}
+    masters_80_84 = {name = "Masters 80-84", min = 80, max = 84}
+    masters_80p = {name = "Masters 80+", min = 80, max = 999}
+
+    # UPA-style divisions (pre-2019).
+    mor = {name = "M-OR", min = 0, max = 999, sex='M',equipment = 'Raw'}
+    mj1r = {name = "M-J1R", min = 15, max = 19, sex='M',equipment = 'Raw'}
+    mj2r = {name = "M-J2R", min = 20, max = 23, sex='M',equipment = 'Raw'}
+    mm1r = {name = "M-M1R", min = 40, max = 44, sex='M',equipment = 'Raw'}
+    mm2r = {name = "M-M2R", min = 45, max = 49, sex='M',equipment = 'Raw'}
+    mm3r = {name = "M-M3R", min = 50, max = 54, sex='M',equipment = 'Raw'}
+    mm4r = {name = "M-M4R", min = 55, max = 59, sex='M',equipment = 'Raw'}
+    mm5r = {name = "M-M5R", min = 60, max = 64, sex='M',equipment = 'Raw'}
+    mm6r = {name = "M-M6R", min = 65, max = 69, sex='M',equipment = 'Raw'}
+    mm7r = {name = "M-M7R", min = 70, max = 74, sex='M',equipment = 'Raw'}
+    mm8r = {name = "M-M8R", min = 75, max = 79, sex='M',equipment = 'Raw'}
+    mm9r = {name = "M-M9R", min = 80, max = 999, sex='M',equipment = 'Raw'}
+
+    mocr = {name = "M-OCR", min = 0, max = 999, sex='M',equipment = 'Wraps'}
+    mj1cr = {name = "M-J1CR", min = 15, max = 19, sex='M',equipment = 'Wraps'}
+    mj2cr = {name = "M-J2CR", min = 20, max = 23, sex='M',equipment = 'Wraps'}
+    mm1cr = {name = "M-M1CR", min = 40, max = 44, sex='M',equipment = 'Wraps'}
+    mm2cr = {name = "M-M2CR", min = 45, max = 49, sex='M',equipment = 'Wraps'}
+    mm3cr = {name = "M-M3CR", min = 50, max = 54, sex='M',equipment = 'Wraps'}
+    mm4cr = {name = "M-M4CR", min = 55, max = 59, sex='M',equipment = 'Wraps'}
+    mm5cr = {name = "M-M5CR", min = 60, max = 64, sex='M',equipment = 'Wraps'}
+    mm6cr = {name = "M-M6CR", min = 65, max = 69, sex='M',equipment = 'Wraps'}
+    mm7cr = {name = "M-M7CR", min = 70, max = 74, sex='M',equipment = 'Wraps'}
+    mm8cr = {name = "M-M8CR", min = 75, max = 79, sex='M',equipment = 'Wraps'}
+    mm9cr = {name = "M-M9CR", min = 80, max = 999, sex='M',equipment = 'Wraps'}
+
+    for = {name = "F-OR", min = 0, max = 999, sex='F',equipment = 'Raw'}
+    fj1r = {name = "F-J1R", min = 15, max = 19, sex='F',equipment = 'Raw'}
+    fj2r = {name = "F-J2R", min = 20, max = 23, sex='F',equipment = 'Raw'}
+    fm1r = {name = "F-M1R", min = 40, max = 44, sex='F',equipment = 'Raw'}
+    fm2r = {name = "F-M2R", min = 45, max = 49, sex='F',equipment = 'Raw'}
+    fm3r = {name = "F-M3R", min = 50, max = 54, sex='F',equipment = 'Raw'}
+    fm4r = {name = "F-M4R", min = 55, max = 59, sex='F',equipment = 'Raw'}
+    fm5r = {name = "F-M5R", min = 60, max = 64, sex='F',equipment = 'Raw'}
+    fm6r = {name = "F-M6R", min = 65, max = 69, sex='F',equipment = 'Raw'}
+    fm7r = {name = "F-M7R", min = 70, max = 74, sex='F',equipment = 'Raw'}
+    fm8r = {name = "F-M8R", min = 75, max = 79, sex='F',equipment = 'Raw'}
+    fm9r = {name = "F-M9R", min = 80, max = 999, sex='F',equipment = 'Raw'}
+
+    focr = {name = "F-OCR", min = 0, max = 999, sex='F',equipment = 'Wraps'}
+    fj1cr = {name = "F-J1CR", min = 15, max = 19, sex='F',equipment = 'Wraps'}
+    fj2cr = {name = "F-J2CR", min = 20, max = 23, sex='F',equipment = 'Wraps'}
+    fm1cr = {name = "F-M1CR", min = 40, max = 44, sex='F',equipment = 'Wraps'}
+    fm2cr = {name = "F-M2CR", min = 45, max = 49, sex='F',equipment = 'Wraps'}
+    fm3cr = {name = "F-M3CR", min = 50, max = 54, sex='F',equipment = 'Wraps'}
+    fm4cr = {name = "F-M4CR", min = 55, max = 59, sex='F',equipment = 'Wraps'}
+    fm5cr = {name = "F-M5CR", min = 60, max = 64, sex='F',equipment = 'Wraps'}
+    fm6cr = {name = "F-M6CR", min = 65, max = 69, sex='F',equipment = 'Wraps'}
+    fm7cr = {name = "F-M7CR", min = 70, max = 74, sex='F',equipment = 'Wraps'}
+    fm8cr = {name = "F-M8CR", min = 75, max = 79, sex='F',equipment = 'Wraps'}
+    fm9cr = {name = "F-M9CR", min = 80, max = 999, sex='F',equipment = 'Wraps'}
+
+    mosp = {name = "M-OSP", min=0, max=999, sex="M", equipment="Single-ply"}
+    mj2sp = {name = "M-J2SP", min=20, max=23, sex="M", equipment="Single-ply"}
+
+    momp = {name = "M-OMP", min=0, max=999, sex="M", equipment="Multi-ply"}
+    fm1mp = {name = "F-M1MP", min = 40, max = 44, sex='F', equipment = 'Multi-ply'}
+
+[weightclasses.default_M]
+    classes = ["52","56","60","67.5","75","82.5","90","100","110","125","140","140+"]
+    date_range = ["1990-01-01", "9999-01-01"]
+    sex = "M"
+
+[weightclasses.default_F]
+    classes = ["44","48","52","56","60","67.5","75","82.5","90","100","110","110+"]
+    date_range = ["2022-01-01", "9999-01-01"]
+    sex = "F"
+
+[weightclasses.through_2021_F]
+    classes = ["44","48","52","56","60","67.5","75","82.5","90","90+"]
+    date_range = ["1990-01-01", "2021-12-31"]
+    sex = "F"
+
+[exemptions]
+    1505 = ["ExemptWeightClassConsistency"] # One lifter with no class/bw info.

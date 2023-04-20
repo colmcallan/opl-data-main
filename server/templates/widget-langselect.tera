@@ -1,0 +1,29 @@
+<select id="langselect">
+  <option value="cs" {% if language == "cs" %}selected{% endif %}>Česky</option>
+  <option value="de" {% if language == "de" %}selected{% endif %}>Deutsch</option>
+  <option value="el" {% if language == "el" %}selected{% endif %}>Ελληνικά</option>
+  <option value="en" {% if language == "en" %}selected{% endif %}>English</option>
+  <option value="es" {% if language == "es" %}selected{% endif %}>Español</option>
+  <option value="eo" {% if language == "eo" %}selected{% endif %}>Esperanto</option>
+  <option value="fr" {% if language == "fr" %}selected{% endif %}>Français</option>
+  <option value="hr" {% if language == "hr" %}selected{% endif %}>Hrvatski</option>
+  <option value="it" {% if language == "it" %}selected{% endif %}>Italiano</option>
+  <option value="lt" {% if language == "lt" %}selected{% endif %}>Lietuvių</option>
+  <option value="hu" {% if language == "hu" %}selected{% endif %}>Magyar</option>
+  <option value="nl" {% if language == "nl" %}selected{% endif %}>Nederlands</option>
+  <option value="pl" {% if language == "pl" %}selected{% endif %}>Polski</option>
+  <option value="pt" {% if language == "pt" %}selected{% endif %}>Português</option>
+  <option value="ru" {% if language == "ru" %}selected{% endif %}>Русский</option>
+  <option value="sk" {% if language == "sk" %}selected{% endif %}>Slovenčina</option>
+  <option value="sl" {% if language == "sl" %}selected{% endif %}>Slovenščina</option>
+  <option value="sr" {% if language == "sr" %}selected{% endif %}>Srpski</option>
+  <option value="fi" {% if language == "fi" %}selected{% endif %}>Suomi</option>
+  <option value="sv" {% if language == "sv" %}selected{% endif %}>Svenska</option>
+  <option value="vi" {% if language == "vi" %}selected{% endif %}>Tiếng Việt</option>
+  <option value="tr" {% if language == "tr" %}selected{% endif %}>Türkçe</option>
+  <option value="uk" {% if language == "uk" %}selected{% endif %}>Українська</option>
+  <option value="ko" {% if language == "ko" %}selected{% endif %}>한국어</option>
+  <option value="ja" {% if language == "ja" %}selected{% endif %}>日本語</option>
+  <option value="zh-Hant" {% if language == "zh-Hant" %}selected{% endif %}>繁體中文</option>
+  <option value="zh-Hans" {% if language == "zh-Hans" %}selected{% endif %}>简体中文</option>
+</select>
